@@ -1,3 +1,5 @@
+# This is a customized fork of protobuf-go, it may have more or less features comparing to the original library
+
 # Go support for Protocol Buffers
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/vedadiyan/protobuf.svg)](https://pkg.go.dev/github.com/vedadiyan/protobuf)
