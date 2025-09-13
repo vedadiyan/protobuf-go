@@ -8,8 +8,8 @@
 package protoeditions
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
 	math "math"
 	reflect "reflect"
 	sync "sync"
@@ -1495,7 +1495,7 @@ const file_cmd_protoc_gen_go_testdata_protoeditions_fields_proto_rawDesc = "" +
 	"\x04ZERO\x10\x00\x12\a\n" +
 	"\x03ONE\x10\x01B\r\n" +
 	"\voneof_fieldB\v\n" +
-	"\toneof_twoJ\x06\b\x90N\x10\x91NJ\x06\b\x91N\x10\x92NR\fTEN_THOUSANDR\x14TEN_THOUSAND_AND_ONEBEZCgoogle.golang.org/protobuf/cmd/protoc-gen-go/testdata/protoeditionsb\beditionsp\xe8\a"
+	"\toneof_twoJ\x06\b\x90N\x10\x91NJ\x06\b\x91N\x10\x92NR\fTEN_THOUSANDR\x14TEN_THOUSAND_AND_ONEBEZCgithub.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/protoeditionsb\beditionsp\xe8\a"
 
 var (
 	file_cmd_protoc_gen_go_testdata_protoeditions_fields_proto_rawDescOnce sync.Once

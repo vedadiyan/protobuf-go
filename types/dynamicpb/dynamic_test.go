@@ -8,14 +8,14 @@ import (
 	"fmt"
 	"testing"
 
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/reflect/protoregistry"
-	"google.golang.org/protobuf/testing/prototest"
-	"google.golang.org/protobuf/types/dynamicpb"
+	"github.com/vedadiyan/protobuf/proto"
+	"github.com/vedadiyan/protobuf/reflect/protoreflect"
+	"github.com/vedadiyan/protobuf/reflect/protoregistry"
+	"github.com/vedadiyan/protobuf/testing/prototest"
+	"github.com/vedadiyan/protobuf/types/dynamicpb"
 
-	testpb "google.golang.org/protobuf/internal/testprotos/test"
-	test3pb "google.golang.org/protobuf/internal/testprotos/test3"
+	testpb "github.com/vedadiyan/protobuf/internal/testprotos/test"
+	test3pb "github.com/vedadiyan/protobuf/internal/testprotos/test3"
 )
 
 func TestConformance(t *testing.T) {

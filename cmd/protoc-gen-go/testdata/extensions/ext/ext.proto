@@ -9,7 +9,7 @@ package goproto.protoc.extension.ext;
 import "cmd/protoc-gen-go/testdata/extensions/base/base.proto";
 import "cmd/protoc-gen-go/testdata/extensions/extra/extra.proto";
 
-option go_package = "google.golang.org/protobuf/cmd/protoc-gen-go/testdata/extensions/ext";
+option go_package = "github.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/extensions/ext";
 
 message Message {
   optional bytes data = 1;

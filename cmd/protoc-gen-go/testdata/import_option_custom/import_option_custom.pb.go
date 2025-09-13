@@ -8,9 +8,9 @@
 package import_option_custom
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
-	descriptorpb "google.golang.org/protobuf/types/descriptorpb"
+	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
+	descriptorpb "github.com/vedadiyan/protobuf/types/descriptorpb"
 	reflect "reflect"
 	unsafe "unsafe"
 )
@@ -115,7 +115,7 @@ const file_cmd_protoc_gen_go_testdata_import_option_custom_import_option_custom_
 	"\x0eOptionsMessage\x12\x1f\n" +
 	"\vplain_field\x18\x01 \x01(\x05R\n" +
 	"plainField:m\n" +
-	"\ffield_option\x12\x1d.google.protobuf.FieldOptions\x18\xa5\xd7\xcd\xf0\x01 \x01(\v2'.testimportoption_custom.OptionsMessageR\vfieldOptionBLZJgoogle.golang.org/protobuf/cmd/protoc-gen-go/testdata/import_option_customb\beditionsp\xe9\a"
+	"\ffield_option\x12\x1d.google.protobuf.FieldOptions\x18\xa5\xd7\xcd\xf0\x01 \x01(\v2'.testimportoption_custom.OptionsMessageR\vfieldOptionBLZJgithub.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/import_option_customb\beditionsp\xe9\a"
 
 var file_cmd_protoc_gen_go_testdata_import_option_custom_import_option_custom_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_cmd_protoc_gen_go_testdata_import_option_custom_import_option_custom_proto_goTypes = []any{

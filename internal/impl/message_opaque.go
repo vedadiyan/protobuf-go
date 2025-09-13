@@ -11,8 +11,8 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"google.golang.org/protobuf/internal/filedesc"
-	"google.golang.org/protobuf/reflect/protoreflect"
+	"github.com/vedadiyan/protobuf/internal/filedesc"
+	"github.com/vedadiyan/protobuf/reflect/protoreflect"
 )
 
 type opaqueStructInfo struct {

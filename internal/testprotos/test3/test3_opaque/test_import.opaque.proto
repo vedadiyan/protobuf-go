@@ -6,7 +6,7 @@ syntax = "proto3";
 
 package opaque.goproto.proto.test3;
 
-option go_package = "google.golang.org/protobuf/internal/testprotos/test3/test3_opaque";
+option go_package = "github.com/vedadiyan/protobuf/internal/testprotos/test3/test3_opaque";
 
 
 message ImportMessage {}

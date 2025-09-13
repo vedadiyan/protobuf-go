@@ -8,10 +8,10 @@
 package news
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
-	anypb "google.golang.org/protobuf/types/known/anypb"
-	timestamppb "google.golang.org/protobuf/types/known/timestamppb"
+	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
+	anypb "github.com/vedadiyan/protobuf/types/known/anypb"
+	timestamppb "github.com/vedadiyan/protobuf/types/known/timestamppb"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -287,7 +287,7 @@ const file_internal_testprotos_news_news_proto_rawDesc = "" +
 	"\x04data\x18\x02 \x03(\v2/.google.golang.org.KeyValueAttachment.DataEntryR\x04data\x1a7\n" +
 	"\tDataEntry\x12\x10\n" +
 	"\x03key\x18\x01 \x01(\tR\x03key\x12\x14\n" +
-	"\x05value\x18\x02 \x01(\tR\x05value:\x028\x01B5Z3google.golang.org/protobuf/internal/testprotos/newsb\x06proto3"
+	"\x05value\x18\x02 \x01(\tR\x05value:\x028\x01B5Z3github.com/vedadiyan/protobuf/internal/testprotos/newsb\x06proto3"
 
 var (
 	file_internal_testprotos_news_news_proto_rawDescOnce sync.Once

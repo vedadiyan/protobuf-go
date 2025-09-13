@@ -8,9 +8,9 @@
 package import_option_unlinked
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
-	descriptorpb "google.golang.org/protobuf/types/descriptorpb"
+	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
+	descriptorpb "github.com/vedadiyan/protobuf/types/descriptorpb"
 	reflect "reflect"
 	unsafe "unsafe"
 )
@@ -115,7 +115,7 @@ const file_cmd_protoc_gen_go_testdata_import_option_unlinked_import_option_unlin
 	"\x0eOptionsMessage\x12\x1f\n" +
 	"\vplain_field\x18\x01 \x01(\x05R\n" +
 	"plainField:o\n" +
-	"\ffield_option\x12\x1d.google.protobuf.FieldOptions\x18\xa6\xd7\xcd\xf0\x01 \x01(\v2).testimportoption_unlinked.OptionsMessageR\vfieldOptionBNZLgoogle.golang.org/protobuf/cmd/protoc-gen-go/testdata/import_option_unlinkedb\beditionsp\xe9\a"
+	"\ffield_option\x12\x1d.google.protobuf.FieldOptions\x18\xa6\xd7\xcd\xf0\x01 \x01(\v2).testimportoption_unlinked.OptionsMessageR\vfieldOptionBNZLgithub.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/import_option_unlinkedb\beditionsp\xe9\a"
 
 var file_cmd_protoc_gen_go_testdata_import_option_unlinked_import_option_unlinked_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_cmd_protoc_gen_go_testdata_import_option_unlinked_import_option_unlinked_proto_goTypes = []any{

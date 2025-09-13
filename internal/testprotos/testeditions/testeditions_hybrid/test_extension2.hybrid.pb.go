@@ -10,9 +10,9 @@
 package testeditions_hybrid
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
-	_ "google.golang.org/protobuf/types/gofeaturespb"
+	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
+	_ "github.com/vedadiyan/protobuf/types/gofeaturespb"
 	reflect "reflect"
 	unsafe "unsafe"
 )
@@ -116,7 +116,7 @@ const file_internal_testprotos_testeditions_testeditions_hybrid_test_extension2_
 	"/other_file_message_expanded_extension_overriden\x128.hybrid.goproto.proto.testeditions.TestFeatureResolution\x18\b \x03(\x05B\x05\xaa\x01\x02\x18\x02R*otherFileMessageExpandedExtensionOverriden2\x86\x01\n" +
 	"#other_file_message_packed_extension\x128.hybrid.goproto.proto.testeditions.TestFeatureResolution\x18\t \x03(\x05R\x1fotherFileMessagePackedExtension:\xa2\x01\n" +
 	".other_file_global_expanded_extension_overriden\x128.hybrid.goproto.proto.testeditions.TestFeatureResolution\x18\x06 \x03(\x05B\x05\xaa\x01\x02\x18\x02R)otherFileGlobalExpandedExtensionOverriden:\x84\x01\n" +
-	"\"other_file_global_packed_extension\x128.hybrid.goproto.proto.testeditions.TestFeatureResolution\x18\a \x03(\x05R\x1eotherFileGlobalPackedExtensionB[ZOgoogle.golang.org/protobuf/internal/testprotos/testeditions/testeditions_hybrid\x92\x03\a\xd2>\x02\x10\x02\x18\x01b\beditionsp\xe8\a"
+	"\"other_file_global_packed_extension\x128.hybrid.goproto.proto.testeditions.TestFeatureResolution\x18\a \x03(\x05R\x1eotherFileGlobalPackedExtensionB[ZOgithub.com/vedadiyan/protobuf/internal/testprotos/testeditions/testeditions_hybrid\x92\x03\a\xd2>\x02\x10\x02\x18\x01b\beditionsp\xe8\a"
 
 var file_internal_testprotos_testeditions_testeditions_hybrid_test_extension2_hybrid_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_internal_testprotos_testeditions_testeditions_hybrid_test_extension2_hybrid_proto_goTypes = []any{

@@ -74,8 +74,8 @@
 package durationpb
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
 	math "math"
 	reflect "reflect"
 	sync "sync"
@@ -295,7 +295,7 @@ const file_google_protobuf_duration_proto_rawDesc = "" +
 	"\bDuration\x12\x18\n" +
 	"\aseconds\x18\x01 \x01(\x03R\aseconds\x12\x14\n" +
 	"\x05nanos\x18\x02 \x01(\x05R\x05nanosB\x83\x01\n" +
-	"\x13com.google.protobufB\rDurationProtoP\x01Z1google.golang.org/protobuf/types/known/durationpb\xf8\x01\x01\xa2\x02\x03GPB\xaa\x02\x1eGoogle.Protobuf.WellKnownTypesb\x06proto3"
+	"\x13com.google.protobufB\rDurationProtoP\x01Z1github.com/vedadiyan/protobuf/types/known/durationpb\xf8\x01\x01\xa2\x02\x03GPB\xaa\x02\x1eGoogle.Protobuf.WellKnownTypesb\x06proto3"
 
 var (
 	file_google_protobuf_duration_proto_rawDescOnce sync.Once

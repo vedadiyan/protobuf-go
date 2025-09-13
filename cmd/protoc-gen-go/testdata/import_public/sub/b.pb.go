@@ -8,8 +8,8 @@
 package sub
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -56,7 +56,7 @@ var File_cmd_protoc_gen_go_testdata_import_public_sub_b_proto protoreflect.FileD
 const file_cmd_protoc_gen_go_testdata_import_public_sub_b_proto_rawDesc = "" +
 	"\n" +
 	"4cmd/protoc-gen-go/testdata/import_public/sub/b.proto\x12 goproto.protoc.import_public.sub\"\x04\n" +
-	"\x02M2BIZGgoogle.golang.org/protobuf/cmd/protoc-gen-go/testdata/import_public/sub"
+	"\x02M2BIZGgithub.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/import_public/sub"
 
 var (
 	file_cmd_protoc_gen_go_testdata_import_public_sub_b_proto_rawDescOnce sync.Once

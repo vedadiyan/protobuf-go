@@ -10,10 +10,10 @@ import (
 	"unsafe"
 
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/protobuf/internal/impl"
-	testopaquepb "google.golang.org/protobuf/internal/testprotos/testeditions/testeditions_opaque"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/testing/protocmp"
+	"github.com/vedadiyan/protobuf/internal/impl"
+	testopaquepb "github.com/vedadiyan/protobuf/internal/testprotos/testeditions/testeditions_opaque"
+	"github.com/vedadiyan/protobuf/proto"
+	"github.com/vedadiyan/protobuf/testing/protocmp"
 )
 
 func fillLazyRequiredMessage() *testopaquepb.TestRequiredLazy {

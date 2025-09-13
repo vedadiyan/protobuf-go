@@ -7,7 +7,7 @@ syntax = "proto2";
 // COMMENT: package goproto.protoc.comments;
 package goproto.protoc.comments;
 
-option go_package = "google.golang.org/protobuf/cmd/protoc-gen-go/testdata/comments";
+option go_package = "github.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/comments";
 
 // COMMENT: Enum1.Leading
 enum Enum1 {

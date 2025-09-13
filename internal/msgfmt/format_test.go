@@ -11,19 +11,19 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"google.golang.org/protobuf/internal/detrand"
-	"google.golang.org/protobuf/internal/msgfmt"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/testing/protocmp"
-	"google.golang.org/protobuf/testing/protopack"
+	"github.com/vedadiyan/protobuf/internal/detrand"
+	"github.com/vedadiyan/protobuf/internal/msgfmt"
+	"github.com/vedadiyan/protobuf/proto"
+	"github.com/vedadiyan/protobuf/testing/protocmp"
+	"github.com/vedadiyan/protobuf/testing/protopack"
 
-	testpb "google.golang.org/protobuf/internal/testprotos/test"
-	textpb "google.golang.org/protobuf/internal/testprotos/textpb2"
-	dynpb "google.golang.org/protobuf/types/dynamicpb"
-	"google.golang.org/protobuf/types/known/anypb"
-	durpb "google.golang.org/protobuf/types/known/durationpb"
-	tspb "google.golang.org/protobuf/types/known/timestamppb"
-	wpb "google.golang.org/protobuf/types/known/wrapperspb"
+	testpb "github.com/vedadiyan/protobuf/internal/testprotos/test"
+	textpb "github.com/vedadiyan/protobuf/internal/testprotos/textpb2"
+	dynpb "github.com/vedadiyan/protobuf/types/dynamicpb"
+	"github.com/vedadiyan/protobuf/types/known/anypb"
+	durpb "github.com/vedadiyan/protobuf/types/known/durationpb"
+	tspb "github.com/vedadiyan/protobuf/types/known/timestamppb"
+	wpb "github.com/vedadiyan/protobuf/types/known/wrapperspb"
 )
 
 func init() {

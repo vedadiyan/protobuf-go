@@ -6,7 +6,7 @@ edition = "2023";
 
 package opaque.goproto.proto.testrequired;
 
-option go_package = "google.golang.org/protobuf/internal/testprotos/required/required_opaque";
+option go_package = "github.com/vedadiyan/protobuf/internal/testprotos/required/required_opaque";
 import "google/protobuf/go_features.proto";
 option features.(pb.go).api_level = API_OPAQUE;
 

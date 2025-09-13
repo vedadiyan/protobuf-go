@@ -9,12 +9,12 @@ import (
 	"reflect"
 	"sort"
 
-	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/internal/encoding/messageset"
-	"google.golang.org/protobuf/internal/filedesc"
-	"google.golang.org/protobuf/internal/order"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	piface "google.golang.org/protobuf/runtime/protoiface"
+	"github.com/vedadiyan/protobuf/encoding/protowire"
+	"github.com/vedadiyan/protobuf/internal/encoding/messageset"
+	"github.com/vedadiyan/protobuf/internal/filedesc"
+	"github.com/vedadiyan/protobuf/internal/order"
+	"github.com/vedadiyan/protobuf/reflect/protoreflect"
+	piface "github.com/vedadiyan/protobuf/runtime/protoiface"
 )
 
 func (mi *MessageInfo) makeOpaqueCoderMethods(t reflect.Type, si opaqueStructInfo) {

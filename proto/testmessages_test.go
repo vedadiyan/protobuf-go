@@ -5,19 +5,19 @@
 package proto_test
 
 import (
-	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/internal/impl"
-	"google.golang.org/protobuf/internal/protobuild"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/reflect/protoregistry"
-	"google.golang.org/protobuf/testing/protopack"
+	"github.com/vedadiyan/protobuf/encoding/protowire"
+	"github.com/vedadiyan/protobuf/internal/impl"
+	"github.com/vedadiyan/protobuf/internal/protobuild"
+	"github.com/vedadiyan/protobuf/proto"
+	"github.com/vedadiyan/protobuf/reflect/protoreflect"
+	"github.com/vedadiyan/protobuf/reflect/protoregistry"
+	"github.com/vedadiyan/protobuf/testing/protopack"
 
-	legacypb "google.golang.org/protobuf/internal/testprotos/legacy"
-	requiredpb "google.golang.org/protobuf/internal/testprotos/required"
-	testpb "google.golang.org/protobuf/internal/testprotos/test"
-	test3pb "google.golang.org/protobuf/internal/testprotos/test3"
-	testeditionspb "google.golang.org/protobuf/internal/testprotos/testeditions"
+	legacypb "github.com/vedadiyan/protobuf/internal/testprotos/legacy"
+	requiredpb "github.com/vedadiyan/protobuf/internal/testprotos/required"
+	testpb "github.com/vedadiyan/protobuf/internal/testprotos/test"
+	test3pb "github.com/vedadiyan/protobuf/internal/testprotos/test3"
+	testeditionspb "github.com/vedadiyan/protobuf/internal/testprotos/testeditions"
 )
 
 type testProto struct {

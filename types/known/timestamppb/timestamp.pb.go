@@ -73,8 +73,8 @@
 package timestamppb
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	time "time"
@@ -304,7 +304,7 @@ const file_google_protobuf_timestamp_proto_rawDesc = "" +
 	"\tTimestamp\x12\x18\n" +
 	"\aseconds\x18\x01 \x01(\x03R\aseconds\x12\x14\n" +
 	"\x05nanos\x18\x02 \x01(\x05R\x05nanosB\x85\x01\n" +
-	"\x13com.google.protobufB\x0eTimestampProtoP\x01Z2google.golang.org/protobuf/types/known/timestamppb\xf8\x01\x01\xa2\x02\x03GPB\xaa\x02\x1eGoogle.Protobuf.WellKnownTypesb\x06proto3"
+	"\x13com.google.protobufB\x0eTimestampProtoP\x01Z2github.com/vedadiyan/protobuf/types/known/timestamppb\xf8\x01\x01\xa2\x02\x03GPB\xaa\x02\x1eGoogle.Protobuf.WellKnownTypesb\x06proto3"
 
 var (
 	file_google_protobuf_timestamp_proto_rawDescOnce sync.Once

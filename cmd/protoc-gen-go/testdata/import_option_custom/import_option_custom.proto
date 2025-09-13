@@ -8,7 +8,7 @@ package testimportoption_custom;
 
 import "google/protobuf/descriptor.proto";
 
-option go_package = "google.golang.org/protobuf/cmd/protoc-gen-go/testdata/import_option_custom";
+option go_package = "github.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/import_option_custom";
 
 extend google.protobuf.FieldOptions {
   OptionsMessage field_option = 504589221;

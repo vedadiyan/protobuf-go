@@ -15,13 +15,13 @@ import (
 	"path/filepath"
 	"testing"
 
-	"google.golang.org/protobuf/encoding/protojson"
-	"google.golang.org/protobuf/encoding/prototext"
-	"google.golang.org/protobuf/proto"
+	"github.com/vedadiyan/protobuf/encoding/protojson"
+	"github.com/vedadiyan/protobuf/encoding/prototext"
+	"github.com/vedadiyan/protobuf/proto"
 
-	pb "google.golang.org/protobuf/internal/testprotos/conformance"
-	epb "google.golang.org/protobuf/internal/testprotos/conformance/editions"
-	empb "google.golang.org/protobuf/internal/testprotos/conformance/editionsmigration"
+	pb "github.com/vedadiyan/protobuf/internal/testprotos/conformance"
+	epb "github.com/vedadiyan/protobuf/internal/testprotos/conformance/editions"
+	empb "github.com/vedadiyan/protobuf/internal/testprotos/conformance/editionsmigration"
 )
 
 func init() {

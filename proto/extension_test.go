@@ -12,18 +12,18 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"google.golang.org/protobuf/internal/test/race"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/runtime/protoimpl"
-	"google.golang.org/protobuf/testing/protocmp"
+	"github.com/vedadiyan/protobuf/internal/test/race"
+	"github.com/vedadiyan/protobuf/proto"
+	"github.com/vedadiyan/protobuf/reflect/protoreflect"
+	"github.com/vedadiyan/protobuf/runtime/protoimpl"
+	"github.com/vedadiyan/protobuf/testing/protocmp"
 
-	extpb "google.golang.org/protobuf/internal/testprotos/examples/ext"
-	legacy1pb "google.golang.org/protobuf/internal/testprotos/legacy/proto2_20160225_2fc053c5"
-	testpb "google.golang.org/protobuf/internal/testprotos/test"
-	test3pb "google.golang.org/protobuf/internal/testprotos/test3"
-	testeditionspb "google.golang.org/protobuf/internal/testprotos/testeditions"
-	descpb "google.golang.org/protobuf/types/descriptorpb"
+	extpb "github.com/vedadiyan/protobuf/internal/testprotos/examples/ext"
+	legacy1pb "github.com/vedadiyan/protobuf/internal/testprotos/legacy/proto2_20160225_2fc053c5"
+	testpb "github.com/vedadiyan/protobuf/internal/testprotos/test"
+	test3pb "github.com/vedadiyan/protobuf/internal/testprotos/test3"
+	testeditionspb "github.com/vedadiyan/protobuf/internal/testprotos/testeditions"
+	descpb "github.com/vedadiyan/protobuf/types/descriptorpb"
 )
 
 func TestExtensionFuncs(t *testing.T) {

@@ -8,8 +8,8 @@
 package test_a_1
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -148,7 +148,7 @@ const file_cmd_protoc_gen_go_testdata_imports_test_a_1_m1_proto_rawDesc = "" +
 	"\x02m1\x18\x01 \x01(\v2\n" +
 	".test.a.M1R\x02m1*\x11\n" +
 	"\x02E1\x12\v\n" +
-	"\aE1_ZERO\x10\x00BHZFgoogle.golang.org/protobuf/cmd/protoc-gen-go/testdata/imports/test_a_1b\x06proto3"
+	"\aE1_ZERO\x10\x00BHZFgithub.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/imports/test_a_1b\x06proto3"
 
 var (
 	file_cmd_protoc_gen_go_testdata_imports_test_a_1_m1_proto_rawDescOnce sync.Once

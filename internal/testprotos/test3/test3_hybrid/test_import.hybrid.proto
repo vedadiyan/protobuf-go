@@ -6,7 +6,7 @@ syntax = "proto3";
 
 package hybrid.goproto.proto.test3;
 
-option go_package = "google.golang.org/protobuf/internal/testprotos/test3/test3_hybrid";
+option go_package = "github.com/vedadiyan/protobuf/internal/testprotos/test3/test3_hybrid";
 
 
 message ImportMessage {}

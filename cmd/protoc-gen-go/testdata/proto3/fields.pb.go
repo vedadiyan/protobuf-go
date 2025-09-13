@@ -8,8 +8,8 @@
 package proto3
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -481,7 +481,7 @@ const file_cmd_protoc_gen_go_testdata_proto3_fields_proto_rawDesc = "" +
 	"\x05value\x18\x02 \x01(\x0e2,.goproto.protoc.proto3.FieldTestMessage.EnumR\x05value:\x028\x01\x1a\t\n" +
 	"\aMessage\"\x10\n" +
 	"\x04Enum\x12\b\n" +
-	"\x04ZERO\x10\x00B>Z<google.golang.org/protobuf/cmd/protoc-gen-go/testdata/proto3b\x06proto3"
+	"\x04ZERO\x10\x00B>Z<github.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/proto3b\x06proto3"
 
 var (
 	file_cmd_protoc_gen_go_testdata_proto3_fields_proto_rawDescOnce sync.Once

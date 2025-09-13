@@ -42,8 +42,8 @@
 package descriptorpb
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -5065,7 +5065,7 @@ const file_google_protobuf_descriptor_proto_rawDesc = "" +
 	"\x10VISIBILITY_UNSET\x10\x00\x12\x14\n" +
 	"\x10VISIBILITY_LOCAL\x10\x01\x12\x15\n" +
 	"\x11VISIBILITY_EXPORT\x10\x02B~\n" +
-	"\x13com.google.protobufB\x10DescriptorProtosH\x01Z-google.golang.org/protobuf/types/descriptorpb\xf8\x01\x01\xa2\x02\x03GPB\xaa\x02\x1aGoogle.Protobuf.Reflection"
+	"\x13com.google.protobufB\x10DescriptorProtosH\x01Z-github.com/vedadiyan/protobuf/types/descriptorpb\xf8\x01\x01\xa2\x02\x03GPB\xaa\x02\x1aGoogle.Protobuf.Reflection"
 
 var (
 	file_google_protobuf_descriptor_proto_rawDescOnce sync.Once

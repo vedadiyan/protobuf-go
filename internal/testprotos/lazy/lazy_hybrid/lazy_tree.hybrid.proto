@@ -6,7 +6,7 @@ edition = "2023";
 
 package hybrid.lazy_tree;
 
-option go_package = "google.golang.org/protobuf/internal/testprotos/lazy/lazy_hybrid";
+option go_package = "github.com/vedadiyan/protobuf/internal/testprotos/lazy/lazy_hybrid";
 import "google/protobuf/go_features.proto";
 option features.(pb.go).api_level = API_HYBRID;
 

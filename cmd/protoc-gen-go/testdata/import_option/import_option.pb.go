@@ -8,9 +8,9 @@
 package import_option
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
-	_ "google.golang.org/protobuf/types/descriptorpb"
+	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
+	_ "github.com/vedadiyan/protobuf/types/descriptorpb"
 	reflect "reflect"
 	unsafe "unsafe"
 )
@@ -133,7 +133,7 @@ const file_cmd_protoc_gen_go_testdata_import_option_import_option_proto_rawDesc 
 	"<cmd/protoc-gen-go/testdata/import_option/import_option.proto\x12\x10testimportoption\x1a google/protobuf/descriptor.proto\"M\n" +
 	"\vTestMessage\x12\x1e\n" +
 	"\x05hello\x18\x01 \x01(\tB\b\xaa\xba\xed\x84\x0f\x02\b\x17R\x05hello\x12\x1e\n" +
-	"\x05world\x18\x02 \x01(\tB\b\xb2\xba\xed\x84\x0f\x02\b\x17R\x05worldBEZCgoogle.golang.org/protobuf/cmd/protoc-gen-go/testdata/import_optionb\beditionsp\xe9\azJcmd/protoc-gen-go/testdata/import_option_custom/import_option_custom.protozNcmd/protoc-gen-go/testdata/import_option_unlinked/import_option_unlinked.proto"
+	"\x05world\x18\x02 \x01(\tB\b\xb2\xba\xed\x84\x0f\x02\b\x17R\x05worldBEZCgithub.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/import_optionb\beditionsp\xe9\azJcmd/protoc-gen-go/testdata/import_option_custom/import_option_custom.protozNcmd/protoc-gen-go/testdata/import_option_unlinked/import_option_unlinked.proto"
 
 var file_cmd_protoc_gen_go_testdata_import_option_import_option_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_cmd_protoc_gen_go_testdata_import_option_import_option_proto_goTypes = []any{

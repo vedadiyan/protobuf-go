@@ -5,16 +5,16 @@
 package proto_test
 
 import (
-	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/internal/flags"
-	"google.golang.org/protobuf/internal/protobuild"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/testing/protopack"
+	"github.com/vedadiyan/protobuf/encoding/protowire"
+	"github.com/vedadiyan/protobuf/internal/flags"
+	"github.com/vedadiyan/protobuf/internal/protobuild"
+	"github.com/vedadiyan/protobuf/proto"
+	"github.com/vedadiyan/protobuf/testing/protopack"
 
-	"google.golang.org/protobuf/internal/testprotos/messageset/messagesetpb"
-	_ "google.golang.org/protobuf/internal/testprotos/messageset/messagesetpb/messagesetpb_opaque"
-	_ "google.golang.org/protobuf/internal/testprotos/messageset/msetextpb"
-	_ "google.golang.org/protobuf/internal/testprotos/messageset/msetextpb/msetextpb_opaque"
+	"github.com/vedadiyan/protobuf/internal/testprotos/messageset/messagesetpb"
+	_ "github.com/vedadiyan/protobuf/internal/testprotos/messageset/messagesetpb/messagesetpb_opaque"
+	_ "github.com/vedadiyan/protobuf/internal/testprotos/messageset/msetextpb"
+	_ "github.com/vedadiyan/protobuf/internal/testprotos/messageset/msetextpb/msetextpb_opaque"
 )
 
 func init() {

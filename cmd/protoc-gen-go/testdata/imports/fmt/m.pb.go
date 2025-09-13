@@ -8,8 +8,8 @@
 package fmt
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -56,7 +56,7 @@ var File_cmd_protoc_gen_go_testdata_imports_fmt_m_proto protoreflect.FileDescrip
 const file_cmd_protoc_gen_go_testdata_imports_fmt_m_proto_rawDesc = "" +
 	"\n" +
 	".cmd/protoc-gen-go/testdata/imports/fmt/m.proto\x12\x03fmt\"\x03\n" +
-	"\x01MBCZAgoogle.golang.org/protobuf/cmd/protoc-gen-go/testdata/imports/fmtb\x06proto3"
+	"\x01MBCZAgithub.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/imports/fmtb\x06proto3"
 
 var (
 	file_cmd_protoc_gen_go_testdata_imports_fmt_m_proto_rawDescOnce sync.Once

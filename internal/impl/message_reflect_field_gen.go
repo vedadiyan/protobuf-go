@@ -9,7 +9,7 @@ package impl
 import (
 	"reflect"
 
-	"google.golang.org/protobuf/reflect/protoreflect"
+	"github.com/vedadiyan/protobuf/reflect/protoreflect"
 )
 
 func getterForNullableScalar(fd protoreflect.FieldDescriptor, fs reflect.StructField, conv Converter, fieldOffset offset) func(p pointer) protoreflect.Value {

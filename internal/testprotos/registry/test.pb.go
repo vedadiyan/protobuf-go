@@ -10,8 +10,8 @@
 package registry
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -424,7 +424,7 @@ const file_internal_testprotos_registry_test_proto_rawDesc = "" +
 	"\fstring_field\x12\x14.testprotos.Message1\x18\v \x01(\tR\vstringField:F\n" +
 	"\n" +
 	"enum_field\x12\x14.testprotos.Message1\x18\f \x01(\x0e2\x11.testprotos.Enum1R\tenumField:O\n" +
-	"\rmessage_field\x12\x14.testprotos.Message1\x18\r \x01(\v2\x14.testprotos.Message2R\fmessageFieldB9Z7google.golang.org/protobuf/internal/testprotos/registry"
+	"\rmessage_field\x12\x14.testprotos.Message1\x18\r \x01(\v2\x14.testprotos.Message2R\fmessageFieldB9Z7github.com/vedadiyan/protobuf/internal/testprotos/registry"
 
 var (
 	file_internal_testprotos_registry_test_proto_rawDescOnce sync.Once

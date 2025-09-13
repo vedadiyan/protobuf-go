@@ -8,8 +8,8 @@
 package micro
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -201,7 +201,7 @@ const file_internal_testprotos_benchmarks_micro_micro_proto_rawDesc = "" +
 	"\x03f13\x18\r \x02(\x05R\x03f13\x12\x10\n" +
 	"\x03f14\x18\x0e \x02(\x05R\x03f14\x12\x10\n" +
 	"\x03f15\x18\x0f \x02(\x05R\x03f15\x12\x10\n" +
-	"\x03f16\x18\x10 \x02(\x05R\x03f16BAZ?google.golang.org/protobuf/internal/testprotos/benchmarks/micro"
+	"\x03f16\x18\x10 \x02(\x05R\x03f16BAZ?github.com/vedadiyan/protobuf/internal/testprotos/benchmarks/micro"
 
 var (
 	file_internal_testprotos_benchmarks_micro_micro_proto_rawDescOnce sync.Once

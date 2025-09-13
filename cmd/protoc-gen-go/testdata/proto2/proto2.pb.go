@@ -8,8 +8,8 @@
 package proto2
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -74,7 +74,7 @@ const file_cmd_protoc_gen_go_testdata_proto2_proto2_proto_rawDesc = "" +
 	".cmd/protoc-gen-go/testdata/proto2/proto2.proto\x12\x15goproto.protoc.proto2\"I\n" +
 	"\aMessage\x12\x10\n" +
 	"\x03i32\x18\x01 \x01(\x05R\x03i32\x12,\n" +
-	"\x01m\x18\x02 \x01(\v2\x1e.goproto.protoc.proto2.MessageR\x01mB>Z<google.golang.org/protobuf/cmd/protoc-gen-go/testdata/proto2"
+	"\x01m\x18\x02 \x01(\v2\x1e.goproto.protoc.proto2.MessageR\x01mB>Z<github.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/proto2"
 
 var (
 	file_cmd_protoc_gen_go_testdata_proto2_proto2_proto_rawDescOnce sync.Once

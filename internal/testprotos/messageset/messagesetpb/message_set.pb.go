@@ -8,8 +8,8 @@
 package messagesetpb
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -105,7 +105,7 @@ const file_internal_testprotos_messageset_messagesetpb_message_set_proto_rawDesc
 	"MessageSet*\b\b\x04\x10\xff\xff\xff\xff\a:\x02\b\x01\"\\\n" +
 	"\x13MessageSetContainer\x12E\n" +
 	"\vmessage_set\x18\x01 \x01(\v2$.goproto.proto.messageset.MessageSetR\n" +
-	"messageSetBHZFgoogle.golang.org/protobuf/internal/testprotos/messageset/messagesetpbb\beditionsp\xe8\a"
+	"messageSetBHZFgithub.com/vedadiyan/protobuf/internal/testprotos/messageset/messagesetpbb\beditionsp\xe8\a"
 
 var (
 	file_internal_testprotos_messageset_messagesetpb_message_set_proto_rawDescOnce sync.Once

@@ -8,8 +8,8 @@
 package extra
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -65,7 +65,7 @@ const file_cmd_protoc_gen_go_testdata_extensions_extra_extra_proto_rawDesc = "" 
 	"\n" +
 	"7cmd/protoc-gen-go/testdata/extensions/extra/extra.proto\x12\x1egoproto.protoc.extension.extra\"\"\n" +
 	"\fExtraMessage\x12\x12\n" +
-	"\x04data\x18\x01 \x01(\fR\x04dataBHZFgoogle.golang.org/protobuf/cmd/protoc-gen-go/testdata/extensions/extra"
+	"\x04data\x18\x01 \x01(\fR\x04dataBHZFgithub.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/extensions/extra"
 
 var (
 	file_cmd_protoc_gen_go_testdata_extensions_extra_extra_proto_rawDescOnce sync.Once

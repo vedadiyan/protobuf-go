@@ -12,8 +12,8 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"google.golang.org/protobuf/internal/detrand"
-	"google.golang.org/protobuf/internal/encoding/text"
+	"github.com/vedadiyan/protobuf/internal/detrand"
+	"github.com/vedadiyan/protobuf/internal/encoding/text"
 )
 
 // Disable detrand to enable direct comparisons on outputs.

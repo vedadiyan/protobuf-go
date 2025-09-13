@@ -6,7 +6,7 @@ syntax = "proto3";
 
 package google.golang.org;
 
-option go_package = "google.golang.org/protobuf/internal/testprotos/legacy";
+option go_package = "github.com/vedadiyan/protobuf/internal/testprotos/legacy";
 
 // This file imports other files generated from a build of protoc-gen-go
 // locked to a specific version. For all imports, they were built using
@@ -20,7 +20,7 @@ option go_package = "google.golang.org/protobuf/internal/testprotos/legacy";
 // To avoid a dependency on the v1 module, we perform the following
 // import path replacement to all generated .pb.go files:
 //  "github.com/golang/protobuf/proto" =>
-//  "google.golang.org/protobuf/internal/protolegacy"
+//  "github.com/vedadiyan/protobuf/internal/protolegacy"
 
 // The oldest supported version of protoc-gen-go is 2fc053c5,
 // which finished adding descriptor methods to all protobuf types.

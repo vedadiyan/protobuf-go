@@ -9,7 +9,7 @@ import (
 	"math"
 	"reflect"
 
-	"google.golang.org/protobuf/reflect/protoreflect"
+	"github.com/vedadiyan/protobuf/reflect/protoreflect"
 )
 
 type fieldInfo struct {

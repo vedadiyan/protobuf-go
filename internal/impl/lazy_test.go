@@ -11,16 +11,16 @@ import (
 	"unsafe"
 
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/protobuf/internal/errors"
-	"google.golang.org/protobuf/internal/flags"
-	"google.golang.org/protobuf/internal/impl"
-	"google.golang.org/protobuf/internal/protobuild"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/testing/protocmp"
+	"github.com/vedadiyan/protobuf/internal/errors"
+	"github.com/vedadiyan/protobuf/internal/flags"
+	"github.com/vedadiyan/protobuf/internal/impl"
+	"github.com/vedadiyan/protobuf/internal/protobuild"
+	"github.com/vedadiyan/protobuf/proto"
+	"github.com/vedadiyan/protobuf/testing/protocmp"
 
-	lazytestpb "google.golang.org/protobuf/internal/testprotos/lazy"
-	"google.golang.org/protobuf/internal/testprotos/messageset/messagesetpb"
-	testpb "google.golang.org/protobuf/internal/testprotos/test"
+	lazytestpb "github.com/vedadiyan/protobuf/internal/testprotos/lazy"
+	"github.com/vedadiyan/protobuf/internal/testprotos/messageset/messagesetpb"
+	testpb "github.com/vedadiyan/protobuf/internal/testprotos/test"
 )
 
 func TestLazyExtensions(t *testing.T) {

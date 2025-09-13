@@ -8,9 +8,9 @@
 package editionsfuzztest
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
-	_ "google.golang.org/protobuf/types/gofeaturespb"
+	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
+	_ "github.com/vedadiyan/protobuf/types/gofeaturespb"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -1278,7 +1278,7 @@ const file_internal_testprotos_editionsfuzztest_test2editions_proto_rawDesc = ""
 	"\x03BAZ\x10\x02\x12\x10\n" +
 	"\x03NEG\x10\xff\xff\xff\xff\xff\xff\xff\xff\xff\x01\x1a\t:\a\xd2>\x02\b\x01\x10\x02B\r\n" +
 	"\voneof_fieldB\x10\n" +
-	"\x0eoneof_optionalBHZ?google.golang.org/protobuf/internal/testprotos/editionsfuzztest\x92\x03\x04\x18\x02 \x03b\beditionsp\xe8\a"
+	"\x0eoneof_optionalBHZ?github.com/vedadiyan/protobuf/internal/testprotos/editionsfuzztest\x92\x03\x04\x18\x02 \x03b\beditionsp\xe8\a"
 
 var (
 	file_internal_testprotos_editionsfuzztest_test2editions_proto_rawDescOnce sync.Once

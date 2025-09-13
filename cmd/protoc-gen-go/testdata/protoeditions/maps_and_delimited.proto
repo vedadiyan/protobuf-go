@@ -6,7 +6,7 @@ edition = "2023";
 
 package goproto.protoc.protoeditions;
 
-option go_package = "google.golang.org/protobuf/cmd/protoc-gen-go/testdata/protoeditions";
+option go_package = "github.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/protoeditions";
 option features.message_encoding = DELIMITED;
 
 message MessageWithMaps {

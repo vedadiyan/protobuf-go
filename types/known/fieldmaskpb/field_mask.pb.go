@@ -76,9 +76,9 @@
 package fieldmaskpb
 
 import (
-	proto "google.golang.org/protobuf/proto"
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	proto "github.com/vedadiyan/protobuf/proto"
+	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sort "sort"
 	strings "strings"
@@ -509,7 +509,7 @@ const file_google_protobuf_field_mask_proto_rawDesc = "" +
 	" google/protobuf/field_mask.proto\x12\x0fgoogle.protobuf\"!\n" +
 	"\tFieldMask\x12\x14\n" +
 	"\x05paths\x18\x01 \x03(\tR\x05pathsB\x85\x01\n" +
-	"\x13com.google.protobufB\x0eFieldMaskProtoP\x01Z2google.golang.org/protobuf/types/known/fieldmaskpb\xf8\x01\x01\xa2\x02\x03GPB\xaa\x02\x1eGoogle.Protobuf.WellKnownTypesb\x06proto3"
+	"\x13com.google.protobufB\x0eFieldMaskProtoP\x01Z2github.com/vedadiyan/protobuf/types/known/fieldmaskpb\xf8\x01\x01\xa2\x02\x03GPB\xaa\x02\x1eGoogle.Protobuf.WellKnownTypesb\x06proto3"
 
 var (
 	file_google_protobuf_field_mask_proto_rawDescOnce sync.Once

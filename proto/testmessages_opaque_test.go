@@ -11,20 +11,20 @@ import (
 	"strings"
 	"testing"
 
-	"google.golang.org/protobuf/internal/impl"
-	"google.golang.org/protobuf/internal/protobuild"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/reflect/protoregistry"
-	"google.golang.org/protobuf/testing/protopack"
+	"github.com/vedadiyan/protobuf/internal/impl"
+	"github.com/vedadiyan/protobuf/internal/protobuild"
+	"github.com/vedadiyan/protobuf/reflect/protoreflect"
+	"github.com/vedadiyan/protobuf/reflect/protoregistry"
+	"github.com/vedadiyan/protobuf/testing/protopack"
 
-	_ "google.golang.org/protobuf/internal/testprotos/lazy"
-	_ "google.golang.org/protobuf/internal/testprotos/lazy/lazy_opaque"
-	_ "google.golang.org/protobuf/internal/testprotos/required"
-	_ "google.golang.org/protobuf/internal/testprotos/required/required_opaque"
-	_ "google.golang.org/protobuf/internal/testprotos/test"
-	_ "google.golang.org/protobuf/internal/testprotos/test3"
-	_ "google.golang.org/protobuf/internal/testprotos/testeditions/testeditions_hybrid"
-	_ "google.golang.org/protobuf/internal/testprotos/testeditions/testeditions_opaque"
+	_ "github.com/vedadiyan/protobuf/internal/testprotos/lazy"
+	_ "github.com/vedadiyan/protobuf/internal/testprotos/lazy/lazy_opaque"
+	_ "github.com/vedadiyan/protobuf/internal/testprotos/required"
+	_ "github.com/vedadiyan/protobuf/internal/testprotos/required/required_opaque"
+	_ "github.com/vedadiyan/protobuf/internal/testprotos/test"
+	_ "github.com/vedadiyan/protobuf/internal/testprotos/test3"
+	_ "github.com/vedadiyan/protobuf/internal/testprotos/testeditions/testeditions_hybrid"
+	_ "github.com/vedadiyan/protobuf/internal/testprotos/testeditions/testeditions_opaque"
 )
 
 var testLazyUnmarshal = flag.Bool("test_lazy_unmarshal", false, "test lazy proto.Unmarshal")

@@ -9,7 +9,7 @@ package goproto.proto.test;
 import "internal/testprotos/annotation/annotation.proto";
 import "internal/testprotos/test/test.proto";
 
-option go_package = "google.golang.org/protobuf/internal/testprotos/fieldtrack";
+option go_package = "github.com/vedadiyan/protobuf/internal/testprotos/fieldtrack";
 
 message TestFieldTrack {
   option (go_annotation.track_field_use) = true;

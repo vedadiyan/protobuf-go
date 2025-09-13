@@ -8,7 +8,7 @@ package goproto.proto.testeditions;
 
 import "internal/testprotos/testeditions/test.proto";
 
-option go_package = "google.golang.org/protobuf/internal/testprotos/testeditions";
+option go_package = "github.com/vedadiyan/protobuf/internal/testprotos/testeditions";
 option features.repeated_field_encoding = EXPANDED;
 option features.utf8_validation = NONE;
 

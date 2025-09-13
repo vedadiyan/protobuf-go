@@ -10,8 +10,8 @@
 package order
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -159,7 +159,7 @@ const file_internal_testprotos_order_order_proto_rawDesc = "" +
 	"\aoneof_1:7\n" +
 	"\bfield_30\x12\x1c.goproto.proto.order.Message\x18\x1e \x01(\tR\afield30:7\n" +
 	"\bfield_31\x12\x1c.goproto.proto.order.Message\x18\x1f \x01(\tR\afield31:7\n" +
-	"\bfield_32\x12\x1c.goproto.proto.order.Message\x18  \x01(\tR\afield32B6Z4google.golang.org/protobuf/internal/testprotos/order"
+	"\bfield_32\x12\x1c.goproto.proto.order.Message\x18  \x01(\tR\afield32B6Z4github.com/vedadiyan/protobuf/internal/testprotos/order"
 
 var (
 	file_internal_testprotos_order_order_proto_rawDescOnce sync.Once

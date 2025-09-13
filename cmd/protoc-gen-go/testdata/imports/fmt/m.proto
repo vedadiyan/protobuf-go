@@ -6,6 +6,6 @@ syntax = "proto3";
 
 package fmt;
 
-option go_package = "google.golang.org/protobuf/cmd/protoc-gen-go/testdata/imports/fmt";
+option go_package = "github.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/imports/fmt";
 
 message M {}

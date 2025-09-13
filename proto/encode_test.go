@@ -14,15 +14,15 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"google.golang.org/protobuf/encoding/prototext"
-	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/types/known/durationpb"
+	"github.com/vedadiyan/protobuf/encoding/prototext"
+	"github.com/vedadiyan/protobuf/encoding/protowire"
+	"github.com/vedadiyan/protobuf/proto"
+	"github.com/vedadiyan/protobuf/reflect/protoreflect"
+	"github.com/vedadiyan/protobuf/types/known/durationpb"
 
-	orderpb "google.golang.org/protobuf/internal/testprotos/order"
-	testpb "google.golang.org/protobuf/internal/testprotos/test"
-	test3pb "google.golang.org/protobuf/internal/testprotos/test3"
+	orderpb "github.com/vedadiyan/protobuf/internal/testprotos/order"
+	testpb "github.com/vedadiyan/protobuf/internal/testprotos/test"
+	test3pb "github.com/vedadiyan/protobuf/internal/testprotos/test3"
 )
 
 func TestEncode(t *testing.T) {
@@ -289,7 +289,7 @@ func TestEncodeEmpty(t *testing.T) {
 // This example hard-codes a duration of 125ns for the illustration of struct
 // fields, but note that you do not need to fill the fields of well-known types
 // like duration.proto yourself. To convert a time.Duration, use
-// [google.golang.org/protobuf/types/known/durationpb.New].
+// [github.com/vedadiyan/protobuf/types/known/durationpb.New].
 func ExampleMarshal() {
 	b, err := proto.Marshal(&durationpb.Duration{
 		Nanos: 125,

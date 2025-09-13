@@ -12,7 +12,7 @@ import "internal/testprotos/enums/enums.proto";
 import "internal/testprotos/required/required.proto";
 import "internal/testprotos/test/test_import.proto";
 
-option go_package = "google.golang.org/protobuf/internal/testprotos/test";
+option go_package = "github.com/vedadiyan/protobuf/internal/testprotos/test";
 
 message TestAllTypes {
   message NestedMessage {

@@ -51,8 +51,8 @@
 package wrapperspb
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -589,7 +589,7 @@ const file_google_protobuf_wrappers_proto_rawDesc = "" +
 	"\n" +
 	"BytesValue\x12\x14\n" +
 	"\x05value\x18\x01 \x01(\fR\x05valueB\x83\x01\n" +
-	"\x13com.google.protobufB\rWrappersProtoP\x01Z1google.golang.org/protobuf/types/known/wrapperspb\xf8\x01\x01\xa2\x02\x03GPB\xaa\x02\x1eGoogle.Protobuf.WellKnownTypesb\x06proto3"
+	"\x13com.google.protobufB\rWrappersProtoP\x01Z1github.com/vedadiyan/protobuf/types/known/wrapperspb\xf8\x01\x01\xa2\x02\x03GPB\xaa\x02\x1eGoogle.Protobuf.WellKnownTypesb\x06proto3"
 
 var (
 	file_google_protobuf_wrappers_proto_rawDescOnce sync.Once

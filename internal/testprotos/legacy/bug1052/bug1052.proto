@@ -14,7 +14,7 @@ package goproto.proto.legacy;
 
 import "google/protobuf/descriptor.proto";
 
-option go_package = "google.golang.org/protobuf/internal/testprotos/legacy/bug1052";
+option go_package = "github.com/vedadiyan/protobuf/internal/testprotos/legacy/bug1052";
 
 enum Enum {
   ZERO = 0;

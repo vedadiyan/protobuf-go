@@ -10,16 +10,16 @@
 package textpbeditions_opaque
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
-	_ "google.golang.org/protobuf/types/gofeaturespb"
-	anypb "google.golang.org/protobuf/types/known/anypb"
-	durationpb "google.golang.org/protobuf/types/known/durationpb"
-	emptypb "google.golang.org/protobuf/types/known/emptypb"
-	fieldmaskpb "google.golang.org/protobuf/types/known/fieldmaskpb"
-	structpb "google.golang.org/protobuf/types/known/structpb"
-	timestamppb "google.golang.org/protobuf/types/known/timestamppb"
-	wrapperspb "google.golang.org/protobuf/types/known/wrapperspb"
+	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
+	_ "github.com/vedadiyan/protobuf/types/gofeaturespb"
+	anypb "github.com/vedadiyan/protobuf/types/known/anypb"
+	durationpb "github.com/vedadiyan/protobuf/types/known/durationpb"
+	emptypb "github.com/vedadiyan/protobuf/types/known/emptypb"
+	fieldmaskpb "github.com/vedadiyan/protobuf/types/known/fieldmaskpb"
+	structpb "github.com/vedadiyan/protobuf/types/known/structpb"
+	timestamppb "github.com/vedadiyan/protobuf/types/known/timestamppb"
+	wrapperspb "github.com/vedadiyan/protobuf/types/known/wrapperspb"
 	reflect "reflect"
 	unsafe "unsafe"
 )
@@ -4022,7 +4022,7 @@ const file_internal_testprotos_textpbeditions_textpbeditions_opaque_test2_opaque
 	"\frpt_ext_enum\x12\x1d.opaque.pbeditions.Extensions\x18  \x03(\x0e2\x17.opaque.pbeditions.EnumR\n" +
 	"rptExtEnum:^\n" +
 	"\x0erpt_ext_nested\x12\x1d.opaque.pbeditions.Extensions\x18! \x03(\v2\x19.opaque.pbeditions.NestedR\frptExtNested:}\n" +
-	"\x15message_set_extension\x12\x1d.opaque.pbeditions.MessageSet\x182 \x01(\v2*.opaque.pbeditions.FakeMessageSetExtensionR\x13messageSetExtensionBaZSgoogle.golang.org/protobuf/internal/testprotos/textpbeditions/textpbeditions_opaque\x92\x03\t\xd2>\x02\x10\x03\x10\x02 \x03b\beditionsp\xe8\a"
+	"\x15message_set_extension\x12\x1d.opaque.pbeditions.MessageSet\x182 \x01(\v2*.opaque.pbeditions.FakeMessageSetExtensionR\x13messageSetExtensionBaZSgithub.com/vedadiyan/protobuf/internal/testprotos/textpbeditions/textpbeditions_opaque\x92\x03\t\xd2>\x02\x10\x03\x10\x02 \x03b\beditionsp\xe8\a"
 
 var file_internal_testprotos_textpbeditions_textpbeditions_opaque_test2_opaque_proto_enumTypes = make([]protoimpl.EnumInfo, 4)
 var file_internal_testprotos_textpbeditions_textpbeditions_opaque_test2_opaque_proto_msgTypes = make([]protoimpl.MessageInfo, 26)

@@ -8,7 +8,7 @@ package hybrid.goproto.proto.test3;
 
 import "internal/testprotos/test3/test3_hybrid/test_import.hybrid.proto";
 
-option go_package = "google.golang.org/protobuf/internal/testprotos/test3/test3_hybrid";
+option go_package = "github.com/vedadiyan/protobuf/internal/testprotos/test3/test3_hybrid";
 
 
 message TestAllTypes {

@@ -1,4 +1,4 @@
-module google.golang.org/protobuf
+module github.com/vedadiyan/protobuf
 
 go 1.23
 

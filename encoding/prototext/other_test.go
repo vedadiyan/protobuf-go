@@ -7,17 +7,17 @@ package prototext_test
 import (
 	"testing"
 
-	"google.golang.org/protobuf/encoding/prototext"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoregistry"
+	"github.com/vedadiyan/protobuf/encoding/prototext"
+	"github.com/vedadiyan/protobuf/proto"
+	"github.com/vedadiyan/protobuf/reflect/protoregistry"
 
-	pb2 "google.golang.org/protobuf/internal/testprotos/textpb2"
-	"google.golang.org/protobuf/types/known/anypb"
-	"google.golang.org/protobuf/types/known/durationpb"
-	"google.golang.org/protobuf/types/known/emptypb"
-	"google.golang.org/protobuf/types/known/structpb"
-	"google.golang.org/protobuf/types/known/timestamppb"
-	"google.golang.org/protobuf/types/known/wrapperspb"
+	pb2 "github.com/vedadiyan/protobuf/internal/testprotos/textpb2"
+	"github.com/vedadiyan/protobuf/types/known/anypb"
+	"github.com/vedadiyan/protobuf/types/known/durationpb"
+	"github.com/vedadiyan/protobuf/types/known/emptypb"
+	"github.com/vedadiyan/protobuf/types/known/structpb"
+	"github.com/vedadiyan/protobuf/types/known/timestamppb"
+	"github.com/vedadiyan/protobuf/types/known/wrapperspb"
 )
 
 func TestRoundTrip(t *testing.T) {

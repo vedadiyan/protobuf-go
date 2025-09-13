@@ -14,18 +14,18 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/protobuf/encoding/protojson"
-	"google.golang.org/protobuf/encoding/prototext"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/reflect/protoregistry"
+	"github.com/vedadiyan/protobuf/encoding/protojson"
+	"github.com/vedadiyan/protobuf/encoding/prototext"
+	"github.com/vedadiyan/protobuf/proto"
+	"github.com/vedadiyan/protobuf/reflect/protoreflect"
+	"github.com/vedadiyan/protobuf/reflect/protoregistry"
 
-	benchpb "google.golang.org/protobuf/internal/testprotos/benchmarks"
-	_ "google.golang.org/protobuf/internal/testprotos/benchmarks/datasets/google_message1/proto2"
-	_ "google.golang.org/protobuf/internal/testprotos/benchmarks/datasets/google_message1/proto3"
-	_ "google.golang.org/protobuf/internal/testprotos/benchmarks/datasets/google_message2"
-	_ "google.golang.org/protobuf/internal/testprotos/benchmarks/datasets/google_message3"
-	_ "google.golang.org/protobuf/internal/testprotos/benchmarks/datasets/google_message4"
+	benchpb "github.com/vedadiyan/protobuf/internal/testprotos/benchmarks"
+	_ "github.com/vedadiyan/protobuf/internal/testprotos/benchmarks/datasets/google_message1/proto2"
+	_ "github.com/vedadiyan/protobuf/internal/testprotos/benchmarks/datasets/google_message1/proto3"
+	_ "github.com/vedadiyan/protobuf/internal/testprotos/benchmarks/datasets/google_message2"
+	_ "github.com/vedadiyan/protobuf/internal/testprotos/benchmarks/datasets/google_message3"
+	_ "github.com/vedadiyan/protobuf/internal/testprotos/benchmarks/datasets/google_message4"
 )
 
 func BenchmarkWire(b *testing.B) {

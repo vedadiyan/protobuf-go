@@ -9,10 +9,10 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/testing/protocmp"
+	"github.com/vedadiyan/protobuf/proto"
+	"github.com/vedadiyan/protobuf/testing/protocmp"
 
-	testfuzzpb "google.golang.org/protobuf/internal/testprotos/editionsfuzztest"
+	testfuzzpb "github.com/vedadiyan/protobuf/internal/testprotos/editionsfuzztest"
 )
 
 // compareEquivalentProtos compares equivalent messages m0 and m1, where one is

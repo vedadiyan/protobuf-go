@@ -8,10 +8,10 @@ import (
 	"sync"
 	"testing"
 
-	"google.golang.org/protobuf/proto"
+	"github.com/vedadiyan/protobuf/proto"
 
-	epb "google.golang.org/protobuf/internal/testprotos/race/extender"
-	mpb "google.golang.org/protobuf/internal/testprotos/race/message"
+	epb "github.com/vedadiyan/protobuf/internal/testprotos/race/extender"
+	mpb "github.com/vedadiyan/protobuf/internal/testprotos/race/message"
 )
 
 // There must be no other test in this package as we are testing global

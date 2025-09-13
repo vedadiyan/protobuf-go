@@ -1,6 +1,6 @@
 # Go support for Protocol Buffers
 
-[![Go Reference](https://pkg.go.dev/badge/google.golang.org/protobuf.svg)](https://pkg.go.dev/google.golang.org/protobuf)
+[![Go Reference](https://pkg.go.dev/badge/github.com/vedadiyan/protobuf.svg)](https://pkg.go.dev/github.com/vedadiyan/protobuf)
 [![Build Status](https://travis-ci.org/protocolbuffers/protobuf-go.svg?branch=master)](https://travis-ci.org/protocolbuffers/protobuf-go)
 
 This project hosts the Go implementation for
@@ -17,21 +17,21 @@ for more information about protocol buffers themselves.
 This project is comprised of two components:
 
 *   Code generator: The
-    [`protoc-gen-go`](https://pkg.go.dev/google.golang.org/protobuf/cmd/protoc-gen-go)
+    [`protoc-gen-go`](https://pkg.go.dev/github.com/vedadiyan/protobuf/cmd/protoc-gen-go)
     tool is a compiler plugin to `protoc`, the protocol buffer compiler. It
     augments the `protoc` compiler so that it knows how to
     [generate Go specific code for a given `.proto` file](https://protobuf.dev/reference/go/go-generated).
 
 *   Runtime library: The
-    [`protobuf`](https://pkg.go.dev/mod/google.golang.org/protobuf) module
+    [`protobuf`](https://pkg.go.dev/mod/github.com/vedadiyan/protobuf) module
     contains a set of Go packages that form the runtime implementation of
     protobufs in Go. This provides the set of interfaces that
-    [define what a message is](https://pkg.go.dev/google.golang.org/protobuf/reflect/protoreflect)
+    [define what a message is](https://pkg.go.dev/github.com/vedadiyan/protobuf/reflect/protoreflect)
     and functionality to serialize message in various formats (e.g.,
-    [wire](https://pkg.go.dev/google.golang.org/protobuf/proto),
-    [JSON](https://pkg.go.dev/google.golang.org/protobuf/encoding/protojson),
+    [wire](https://pkg.go.dev/github.com/vedadiyan/protobuf/proto),
+    [JSON](https://pkg.go.dev/github.com/vedadiyan/protobuf/encoding/protojson),
     and
-    [text](https://pkg.go.dev/google.golang.org/protobuf/encoding/prototext)).
+    [text](https://pkg.go.dev/github.com/vedadiyan/protobuf/encoding/prototext)).
 
 See the
 [developer guide for protocol buffers in Go](https://protobuf.dev/getting-started/gotutorial)
@@ -39,7 +39,7 @@ for a general guide for how to get started using protobufs in Go.
 
 This project is the second major revision of the Go protocol buffer API
 implemented by the
-[`google.golang.org/protobuf`](https://pkg.go.dev/mod/google.golang.org/protobuf)
+[`github.com/vedadiyan/protobuf`](https://pkg.go.dev/mod/github.com/vedadiyan/protobuf)
 module. The first major version is implemented by the
 [`github.com/golang/protobuf`](https://pkg.go.dev/mod/github.com/golang/protobuf)
 module.
@@ -48,79 +48,79 @@ module.
 
 Summary of the packages provided by this module:
 
-*   [`proto`](https://pkg.go.dev/google.golang.org/protobuf/proto): Package
+*   [`proto`](https://pkg.go.dev/github.com/vedadiyan/protobuf/proto): Package
     `proto` provides functions operating on protobuf messages such as cloning,
     merging, and checking equality, as well as binary serialization.
-*   [`encoding/protojson`](https://pkg.go.dev/google.golang.org/protobuf/encoding/protojson):
+*   [`encoding/protojson`](https://pkg.go.dev/github.com/vedadiyan/protobuf/encoding/protojson):
     Package `protojson` serializes protobuf messages as JSON.
-*   [`encoding/prototext`](https://pkg.go.dev/google.golang.org/protobuf/encoding/prototext):
+*   [`encoding/prototext`](https://pkg.go.dev/github.com/vedadiyan/protobuf/encoding/prototext):
     Package `prototext` serializes protobuf messages as the text format.
-*   [`encoding/protowire`](https://pkg.go.dev/google.golang.org/protobuf/encoding/protowire):
+*   [`encoding/protowire`](https://pkg.go.dev/github.com/vedadiyan/protobuf/encoding/protowire):
     Package `protowire` parses and formats the low-level raw wire encoding. Most
     users should use package `proto` to serialize messages in the wire format.
-*   [`reflect/protoreflect`](https://pkg.go.dev/google.golang.org/protobuf/reflect/protoreflect):
+*   [`reflect/protoreflect`](https://pkg.go.dev/github.com/vedadiyan/protobuf/reflect/protoreflect):
     Package `protoreflect` provides interfaces to dynamically manipulate
     protobuf messages.
-*   [`reflect/protoregistry`](https://pkg.go.dev/google.golang.org/protobuf/reflect/protoregistry):
+*   [`reflect/protoregistry`](https://pkg.go.dev/github.com/vedadiyan/protobuf/reflect/protoregistry):
     Package `protoregistry` provides data structures to register and lookup
     protobuf descriptor types.
-*   [`reflect/protodesc`](https://pkg.go.dev/google.golang.org/protobuf/reflect/protodesc):
+*   [`reflect/protodesc`](https://pkg.go.dev/github.com/vedadiyan/protobuf/reflect/protodesc):
     Package `protodesc` provides functionality for converting
     `descriptorpb.FileDescriptorProto` messages to/from the reflective
     `protoreflect.FileDescriptor`.
-*   [`reflect/protopath`](https://pkg.go.dev/google.golang.org/protobuf/reflect/protopath):
+*   [`reflect/protopath`](https://pkg.go.dev/github.com/vedadiyan/protobuf/reflect/protopath):
     Package `protopath` provides a representation of a sequence of
     protobuf reflection operations on a message.
-*   [`reflect/protorange`](https://pkg.go.dev/google.golang.org/protobuf/reflect/protorange):
+*   [`reflect/protorange`](https://pkg.go.dev/github.com/vedadiyan/protobuf/reflect/protorange):
     Package `protorange` provides functionality to traverse a protobuf message.
-*   [`testing/protocmp`](https://pkg.go.dev/google.golang.org/protobuf/testing/protocmp):
+*   [`testing/protocmp`](https://pkg.go.dev/github.com/vedadiyan/protobuf/testing/protocmp):
     Package `protocmp` provides protobuf specific options for the `cmp` package.
-*   [`testing/protopack`](https://pkg.go.dev/google.golang.org/protobuf/testing/protopack):
+*   [`testing/protopack`](https://pkg.go.dev/github.com/vedadiyan/protobuf/testing/protopack):
     Package `protopack` aids manual encoding and decoding of the wire format.
-*   [`testing/prototest`](https://pkg.go.dev/google.golang.org/protobuf/testing/prototest):
+*   [`testing/prototest`](https://pkg.go.dev/github.com/vedadiyan/protobuf/testing/prototest):
     Package `prototest` exercises the protobuf reflection implementation for
     concrete message types.
-*   [`types/dynamicpb`](https://pkg.go.dev/google.golang.org/protobuf/types/dynamicpb):
+*   [`types/dynamicpb`](https://pkg.go.dev/github.com/vedadiyan/protobuf/types/dynamicpb):
     Package `dynamicpb` creates protobuf messages at runtime from protobuf
     descriptors.
-*   [`types/known/anypb`](https://pkg.go.dev/google.golang.org/protobuf/types/known/anypb):
+*   [`types/known/anypb`](https://pkg.go.dev/github.com/vedadiyan/protobuf/types/known/anypb):
     Package `anypb` is the generated package for `google/protobuf/any.proto`.
-*   [`types/known/timestamppb`](https://pkg.go.dev/google.golang.org/protobuf/types/known/timestamppb):
+*   [`types/known/timestamppb`](https://pkg.go.dev/github.com/vedadiyan/protobuf/types/known/timestamppb):
     Package `timestamppb` is the generated package for
     `google/protobuf/timestamp.proto`.
-*   [`types/known/durationpb`](https://pkg.go.dev/google.golang.org/protobuf/types/known/durationpb):
+*   [`types/known/durationpb`](https://pkg.go.dev/github.com/vedadiyan/protobuf/types/known/durationpb):
     Package `durationpb` is the generated package for
     `google/protobuf/duration.proto`.
-*   [`types/known/wrapperspb`](https://pkg.go.dev/google.golang.org/protobuf/types/known/wrapperspb):
+*   [`types/known/wrapperspb`](https://pkg.go.dev/github.com/vedadiyan/protobuf/types/known/wrapperspb):
     Package `wrapperspb` is the generated package for
     `google/protobuf/wrappers.proto`.
-*   [`types/known/structpb`](https://pkg.go.dev/google.golang.org/protobuf/types/known/structpb):
+*   [`types/known/structpb`](https://pkg.go.dev/github.com/vedadiyan/protobuf/types/known/structpb):
     Package `structpb` is the generated package for
     `google/protobuf/struct.proto`.
-*   [`types/known/fieldmaskpb`](https://pkg.go.dev/google.golang.org/protobuf/types/known/fieldmaskpb):
+*   [`types/known/fieldmaskpb`](https://pkg.go.dev/github.com/vedadiyan/protobuf/types/known/fieldmaskpb):
     Package `fieldmaskpb` is the generated package for
     `google/protobuf/field_mask.proto`.
-*   [`types/known/apipb`](https://pkg.go.dev/google.golang.org/protobuf/types/known/apipb):
+*   [`types/known/apipb`](https://pkg.go.dev/github.com/vedadiyan/protobuf/types/known/apipb):
     Package `apipb` is the generated package for
     `google/protobuf/api.proto`.
-*   [`types/known/typepb`](https://pkg.go.dev/google.golang.org/protobuf/types/known/typepb):
+*   [`types/known/typepb`](https://pkg.go.dev/github.com/vedadiyan/protobuf/types/known/typepb):
     Package `typepb` is the generated package for
     `google/protobuf/type.proto`.
-*   [`types/known/sourcecontextpb`](https://pkg.go.dev/google.golang.org/protobuf/types/known/sourcecontextpb):
+*   [`types/known/sourcecontextpb`](https://pkg.go.dev/github.com/vedadiyan/protobuf/types/known/sourcecontextpb):
     Package `sourcecontextpb` is the generated package for
     `google/protobuf/source_context.proto`.
-*   [`types/known/emptypb`](https://pkg.go.dev/google.golang.org/protobuf/types/known/emptypb):
+*   [`types/known/emptypb`](https://pkg.go.dev/github.com/vedadiyan/protobuf/types/known/emptypb):
     Package `emptypb` is the generated package for
     `google/protobuf/empty.proto`.
-*   [`types/descriptorpb`](https://pkg.go.dev/google.golang.org/protobuf/types/descriptorpb):
+*   [`types/descriptorpb`](https://pkg.go.dev/github.com/vedadiyan/protobuf/types/descriptorpb):
     Package `descriptorpb` is the generated package for
     `google/protobuf/descriptor.proto`.
-*   [`types/pluginpb`](https://pkg.go.dev/google.golang.org/protobuf/types/pluginpb):
+*   [`types/pluginpb`](https://pkg.go.dev/github.com/vedadiyan/protobuf/types/pluginpb):
     Package `pluginpb` is the generated package for
     `google/protobuf/compiler/plugin.proto`.
-*   [`compiler/protogen`](https://pkg.go.dev/google.golang.org/protobuf/compiler/protogen):
+*   [`compiler/protogen`](https://pkg.go.dev/github.com/vedadiyan/protobuf/compiler/protogen):
     Package `protogen` provides support for writing protoc plugins.
-*   [`cmd/protoc-gen-go`](https://pkg.go.dev/google.golang.org/protobuf/cmd/protoc-gen-go):
+*   [`cmd/protoc-gen-go`](https://pkg.go.dev/github.com/vedadiyan/protobuf/cmd/protoc-gen-go):
     The `protoc-gen-go` binary is a protoc plugin to generate a Go protocol
     buffer package.
 
@@ -171,25 +171,25 @@ reasons:
     by `protoc-gen-go`. Such practice is not supported by this project.
 *   **Internal changes**: We reserve the right to add, modify, and remove
     internal code, which includes all unexported declarations, the
-    [`protoc-gen-go/internal_gengo`](https://pkg.go.dev/google.golang.org/protobuf/cmd/protoc-gen-go/internal_gengo)
+    [`protoc-gen-go/internal_gengo`](https://pkg.go.dev/github.com/vedadiyan/protobuf/cmd/protoc-gen-go/internal_gengo)
     package, the
-    [`runtime/protoimpl`](https://pkg.go.dev/google.golang.org/protobuf/runtime/protoimpl?tab=doc)
+    [`runtime/protoimpl`](https://pkg.go.dev/github.com/vedadiyan/protobuf/runtime/protoimpl?tab=doc)
     package, and all packages under
-    [`internal`](https://pkg.go.dev/google.golang.org/protobuf/internal).
+    [`internal`](https://pkg.go.dev/github.com/vedadiyan/protobuf/internal).
 
 Any breaking changes outside of these will be announced 6 months in advance to
 [protobuf@googlegroups.com](https://groups.google.com/forum/#!forum/protobuf).
 
 Users should use generated code produced by a version of
-[`protoc-gen-go`](https://pkg.go.dev/google.golang.org/protobuf/cmd/protoc-gen-go)
+[`protoc-gen-go`](https://pkg.go.dev/github.com/vedadiyan/protobuf/cmd/protoc-gen-go)
 that is identical to the runtime version provided by the
-[protobuf module](https://pkg.go.dev/mod/google.golang.org/protobuf). This
+[protobuf module](https://pkg.go.dev/mod/github.com/vedadiyan/protobuf). This
 project promises that the runtime remains compatible with code produced by a
 version of the generator that is no older than 1 year from the version of the
 runtime used, according to the release dates of the minor version. Generated
 code is expected to use a runtime version that is at least as new as the
 generator used to produce it. Generated code contains references to
-[`protoimpl.EnforceVersion`](https://pkg.go.dev/google.golang.org/protobuf/runtime/protoimpl?tab=doc#EnforceVersion)
+[`protoimpl.EnforceVersion`](https://pkg.go.dev/github.com/vedadiyan/protobuf/runtime/protoimpl?tab=doc#EnforceVersion)
 to statically ensure that the generated code and runtime do not drift
 sufficiently far apart.
 
@@ -198,7 +198,7 @@ sufficiently far apart.
 This project is the second major revision
 ([released in 2020](https://blog.golang.org/a-new-go-api-for-protocol-buffers))
 of the Go protocol buffer API implemented by the
-[`google.golang.org/protobuf`](https://pkg.go.dev/mod/google.golang.org/protobuf)
+[`github.com/vedadiyan/protobuf`](https://pkg.go.dev/mod/github.com/vedadiyan/protobuf)
 module. The first major version
 ([released publicly in 2010](https://blog.golang.org/third-party-libraries-goprotobuf-and))
 is implemented by the
@@ -330,9 +330,9 @@ type Message interface {
 ```
 
 The new
-[`proto.Message`](https://pkg.go.dev/google.golang.org/protobuf/proto?tab=doc#Message)
+[`proto.Message`](https://pkg.go.dev/github.com/vedadiyan/protobuf/proto?tab=doc#Message)
 interface contains a single `ProtoReflect` method that returns a
-[`protoreflect.Message`](https://pkg.go.dev/google.golang.org/protobuf/reflect/protoreflect?tab=doc#Message),
+[`protoreflect.Message`](https://pkg.go.dev/github.com/vedadiyan/protobuf/reflect/protoreflect?tab=doc#Message),
 which is a reflective view over a protobuf message. In addition to making a
 breaking change to the `proto.Message` interface, we took this opportunity to
 cleanup the supporting functionality that operate on a `proto.Message`, split up

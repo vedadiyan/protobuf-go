@@ -21,17 +21,17 @@ import (
 	"strings"
 	"sync"
 
-	"google.golang.org/protobuf/internal/encoding/messageset"
-	"google.golang.org/protobuf/internal/errors"
-	"google.golang.org/protobuf/internal/flags"
-	"google.golang.org/protobuf/reflect/protoreflect"
+	"github.com/vedadiyan/protobuf/internal/encoding/messageset"
+	"github.com/vedadiyan/protobuf/internal/errors"
+	"github.com/vedadiyan/protobuf/internal/flags"
+	"github.com/vedadiyan/protobuf/reflect/protoreflect"
 )
 
 // conflictPolicy configures the policy for handling registration conflicts.
 //
 // It can be over-written at compile time with a linker-initialized variable:
 //
-//	go build -ldflags "-X google.golang.org/protobuf/reflect/protoregistry.conflictPolicy=warn"
+//	go build -ldflags "-X github.com/vedadiyan/protobuf/reflect/protoregistry.conflictPolicy=warn"
 //
 // It can be over-written at program execution with an environment variable:
 //
@@ -201,7 +201,7 @@ func (r *Files) checkGenProtoConflict(path string) {
 	}
 	pkgName := strings.TrimSuffix(strings.TrimPrefix(path, "google/protobuf/"), ".proto")
 	pkgName = strings.Replace(pkgName, "_", "", -1) + "pb" // e.g., "field_mask" => "fieldmaskpb"
-	currPath := "google.golang.org/protobuf/types/known/" + pkgName
+	currPath := "github.com/vedadiyan/protobuf/types/known/" + pkgName
 	panic(fmt.Sprintf(""+
 		"duplicate registration of %q\n"+
 		"\n"+

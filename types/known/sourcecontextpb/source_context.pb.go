@@ -34,8 +34,8 @@
 package sourcecontextpb
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -96,7 +96,7 @@ const file_google_protobuf_source_context_proto_rawDesc = "" +
 	"$google/protobuf/source_context.proto\x12\x0fgoogle.protobuf\",\n" +
 	"\rSourceContext\x12\x1b\n" +
 	"\tfile_name\x18\x01 \x01(\tR\bfileNameB\x8a\x01\n" +
-	"\x13com.google.protobufB\x12SourceContextProtoP\x01Z6google.golang.org/protobuf/types/known/sourcecontextpb\xa2\x02\x03GPB\xaa\x02\x1eGoogle.Protobuf.WellKnownTypesb\x06proto3"
+	"\x13com.google.protobufB\x12SourceContextProtoP\x01Z6github.com/vedadiyan/protobuf/types/known/sourcecontextpb\xa2\x02\x03GPB\xaa\x02\x1eGoogle.Protobuf.WellKnownTypesb\x06proto3"
 
 var (
 	file_google_protobuf_source_context_proto_rawDescOnce sync.Once

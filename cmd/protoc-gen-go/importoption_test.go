@@ -8,14 +8,14 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	importoptionpb "google.golang.org/protobuf/cmd/protoc-gen-go/testdata/import_option"
-	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/types/descriptorpb"
+	importoptionpb "github.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/import_option"
+	"github.com/vedadiyan/protobuf/encoding/protowire"
+	"github.com/vedadiyan/protobuf/proto"
+	"github.com/vedadiyan/protobuf/types/descriptorpb"
 
 	// Ensure the custom option is linked into this test binary.
 	// NB: import_option_unlinked is not linked into this test binary.
-	importoptioncustompb "google.golang.org/protobuf/cmd/protoc-gen-go/testdata/import_option_custom"
+	importoptioncustompb "github.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/import_option_custom"
 )
 
 func TestImportOption(t *testing.T) {

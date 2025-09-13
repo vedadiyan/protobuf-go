@@ -7,10 +7,10 @@ package impl_test
 import (
 	"testing"
 
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/testing/protopack"
+	"github.com/vedadiyan/protobuf/proto"
+	"github.com/vedadiyan/protobuf/testing/protopack"
 
-	lazytestpb "google.golang.org/protobuf/internal/testprotos/lazy"
+	lazytestpb "github.com/vedadiyan/protobuf/internal/testprotos/lazy"
 )
 
 // Constructs a message encoded in denormalized (non-minimal) wire format, but

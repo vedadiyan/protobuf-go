@@ -7,10 +7,10 @@
 package nameclash
 
 import (
-	_ "google.golang.org/protobuf/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_hybrid"
-	_ "google.golang.org/protobuf/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_hybrid3"
-	_ "google.golang.org/protobuf/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_opaque"
-	_ "google.golang.org/protobuf/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_opaque3"
-	_ "google.golang.org/protobuf/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_open"
-	_ "google.golang.org/protobuf/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_open3"
+	_ "github.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_hybrid"
+	_ "github.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_hybrid3"
+	_ "github.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_opaque"
+	_ "github.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_opaque3"
+	_ "github.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_open"
+	_ "github.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_open3"
 )

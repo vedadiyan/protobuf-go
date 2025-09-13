@@ -7,9 +7,9 @@ package proto_test
 import (
 	"testing"
 
-	"google.golang.org/protobuf/proto"
+	"github.com/vedadiyan/protobuf/proto"
 
-	lazyopaquepb "google.golang.org/protobuf/internal/testprotos/lazy/lazy_opaque"
+	lazyopaquepb "github.com/vedadiyan/protobuf/internal/testprotos/lazy/lazy_opaque"
 )
 
 // testMessageLinked returns a test message with a few fields of various

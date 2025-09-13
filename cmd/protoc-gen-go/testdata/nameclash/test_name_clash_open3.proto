@@ -27,7 +27,7 @@ package net.proto2.go.testdata.nameclashopen3;
 
 import "google/protobuf/go_features.proto";
 
-option go_package = "google.golang.org/protobuf/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_open3";
+option go_package = "github.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_open3";
 
 message M0 {
   int32 i1 = 1;

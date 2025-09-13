@@ -9,11 +9,11 @@ import (
 	"strings"
 	"testing"
 
-	"google.golang.org/protobuf/encoding/prototext"
-	"google.golang.org/protobuf/proto"
+	"github.com/vedadiyan/protobuf/encoding/prototext"
+	"github.com/vedadiyan/protobuf/proto"
 
-	testpb "google.golang.org/protobuf/internal/testprotos/test"
-	testeditionspb "google.golang.org/protobuf/internal/testprotos/testeditions"
+	testpb "github.com/vedadiyan/protobuf/internal/testprotos/test"
+	testeditionspb "github.com/vedadiyan/protobuf/internal/testprotos/testeditions"
 )
 
 func TestCheckInitializedErrors(t *testing.T) {

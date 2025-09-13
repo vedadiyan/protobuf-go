@@ -8,10 +8,10 @@
 package fieldtrack
 
 import (
-	_ "google.golang.org/protobuf/internal/testprotos/annotation"
-	test "google.golang.org/protobuf/internal/testprotos/test"
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	_ "github.com/vedadiyan/protobuf/internal/testprotos/annotation"
+	test "github.com/vedadiyan/protobuf/internal/testprotos/test"
+	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -620,7 +620,7 @@ const file_internal_testprotos_fieldtrack_fieldtrack_proto_rawDesc = "" +
 	"\x05value\x18\x02 \x01(\x0e2+.goproto.proto.test.TestAllTypes.NestedEnumR\x05value:\x028\x01\x1as\n" +
 	"\x15MapStringMessageEntry\x12\x10\n" +
 	"\x03key\x18\x01 \x01(\tR\x03key\x12D\n" +
-	"\x05value\x18\x02 \x01(\v2..goproto.proto.test.TestAllTypes.NestedMessageR\x05value:\x028\x01:\x06\xa8\xe0͎\x01\x01B;Z9google.golang.org/protobuf/internal/testprotos/fieldtrack"
+	"\x05value\x18\x02 \x01(\v2..goproto.proto.test.TestAllTypes.NestedMessageR\x05value:\x028\x01:\x06\xa8\xe0͎\x01\x01B;Z9github.com/vedadiyan/protobuf/internal/testprotos/fieldtrack"
 
 var (
 	file_internal_testprotos_fieldtrack_fieldtrack_proto_rawDescOnce sync.Once

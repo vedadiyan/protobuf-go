@@ -8,8 +8,8 @@
 package base
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -105,7 +105,7 @@ const file_cmd_protoc_gen_go_testdata_extensions_base_base_proto_rawDesc = "" +
 	"\vBaseMessage\x12\x14\n" +
 	"\x05field\x18\x01 \x01(\tR\x05field*\x04\b\x04\x10\n" +
 	"*\b\b\x10\x10\x80\x80\x80\x80\x02\"+\n" +
-	"\x1bMessageSetWireFormatMessage*\b\bd\x10\xff\xff\xff\xff\a:\x02\b\x01BGZEgoogle.golang.org/protobuf/cmd/protoc-gen-go/testdata/extensions/base"
+	"\x1bMessageSetWireFormatMessage*\b\bd\x10\xff\xff\xff\xff\a:\x02\b\x01BGZEgithub.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/extensions/base"
 
 var (
 	file_cmd_protoc_gen_go_testdata_extensions_base_base_proto_rawDescOnce sync.Once

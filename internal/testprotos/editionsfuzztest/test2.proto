@@ -6,7 +6,7 @@ syntax = "proto2";
 
 package goproto.proto.test;
 
-option go_package = "google.golang.org/protobuf/internal/testprotos/editionsfuzztest";
+option go_package = "github.com/vedadiyan/protobuf/internal/testprotos/editionsfuzztest";
 
 message TestAllTypesProto2 {
   message NestedMessage {

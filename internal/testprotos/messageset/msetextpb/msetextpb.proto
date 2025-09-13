@@ -8,7 +8,7 @@ package goproto.proto.messageset;
 
 import "internal/testprotos/messageset/messagesetpb/message_set.proto";
 
-option go_package = "google.golang.org/protobuf/internal/testprotos/messageset/msetextpb";
+option go_package = "github.com/vedadiyan/protobuf/internal/testprotos/messageset/msetextpb";
 
 message Ext1 {
   extend MessageSet {

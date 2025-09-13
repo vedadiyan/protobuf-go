@@ -7,11 +7,11 @@ package name_clash_test
 import (
 	"testing"
 
-	"google.golang.org/protobuf/proto"
+	"github.com/vedadiyan/protobuf/proto"
 
-	hpb "google.golang.org/protobuf/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_hybrid3"
-	opb "google.golang.org/protobuf/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_opaque3"
-	pb "google.golang.org/protobuf/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_open3"
+	hpb "github.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_hybrid3"
+	opb "github.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_opaque3"
+	pb "github.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_open3"
 )
 
 // TestOpenMangling3 tests the backwards compatible mangling of fields

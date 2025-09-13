@@ -8,9 +8,9 @@
 package sub
 
 import (
-	sub2 "google.golang.org/protobuf/cmd/protoc-gen-go/testdata/import_public/sub2"
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	sub2 "github.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/import_public/sub2"
+	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
 	math "math"
 	reflect "reflect"
 	sync "sync"
@@ -433,7 +433,7 @@ const file_cmd_protoc_gen_go_testdata_import_public_sub_a_proto_rawDesc = "" +
 	"\voneof_field*\r\n" +
 	"\x01E\x12\b\n" +
 	"\x04ZERO\x10\x00:L\n" +
-	"\x0fextension_field\x12#.goproto.protoc.import_public.sub.M\x18d \x01(\tR\x0eextensionFieldBIZGgoogle.golang.org/protobuf/cmd/protoc-gen-go/testdata/import_public/subP\x00"
+	"\x0fextension_field\x12#.goproto.protoc.import_public.sub.M\x18d \x01(\tR\x0eextensionFieldBIZGgithub.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/import_public/subP\x00"
 
 var (
 	file_cmd_protoc_gen_go_testdata_import_public_sub_a_proto_rawDescOnce sync.Once

@@ -8,10 +8,10 @@
 package test
 
 import (
-	enums "google.golang.org/protobuf/internal/testprotos/enums"
-	required "google.golang.org/protobuf/internal/testprotos/required"
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	enums "github.com/vedadiyan/protobuf/internal/testprotos/enums"
+	required "github.com/vedadiyan/protobuf/internal/testprotos/required"
+	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -4921,7 +4921,7 @@ const file_internal_testprotos_test_test_proto_rawDesc = "" +
 	"\x0eunpacked_float\x12*.goproto.proto.test.TestUnpackedExtensions\x18d \x03(\x02B\x02\x10\x00R\runpackedFloat:W\n" +
 	"\x0funpacked_double\x12*.goproto.proto.test.TestUnpackedExtensions\x18e \x03(\x01B\x02\x10\x00R\x0eunpackedDouble:S\n" +
 	"\runpacked_bool\x12*.goproto.proto.test.TestUnpackedExtensions\x18f \x03(\bB\x02\x10\x00R\funpackedBool:t\n" +
-	"\runpacked_enum\x12*.goproto.proto.test.TestUnpackedExtensions\x18g \x03(\x0e2\x1f.goproto.proto.test.ForeignEnumB\x02\x10\x00R\funpackedEnumB5Z3google.golang.org/protobuf/internal/testprotos/testP\x00"
+	"\runpacked_enum\x12*.goproto.proto.test.TestUnpackedExtensions\x18g \x03(\x0e2\x1f.goproto.proto.test.ForeignEnumB\x02\x10\x00R\funpackedEnumB5Z3github.com/vedadiyan/protobuf/internal/testprotos/testP\x00"
 
 var (
 	file_internal_testprotos_test_test_proto_rawDescOnce sync.Once

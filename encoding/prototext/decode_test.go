@@ -10,16 +10,16 @@ import (
 	"strings"
 	"testing"
 
-	"google.golang.org/protobuf/encoding/prototext"
-	"google.golang.org/protobuf/internal/flags"
-	"google.golang.org/protobuf/internal/protobuild"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoregistry"
+	"github.com/vedadiyan/protobuf/encoding/prototext"
+	"github.com/vedadiyan/protobuf/internal/flags"
+	"github.com/vedadiyan/protobuf/internal/protobuild"
+	"github.com/vedadiyan/protobuf/proto"
+	"github.com/vedadiyan/protobuf/reflect/protoregistry"
 
-	pb2 "google.golang.org/protobuf/internal/testprotos/textpb2"
-	pb3 "google.golang.org/protobuf/internal/testprotos/textpb3"
-	pbeditions "google.golang.org/protobuf/internal/testprotos/textpbeditions"
-	"google.golang.org/protobuf/types/known/anypb"
+	pb2 "github.com/vedadiyan/protobuf/internal/testprotos/textpb2"
+	pb3 "github.com/vedadiyan/protobuf/internal/testprotos/textpb3"
+	pbeditions "github.com/vedadiyan/protobuf/internal/testprotos/textpbeditions"
+	"github.com/vedadiyan/protobuf/types/known/anypb"
 )
 
 func TestUnmarshal(t *testing.T) {
