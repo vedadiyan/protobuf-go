@@ -15,7 +15,7 @@ import "google/protobuf/struct.proto";
 import "google/protobuf/timestamp.proto";
 import "google/protobuf/wrappers.proto";
 
-option go_package = "github.com/vedadiyan/protobuf/internal/testprotos/textpb2";
+option go_package = "github.com/vedadiyan/protobuf-go/internal/testprotos/textpb2";
 
 // Scalars contains optional scalar fields.
 message Scalars {

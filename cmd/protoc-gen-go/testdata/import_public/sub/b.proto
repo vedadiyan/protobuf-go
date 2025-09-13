@@ -6,6 +6,6 @@ syntax = "proto2";
 
 package goproto.protoc.import_public.sub;
 
-option go_package = "github.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/import_public/sub";
+option go_package = "github.com/vedadiyan/protobuf-go/cmd/protoc-gen-go/testdata/import_public/sub";
 
 message M2 {}

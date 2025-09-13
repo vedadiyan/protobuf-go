@@ -9,7 +9,7 @@ package hybrid.goproto.proto.testeditions;
 import "internal/testprotos/enums/enums_hybrid/enums.hybrid.proto";
 import "internal/testprotos/testeditions/testeditions_hybrid/test_import.hybrid.proto";
 
-option go_package = "github.com/vedadiyan/protobuf/internal/testprotos/testeditions/testeditions_hybrid";
+option go_package = "github.com/vedadiyan/protobuf-go/internal/testprotos/testeditions/testeditions_hybrid";
 import "google/protobuf/go_features.proto";
 option features.(pb.go).api_level = API_HYBRID;
 

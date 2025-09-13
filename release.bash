@@ -79,7 +79,7 @@ fi
 git commit -a -m "all: release $(version_string)"
 
 # Build release binaries.
-go test github.com/vedadiyan/protobuf -run='^TestIntegration$' -timeout=60m -count=1 "$@" -buildRelease
+go test github.com/vedadiyan/protobuf-go -run='^TestIntegration$' -timeout=60m -count=1 "$@" -buildRelease
 
 # Create commit to start development after release.
 VERSION_PRERELEASE="${VERSION_PRERELEASE}.devel" # append ".devel"

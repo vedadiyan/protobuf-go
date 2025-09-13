@@ -6,7 +6,7 @@ edition = "2023";
 
 package goproto.protoc.protoeditions;
 
-option go_package = "github.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/protoeditions";
+option go_package = "github.com/vedadiyan/protobuf-go/cmd/protoc-gen-go/testdata/protoeditions";
 
 message Layer1 {
   message Layer2 {

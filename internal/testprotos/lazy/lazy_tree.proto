@@ -6,7 +6,7 @@ edition = "2023";
 
 package lazy_tree;
 
-option go_package = "github.com/vedadiyan/protobuf/internal/testprotos/lazy";
+option go_package = "github.com/vedadiyan/protobuf-go/internal/testprotos/lazy";
 
 message Node {
   Node nested = 99 [lazy = true];

@@ -8,7 +8,7 @@ package goproto.protoc.protoeditions;
 
 import "google/protobuf/go_features.proto";
 
-option go_package = "github.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/protoeditions";
+option go_package = "github.com/vedadiyan/protobuf-go/cmd/protoc-gen-go/testdata/protoeditions";
 option features.(pb.go).legacy_unmarshal_json_enum = true;
 
 // EnumTypeWithLegacyUnmarshalJSON comment.

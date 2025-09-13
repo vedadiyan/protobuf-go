@@ -15,7 +15,7 @@ import "google/protobuf/struct.proto";
 import "google/protobuf/timestamp.proto";
 import "google/protobuf/wrappers.proto";
 
-option go_package = "github.com/vedadiyan/protobuf/internal/testprotos/textpbeditions/textpbeditions_opaque";
+option go_package = "github.com/vedadiyan/protobuf-go/internal/testprotos/textpbeditions/textpbeditions_opaque";
 import "google/protobuf/go_features.proto";
 option features.(pb.go).api_level = API_OPAQUE;
 option features.enum_type = CLOSED;

@@ -12,7 +12,7 @@ package goproto.proto.irregular;
 
 import "internal/testprotos/irregular/irregular.proto";
 
-option go_package = "github.com/vedadiyan/protobuf/internal/testprotos/irregular";
+option go_package = "github.com/vedadiyan/protobuf-go/internal/testprotos/irregular";
 
 message Message {
   optional .goproto.proto.irregular.IrregularMessage optional_message = 1;

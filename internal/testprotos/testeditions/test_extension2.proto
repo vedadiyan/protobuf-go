@@ -8,7 +8,7 @@ package goproto.proto.testeditions;
 
 import "internal/testprotos/testeditions/test_extension.proto";
 
-option go_package = "github.com/vedadiyan/protobuf/internal/testprotos/testeditions";
+option go_package = "github.com/vedadiyan/protobuf-go/internal/testprotos/testeditions";
 option features.repeated_field_encoding = PACKED;
 
 extend TestFeatureResolution {

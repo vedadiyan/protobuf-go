@@ -8,7 +8,7 @@ Basic operation:
 $ go install github.com/dvyukov/go-fuzz/go-fuzz
 $ go install github.com/mdempsky/go114-fuzz-build
 $ cd internal/fuzz/{fuzzer}
-$ go114-fuzz-build github.com/vedadiyan/protobuf/internal/fuzz/{fuzzer}
+$ go114-fuzz-build github.com/vedadiyan/protobuf-go/internal/fuzz/{fuzzer}
 $ go-fuzz
 ```
 

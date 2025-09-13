@@ -12,7 +12,7 @@ package goproto.proto.test;
 
 import "google/protobuf/go_features.proto";
 
-option go_package = "github.com/vedadiyan/protobuf/internal/testprotos/mixed";
+option go_package = "github.com/vedadiyan/protobuf-go/internal/testprotos/mixed";
 
 message Open {
   option features.(pb.go).api_level = API_OPEN;

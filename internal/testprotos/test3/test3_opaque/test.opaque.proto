@@ -8,7 +8,7 @@ package opaque.goproto.proto.test3;
 
 import "internal/testprotos/test3/test3_opaque/test_import.opaque.proto";
 
-option go_package = "github.com/vedadiyan/protobuf/internal/testprotos/test3/test3_opaque";
+option go_package = "github.com/vedadiyan/protobuf-go/internal/testprotos/test3/test3_opaque";
 
 
 message TestAllTypes {

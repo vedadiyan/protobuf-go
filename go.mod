@@ -1,4 +1,4 @@
-module github.com/vedadiyan/protobuf
+module github.com/vedadiyan/protobuf-go
 
 go 1.23
 

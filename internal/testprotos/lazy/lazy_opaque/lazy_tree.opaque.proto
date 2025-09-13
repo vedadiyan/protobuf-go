@@ -6,7 +6,7 @@ edition = "2023";
 
 package opaque.lazy_tree;
 
-option go_package = "github.com/vedadiyan/protobuf/internal/testprotos/lazy/lazy_opaque";
+option go_package = "github.com/vedadiyan/protobuf-go/internal/testprotos/lazy/lazy_opaque";
 import "google/protobuf/go_features.proto";
 option features.(pb.go).api_level = API_OPAQUE;
 

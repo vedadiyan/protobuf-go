@@ -8,7 +8,7 @@ package goproto.protoc.enumprefix;
 
 import "google/protobuf/go_features.proto";
 
-option go_package = "github.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/enumprefix";
+option go_package = "github.com/vedadiyan/protobuf-go/cmd/protoc-gen-go/testdata/enumprefix";
 option features.(pb.go).strip_enum_prefix = STRIP_ENUM_PREFIX_STRIP;
 
 enum Strip {

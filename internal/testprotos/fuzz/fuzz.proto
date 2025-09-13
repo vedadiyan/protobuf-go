@@ -9,7 +9,7 @@ package goproto.proto.fuzz;
 import "internal/testprotos/test/test.proto";
 import "internal/testprotos/test3/test.proto";
 
-option go_package = "github.com/vedadiyan/protobuf/internal/testprotos/fuzz";
+option go_package = "github.com/vedadiyan/protobuf-go/internal/testprotos/fuzz";
 
 // Fuzz is a container for every message we want to make available to the
 // fuzzer.

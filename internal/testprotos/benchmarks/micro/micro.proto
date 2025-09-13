@@ -6,7 +6,7 @@ syntax = "proto2";
 
 package goproto.proto.benchmarks.microt;
 
-option go_package = "github.com/vedadiyan/protobuf/internal/testprotos/benchmarks/micro";
+option go_package = "github.com/vedadiyan/protobuf-go/internal/testprotos/benchmarks/micro";
 
 message SixteenRequired {
   required int32 f1 = 1;

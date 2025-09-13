@@ -9,7 +9,7 @@ package goproto.proto.testeditions;
 import "internal/testprotos/enums/enums.proto";
 import "internal/testprotos/testeditions/test_import.proto";
 
-option go_package = "github.com/vedadiyan/protobuf/internal/testprotos/testeditions";
+option go_package = "github.com/vedadiyan/protobuf-go/internal/testprotos/testeditions";
 
 message TestAllTypes {
   message NestedMessage {

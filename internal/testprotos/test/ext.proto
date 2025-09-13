@@ -8,7 +8,7 @@ package goproto.proto.test;
 
 import "internal/testprotos/test/test.proto";
 
-option go_package = "github.com/vedadiyan/protobuf/internal/testprotos/test";
+option go_package = "github.com/vedadiyan/protobuf-go/internal/testprotos/test";
 
 extend TestAllExtensions {
   optional int32 foreign_int32_extension = 2000;

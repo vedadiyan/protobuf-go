@@ -6,7 +6,7 @@ edition = "2023";
 
 package goproto.proto.testeditions;
 
-option go_package = "github.com/vedadiyan/protobuf/internal/testprotos/testeditions";
+option go_package = "github.com/vedadiyan/protobuf-go/internal/testprotos/testeditions";
 
 message ImportMessage {}
 

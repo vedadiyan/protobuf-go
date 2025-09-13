@@ -8,7 +8,7 @@ package testretention;
 
 import "google/protobuf/descriptor.proto";
 
-option go_package = "github.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/retention";
+option go_package = "github.com/vedadiyan/protobuf-go/cmd/protoc-gen-go/testdata/retention";
 
 // Retention attributes set on fields nested within a message
 message OptionsMessage {

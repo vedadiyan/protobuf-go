@@ -6,7 +6,7 @@ edition = "2023";
 
 package hybrid.goproto.proto.messageset;
 
-option go_package = "github.com/vedadiyan/protobuf/internal/testprotos/messageset/messagesetpb/messagesetpb_hybrid";
+option go_package = "github.com/vedadiyan/protobuf-go/internal/testprotos/messageset/messagesetpb/messagesetpb_hybrid";
 import "google/protobuf/go_features.proto";
 option features.(pb.go).api_level = API_HYBRID;
 

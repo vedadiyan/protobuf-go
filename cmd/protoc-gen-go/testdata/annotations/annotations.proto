@@ -6,7 +6,7 @@ syntax = "proto2";
 
 package goproto.protoc.annotations;
 
-option go_package = "github.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/annotations";
+option go_package = "github.com/vedadiyan/protobuf-go/cmd/protoc-gen-go/testdata/annotations";
 
 message AnnotationsTestMessage {
   optional string AnnotationsTestField = 1;

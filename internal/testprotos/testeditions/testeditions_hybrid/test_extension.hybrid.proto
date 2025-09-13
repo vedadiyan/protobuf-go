@@ -8,7 +8,7 @@ package hybrid.goproto.proto.testeditions;
 
 import "internal/testprotos/testeditions/testeditions_hybrid/test.hybrid.proto";
 
-option go_package = "github.com/vedadiyan/protobuf/internal/testprotos/testeditions/testeditions_hybrid";
+option go_package = "github.com/vedadiyan/protobuf-go/internal/testprotos/testeditions/testeditions_hybrid";
 import "google/protobuf/go_features.proto";
 option features.(pb.go).api_level = API_HYBRID;
 option features.repeated_field_encoding = EXPANDED;

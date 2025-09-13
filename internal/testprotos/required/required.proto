@@ -6,7 +6,7 @@ edition = "2023";
 
 package goproto.proto.testrequired;
 
-option go_package = "github.com/vedadiyan/protobuf/internal/testprotos/required";
+option go_package = "github.com/vedadiyan/protobuf-go/internal/testprotos/required";
 
 message Int32 {
   int32 v = 1 [features.field_presence = LEGACY_REQUIRED];

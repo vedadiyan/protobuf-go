@@ -8,7 +8,7 @@ package lazy_extension_test;
 
 import "internal/testprotos/messageset/messagesetpb/message_set.proto";
 
-option go_package = "github.com/vedadiyan/protobuf/internal/testprotos/lazy";
+option go_package = "github.com/vedadiyan/protobuf-go/internal/testprotos/lazy";
 
 // This message contains a message set.
 message Holder {

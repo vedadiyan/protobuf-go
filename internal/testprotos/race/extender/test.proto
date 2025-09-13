@@ -8,7 +8,7 @@ package goproto.proto.test;
 
 import "internal/testprotos/race/message/test.proto";
 
-option go_package = "github.com/vedadiyan/protobuf/internal/testprotos/race/extender";
+option go_package = "github.com/vedadiyan/protobuf-go/internal/testprotos/race/extender";
 
 message OtherMessage {
   int32 i32 = 1;

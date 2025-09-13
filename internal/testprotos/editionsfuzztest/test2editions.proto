@@ -8,7 +8,7 @@ package goproto.proto.test;
 
 import "google/protobuf/go_features.proto";
 
-option go_package = "github.com/vedadiyan/protobuf/internal/testprotos/editionsfuzztest";
+option go_package = "github.com/vedadiyan/protobuf-go/internal/testprotos/editionsfuzztest";
 option features.repeated_field_encoding = EXPANDED;
 option features.utf8_validation = NONE;
 

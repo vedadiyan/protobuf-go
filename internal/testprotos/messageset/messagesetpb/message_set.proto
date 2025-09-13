@@ -6,7 +6,7 @@ edition = "2023";
 
 package goproto.proto.messageset;
 
-option go_package = "github.com/vedadiyan/protobuf/internal/testprotos/messageset/messagesetpb";
+option go_package = "github.com/vedadiyan/protobuf-go/internal/testprotos/messageset/messagesetpb";
 
 message MessageSet {
   option message_set_wire_format = true;

@@ -9,7 +9,7 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/vedadiyan/protobuf/reflect/protoreflect"
+	"github.com/vedadiyan/protobuf-go/reflect/protoreflect"
 )
 
 func (Export) UnmarshalField(msg any, fieldNum int32) {

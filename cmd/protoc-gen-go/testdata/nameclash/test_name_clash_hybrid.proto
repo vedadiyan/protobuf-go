@@ -27,7 +27,7 @@ package net.proto2.go.testdata.nameclashhybrid;
 
 import "google/protobuf/go_features.proto";
 
-option go_package = "github.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_hybrid";
+option go_package = "github.com/vedadiyan/protobuf-go/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_hybrid";
 
 option features.(pb.go).api_level = API_HYBRID;
 

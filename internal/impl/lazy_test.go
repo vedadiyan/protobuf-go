@@ -11,17 +11,17 @@ import (
 	"unsafe"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/vedadiyan/protobuf/internal/errors"
-	"github.com/vedadiyan/protobuf/internal/flags"
-	"github.com/vedadiyan/protobuf/internal/impl"
-	"github.com/vedadiyan/protobuf/internal/protobuild"
-	"github.com/vedadiyan/protobuf/proto"
-	"github.com/vedadiyan/protobuf/runtime/protoimpl"
-	"github.com/vedadiyan/protobuf/testing/protocmp"
+	"github.com/vedadiyan/protobuf-go/internal/errors"
+	"github.com/vedadiyan/protobuf-go/internal/flags"
+	"github.com/vedadiyan/protobuf-go/internal/impl"
+	"github.com/vedadiyan/protobuf-go/internal/protobuild"
+	"github.com/vedadiyan/protobuf-go/proto"
+	"github.com/vedadiyan/protobuf-go/runtime/protoimpl"
+	"github.com/vedadiyan/protobuf-go/testing/protocmp"
 
-	lazytestpb "github.com/vedadiyan/protobuf/internal/testprotos/lazy"
-	"github.com/vedadiyan/protobuf/internal/testprotos/messageset/messagesetpb"
-	testpb "github.com/vedadiyan/protobuf/internal/testprotos/test"
+	lazytestpb "github.com/vedadiyan/protobuf-go/internal/testprotos/lazy"
+	"github.com/vedadiyan/protobuf-go/internal/testprotos/messageset/messagesetpb"
+	testpb "github.com/vedadiyan/protobuf-go/internal/testprotos/test"
 )
 
 func TestLazyExtensions(t *testing.T) {
