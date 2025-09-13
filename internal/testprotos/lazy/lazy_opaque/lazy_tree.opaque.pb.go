@@ -8,9 +8,9 @@
 package lazy_opaque
 
 import (
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
-	_ "github.com/vedadiyan/protobuf/types/gofeaturespb"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
+	_ "github.com/vedadiyan/protobuf-go/types/gofeaturespb"
 	reflect "reflect"
 	unsafe "unsafe"
 )
@@ -581,7 +581,7 @@ const file_internal_testprotos_lazy_lazy_opaque_lazy_tree_opaque_proto_rawDesc =
 	"\x06double\x18\f \x01(\x01R\x06double\x12\x12\n" +
 	"\x04bool\x18\r \x01(\bR\x04bool\x12\x16\n" +
 	"\x06string\x18\x0e \x01(\tR\x06string\x12\x14\n" +
-	"\x05bytes\x18\x0f \x01(\fR\x05bytesBIZ?github.com/vedadiyan/protobuf/internal/testprotos/lazy/lazy_opaque\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x05bytes\x18\x0f \x01(\fR\x05bytesBIZ?github.com/vedadiyan/protobuf-go/internal/testprotos/lazy/lazy_opaque\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_internal_testprotos_lazy_lazy_opaque_lazy_tree_opaque_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_internal_testprotos_lazy_lazy_opaque_lazy_tree_opaque_proto_goTypes = []any{

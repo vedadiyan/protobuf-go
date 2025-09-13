@@ -16,14 +16,14 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/vedadiyan/protobuf/encoding/protowire"
-	"github.com/vedadiyan/protobuf/internal/genid"
-	"github.com/vedadiyan/protobuf/internal/msgfmt"
-	"github.com/vedadiyan/protobuf/proto"
-	"github.com/vedadiyan/protobuf/reflect/protoreflect"
-	"github.com/vedadiyan/protobuf/reflect/protoregistry"
-	"github.com/vedadiyan/protobuf/runtime/protoiface"
-	"github.com/vedadiyan/protobuf/runtime/protoimpl"
+	"github.com/vedadiyan/protobuf-go/encoding/protowire"
+	"github.com/vedadiyan/protobuf-go/internal/genid"
+	"github.com/vedadiyan/protobuf-go/internal/msgfmt"
+	"github.com/vedadiyan/protobuf-go/proto"
+	"github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	"github.com/vedadiyan/protobuf-go/reflect/protoregistry"
+	"github.com/vedadiyan/protobuf-go/runtime/protoiface"
+	"github.com/vedadiyan/protobuf-go/runtime/protoimpl"
 )
 
 var (

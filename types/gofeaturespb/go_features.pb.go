@@ -11,9 +11,9 @@
 package gofeaturespb
 
 import (
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
-	descriptorpb "github.com/vedadiyan/protobuf/types/descriptorpb"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
+	descriptorpb "github.com/vedadiyan/protobuf-go/types/descriptorpb"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -250,7 +250,7 @@ const file_google_protobuf_go_features_proto_rawDesc = "" +
 	"\x16STRIP_ENUM_PREFIX_KEEP\x10\x01\x12#\n" +
 	"\x1fSTRIP_ENUM_PREFIX_GENERATE_BOTH\x10\x02\x12\x1b\n" +
 	"\x17STRIP_ENUM_PREFIX_STRIP\x10\x03:<\n" +
-	"\x02go\x12\x1b.google.protobuf.FeatureSet\x18\xea\a \x01(\v2\x0e.pb.GoFeaturesR\x02goB/Z-github.com/vedadiyan/protobuf/types/gofeaturespb"
+	"\x02go\x12\x1b.google.protobuf.FeatureSet\x18\xea\a \x01(\v2\x0e.pb.GoFeaturesR\x02goB/Z-github.com/vedadiyan/protobuf-go/types/gofeaturespb"
 
 var (
 	file_google_protobuf_go_features_proto_rawDescOnce sync.Once

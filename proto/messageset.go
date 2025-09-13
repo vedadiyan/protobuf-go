@@ -5,13 +5,13 @@
 package proto
 
 import (
-	"github.com/vedadiyan/protobuf/encoding/protowire"
-	"github.com/vedadiyan/protobuf/internal/encoding/messageset"
-	"github.com/vedadiyan/protobuf/internal/errors"
-	"github.com/vedadiyan/protobuf/internal/flags"
-	"github.com/vedadiyan/protobuf/internal/order"
-	"github.com/vedadiyan/protobuf/reflect/protoreflect"
-	"github.com/vedadiyan/protobuf/reflect/protoregistry"
+	"github.com/vedadiyan/protobuf-go/encoding/protowire"
+	"github.com/vedadiyan/protobuf-go/internal/encoding/messageset"
+	"github.com/vedadiyan/protobuf-go/internal/errors"
+	"github.com/vedadiyan/protobuf-go/internal/flags"
+	"github.com/vedadiyan/protobuf-go/internal/order"
+	"github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	"github.com/vedadiyan/protobuf-go/reflect/protoregistry"
 )
 
 func (o MarshalOptions) sizeMessageSet(m protoreflect.Message) (size int) {

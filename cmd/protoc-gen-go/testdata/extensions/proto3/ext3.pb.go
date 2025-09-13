@@ -8,9 +8,9 @@
 package proto3
 
 import (
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
-	descriptorpb "github.com/vedadiyan/protobuf/types/descriptorpb"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
+	descriptorpb "github.com/vedadiyan/protobuf-go/types/descriptorpb"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -483,7 +483,7 @@ const file_cmd_protoc_gen_go_testdata_extensions_proto3_ext3_proto_rawDesc = "" 
 	"\x19repeated_extension_double\x12\x1f.google.protobuf.MessageOptions\x18\xde\x0f \x03(\x01R\x17repeatedExtensionDouble:\\\n" +
 	"\x19repeated_extension_string\x12\x1f.google.protobuf.MessageOptions\x18\xdf\x0f \x03(\tR\x17repeatedExtensionString:Z\n" +
 	"\x18repeated_extension_bytes\x12\x1f.google.protobuf.MessageOptions\x18\xe0\x0f \x03(\fR\x16repeatedExtensionBytes:\x88\x01\n" +
-	"\x1arepeated_extension_Message\x12\x1f.google.protobuf.MessageOptions\x18\xe1\x0f \x03(\v2(.goproto.protoc.extension.proto3.MessageR\x18repeatedExtensionMessageBIZGgithub.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/extensions/proto3b\x06proto3"
+	"\x1arepeated_extension_Message\x12\x1f.google.protobuf.MessageOptions\x18\xe1\x0f \x03(\v2(.goproto.protoc.extension.proto3.MessageR\x18repeatedExtensionMessageBIZGgithub.com/vedadiyan/protobuf-go/cmd/protoc-gen-go/testdata/extensions/proto3b\x06proto3"
 
 var (
 	file_cmd_protoc_gen_go_testdata_extensions_proto3_ext3_proto_rawDescOnce sync.Once

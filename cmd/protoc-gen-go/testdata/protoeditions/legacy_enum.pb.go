@@ -8,9 +8,9 @@
 package protoeditions
 
 import (
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
-	_ "github.com/vedadiyan/protobuf/types/gofeaturespb"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
+	_ "github.com/vedadiyan/protobuf-go/types/gofeaturespb"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -231,7 +231,7 @@ const file_cmd_protoc_gen_go_testdata_protoeditions_legacy_enum_proto_rawDesc = 
 	"\x18EnumWithoutUnmarshalJSON\x12\x1e\n" +
 	"\x1aWITHOUT_UNMARSHAL_JSON_FOO\x10\x00\x12\x1e\n" +
 	"\x1aWITHOUT_UNMARSHAL_JSON_BAR\x10\x01\x12\x1e\n" +
-	"\x1aWITHOUT_UNMARSHAL_JSON_BAZ\x10\x02\x1a\a:\x05\xd2>\x02\b\x00BMZCgithub.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/protoeditions\x92\x03\x05\xd2>\x02\b\x01b\beditionsp\xe8\a"
+	"\x1aWITHOUT_UNMARSHAL_JSON_BAZ\x10\x02\x1a\a:\x05\xd2>\x02\b\x00BMZCgithub.com/vedadiyan/protobuf-go/cmd/protoc-gen-go/testdata/protoeditions\x92\x03\x05\xd2>\x02\b\x01b\beditionsp\xe8\a"
 
 var (
 	file_cmd_protoc_gen_go_testdata_protoeditions_legacy_enum_proto_rawDescOnce sync.Once

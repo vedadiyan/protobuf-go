@@ -6,7 +6,7 @@
 // See https://protobuf.dev/programming-guides/encoding.
 //
 // For marshaling and unmarshaling entire protobuf messages,
-// use the [github.com/vedadiyan/protobuf/proto] package instead.
+// use the [github.com/vedadiyan/protobuf-go/proto] package instead.
 package protowire
 
 import (
@@ -14,7 +14,7 @@ import (
 	"math"
 	"math/bits"
 
-	"github.com/vedadiyan/protobuf/internal/errors"
+	"github.com/vedadiyan/protobuf-go/internal/errors"
 )
 
 // Number represents the field number.

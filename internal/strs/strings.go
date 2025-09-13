@@ -11,8 +11,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/vedadiyan/protobuf/internal/flags"
-	"github.com/vedadiyan/protobuf/reflect/protoreflect"
+	"github.com/vedadiyan/protobuf-go/internal/flags"
+	"github.com/vedadiyan/protobuf-go/reflect/protoreflect"
 )
 
 // EnforceUTF8 reports whether to enforce strict UTF-8 validation.

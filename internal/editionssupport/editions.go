@@ -5,7 +5,7 @@
 // Package editionssupport defines constants for editions that are supported.
 package editionssupport
 
-import "github.com/vedadiyan/protobuf/types/descriptorpb"
+import "github.com/vedadiyan/protobuf-go/types/descriptorpb"
 
 const (
 	Minimum = descriptorpb.Edition_EDITION_PROTO2

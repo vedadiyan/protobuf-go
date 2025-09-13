@@ -13,10 +13,10 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/vedadiyan/protobuf/reflect/protoreflect"
-	"github.com/vedadiyan/protobuf/reflect/protoregistry"
-	"github.com/vedadiyan/protobuf/runtime/protoiface"
-	"github.com/vedadiyan/protobuf/runtime/protoimpl"
+	"github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	"github.com/vedadiyan/protobuf-go/reflect/protoregistry"
+	"github.com/vedadiyan/protobuf-go/runtime/protoiface"
+	"github.com/vedadiyan/protobuf-go/runtime/protoimpl"
 )
 
 const (

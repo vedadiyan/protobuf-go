@@ -9,11 +9,11 @@ package filetype
 import (
 	"reflect"
 
-	"github.com/vedadiyan/protobuf/internal/descopts"
-	"github.com/vedadiyan/protobuf/internal/filedesc"
-	pimpl "github.com/vedadiyan/protobuf/internal/impl"
-	"github.com/vedadiyan/protobuf/reflect/protoreflect"
-	"github.com/vedadiyan/protobuf/reflect/protoregistry"
+	"github.com/vedadiyan/protobuf-go/internal/descopts"
+	"github.com/vedadiyan/protobuf-go/internal/filedesc"
+	pimpl "github.com/vedadiyan/protobuf-go/internal/impl"
+	"github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	"github.com/vedadiyan/protobuf-go/reflect/protoregistry"
 )
 
 // Builder constructs type descriptors from a raw file descriptor

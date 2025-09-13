@@ -9,12 +9,12 @@ import (
 	"bytes"
 	"errors"
 
-	"github.com/vedadiyan/protobuf/internal/genid"
-	"github.com/vedadiyan/protobuf/internal/order"
-	"github.com/vedadiyan/protobuf/proto"
-	"github.com/vedadiyan/protobuf/reflect/protopath"
-	"github.com/vedadiyan/protobuf/reflect/protoreflect"
-	"github.com/vedadiyan/protobuf/reflect/protoregistry"
+	"github.com/vedadiyan/protobuf-go/internal/genid"
+	"github.com/vedadiyan/protobuf-go/internal/order"
+	"github.com/vedadiyan/protobuf-go/proto"
+	"github.com/vedadiyan/protobuf-go/reflect/protopath"
+	"github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	"github.com/vedadiyan/protobuf-go/reflect/protoregistry"
 )
 
 var (

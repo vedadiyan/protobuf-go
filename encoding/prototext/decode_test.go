@@ -10,16 +10,16 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/vedadiyan/protobuf/encoding/prototext"
-	"github.com/vedadiyan/protobuf/internal/flags"
-	"github.com/vedadiyan/protobuf/internal/protobuild"
-	"github.com/vedadiyan/protobuf/proto"
-	"github.com/vedadiyan/protobuf/reflect/protoregistry"
+	"github.com/vedadiyan/protobuf-go/encoding/prototext"
+	"github.com/vedadiyan/protobuf-go/internal/flags"
+	"github.com/vedadiyan/protobuf-go/internal/protobuild"
+	"github.com/vedadiyan/protobuf-go/proto"
+	"github.com/vedadiyan/protobuf-go/reflect/protoregistry"
 
-	pb2 "github.com/vedadiyan/protobuf/internal/testprotos/textpb2"
-	pb3 "github.com/vedadiyan/protobuf/internal/testprotos/textpb3"
-	pbeditions "github.com/vedadiyan/protobuf/internal/testprotos/textpbeditions"
-	"github.com/vedadiyan/protobuf/types/known/anypb"
+	pb2 "github.com/vedadiyan/protobuf-go/internal/testprotos/textpb2"
+	pb3 "github.com/vedadiyan/protobuf-go/internal/testprotos/textpb3"
+	pbeditions "github.com/vedadiyan/protobuf-go/internal/testprotos/textpbeditions"
+	"github.com/vedadiyan/protobuf-go/types/known/anypb"
 )
 
 func TestUnmarshal(t *testing.T) {

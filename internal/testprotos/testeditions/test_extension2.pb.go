@@ -8,8 +8,8 @@
 package testeditions
 
 import (
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -107,7 +107,7 @@ const file_internal_testprotos_testeditions_test_extension2_proto_rawDesc = "" +
 	"/other_file_message_expanded_extension_overriden\x121.goproto.proto.testeditions.TestFeatureResolution\x18\b \x03(\x05B\x05\xaa\x01\x02\x18\x02R*otherFileMessageExpandedExtensionOverriden2\x7f\n" +
 	"#other_file_message_packed_extension\x121.goproto.proto.testeditions.TestFeatureResolution\x18\t \x03(\x05R\x1fotherFileMessagePackedExtension:\x9b\x01\n" +
 	".other_file_global_expanded_extension_overriden\x121.goproto.proto.testeditions.TestFeatureResolution\x18\x06 \x03(\x05B\x05\xaa\x01\x02\x18\x02R)otherFileGlobalExpandedExtensionOverriden:}\n" +
-	"\"other_file_global_packed_extension\x121.goproto.proto.testeditions.TestFeatureResolution\x18\a \x03(\x05R\x1eotherFileGlobalPackedExtensionBBZ;github.com/vedadiyan/protobuf/internal/testprotos/testeditions\x92\x03\x02\x18\x01b\beditionsp\xe8\a"
+	"\"other_file_global_packed_extension\x121.goproto.proto.testeditions.TestFeatureResolution\x18\a \x03(\x05R\x1eotherFileGlobalPackedExtensionBBZ;github.com/vedadiyan/protobuf-go/internal/testprotos/testeditions\x92\x03\x02\x18\x01b\beditionsp\xe8\a"
 
 var (
 	file_internal_testprotos_testeditions_test_extension2_proto_rawDescOnce sync.Once

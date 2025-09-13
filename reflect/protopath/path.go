@@ -9,8 +9,8 @@ package protopath
 import (
 	"fmt"
 
-	"github.com/vedadiyan/protobuf/internal/msgfmt"
-	"github.com/vedadiyan/protobuf/reflect/protoreflect"
+	"github.com/vedadiyan/protobuf-go/internal/msgfmt"
+	"github.com/vedadiyan/protobuf-go/reflect/protoreflect"
 )
 
 // NOTE: The Path and Values are separate types here since there are use cases

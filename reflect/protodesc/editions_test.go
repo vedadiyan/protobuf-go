@@ -7,13 +7,13 @@ package protodesc
 import (
 	"testing"
 
-	"github.com/vedadiyan/protobuf/internal/genid"
-	"github.com/vedadiyan/protobuf/proto"
-	"github.com/vedadiyan/protobuf/reflect/protoreflect"
-	"github.com/vedadiyan/protobuf/reflect/protoregistry"
-	"github.com/vedadiyan/protobuf/types/descriptorpb"
-	"github.com/vedadiyan/protobuf/types/dynamicpb"
-	"github.com/vedadiyan/protobuf/types/gofeaturespb"
+	"github.com/vedadiyan/protobuf-go/internal/genid"
+	"github.com/vedadiyan/protobuf-go/proto"
+	"github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	"github.com/vedadiyan/protobuf-go/reflect/protoregistry"
+	"github.com/vedadiyan/protobuf-go/types/descriptorpb"
+	"github.com/vedadiyan/protobuf-go/types/dynamicpb"
+	"github.com/vedadiyan/protobuf-go/types/gofeaturespb"
 )
 
 func TestGoFeatures_NotExpectedType(t *testing.T) {

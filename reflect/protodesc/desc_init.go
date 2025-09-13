@@ -5,13 +5,13 @@
 package protodesc
 
 import (
-	"github.com/vedadiyan/protobuf/internal/errors"
-	"github.com/vedadiyan/protobuf/internal/filedesc"
-	"github.com/vedadiyan/protobuf/internal/strs"
-	"github.com/vedadiyan/protobuf/proto"
-	"github.com/vedadiyan/protobuf/reflect/protoreflect"
+	"github.com/vedadiyan/protobuf-go/internal/errors"
+	"github.com/vedadiyan/protobuf-go/internal/filedesc"
+	"github.com/vedadiyan/protobuf-go/internal/strs"
+	"github.com/vedadiyan/protobuf-go/proto"
+	"github.com/vedadiyan/protobuf-go/reflect/protoreflect"
 
-	"github.com/vedadiyan/protobuf/types/descriptorpb"
+	"github.com/vedadiyan/protobuf-go/types/descriptorpb"
 )
 
 type descsByName map[protoreflect.FullName]protoreflect.Descriptor

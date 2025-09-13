@@ -7,17 +7,17 @@ package prototext_test
 import (
 	"testing"
 
-	"github.com/vedadiyan/protobuf/encoding/prototext"
-	"github.com/vedadiyan/protobuf/proto"
-	"github.com/vedadiyan/protobuf/reflect/protoregistry"
+	"github.com/vedadiyan/protobuf-go/encoding/prototext"
+	"github.com/vedadiyan/protobuf-go/proto"
+	"github.com/vedadiyan/protobuf-go/reflect/protoregistry"
 
-	pb2 "github.com/vedadiyan/protobuf/internal/testprotos/textpb2"
-	"github.com/vedadiyan/protobuf/types/known/anypb"
-	"github.com/vedadiyan/protobuf/types/known/durationpb"
-	"github.com/vedadiyan/protobuf/types/known/emptypb"
-	"github.com/vedadiyan/protobuf/types/known/structpb"
-	"github.com/vedadiyan/protobuf/types/known/timestamppb"
-	"github.com/vedadiyan/protobuf/types/known/wrapperspb"
+	pb2 "github.com/vedadiyan/protobuf-go/internal/testprotos/textpb2"
+	"github.com/vedadiyan/protobuf-go/types/known/anypb"
+	"github.com/vedadiyan/protobuf-go/types/known/durationpb"
+	"github.com/vedadiyan/protobuf-go/types/known/emptypb"
+	"github.com/vedadiyan/protobuf-go/types/known/structpb"
+	"github.com/vedadiyan/protobuf-go/types/known/timestamppb"
+	"github.com/vedadiyan/protobuf-go/types/known/wrapperspb"
 )
 
 func TestRoundTrip(t *testing.T) {

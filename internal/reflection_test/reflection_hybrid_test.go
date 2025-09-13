@@ -9,9 +9,9 @@ import (
 	"math"
 	"testing"
 
-	testpb "github.com/vedadiyan/protobuf/internal/testprotos/testeditions/testeditions_hybrid"
-	"github.com/vedadiyan/protobuf/reflect/protoreflect"
-	"github.com/vedadiyan/protobuf/testing/prototest"
+	testpb "github.com/vedadiyan/protobuf-go/internal/testprotos/testeditions/testeditions_hybrid"
+	"github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	"github.com/vedadiyan/protobuf-go/testing/prototest"
 )
 
 func TestOpen3Concrete(t *testing.T) {

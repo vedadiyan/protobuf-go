@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"unicode/utf8"
 
-	"github.com/vedadiyan/protobuf/internal/errors"
+	"github.com/vedadiyan/protobuf-go/internal/errors"
 )
 
 // Decoder is a token-based textproto decoder.

@@ -12,18 +12,18 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/vedadiyan/protobuf/internal/test/race"
-	"github.com/vedadiyan/protobuf/proto"
-	"github.com/vedadiyan/protobuf/reflect/protoreflect"
-	"github.com/vedadiyan/protobuf/runtime/protoimpl"
-	"github.com/vedadiyan/protobuf/testing/protocmp"
+	"github.com/vedadiyan/protobuf-go/internal/test/race"
+	"github.com/vedadiyan/protobuf-go/proto"
+	"github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	"github.com/vedadiyan/protobuf-go/runtime/protoimpl"
+	"github.com/vedadiyan/protobuf-go/testing/protocmp"
 
-	extpb "github.com/vedadiyan/protobuf/internal/testprotos/examples/ext"
-	legacy1pb "github.com/vedadiyan/protobuf/internal/testprotos/legacy/proto2_20160225_2fc053c5"
-	testpb "github.com/vedadiyan/protobuf/internal/testprotos/test"
-	test3pb "github.com/vedadiyan/protobuf/internal/testprotos/test3"
-	testeditionspb "github.com/vedadiyan/protobuf/internal/testprotos/testeditions"
-	descpb "github.com/vedadiyan/protobuf/types/descriptorpb"
+	extpb "github.com/vedadiyan/protobuf-go/internal/testprotos/examples/ext"
+	legacy1pb "github.com/vedadiyan/protobuf-go/internal/testprotos/legacy/proto2_20160225_2fc053c5"
+	testpb "github.com/vedadiyan/protobuf-go/internal/testprotos/test"
+	test3pb "github.com/vedadiyan/protobuf-go/internal/testprotos/test3"
+	testeditionspb "github.com/vedadiyan/protobuf-go/internal/testprotos/testeditions"
+	descpb "github.com/vedadiyan/protobuf-go/types/descriptorpb"
 )
 
 func TestExtensionFuncs(t *testing.T) {

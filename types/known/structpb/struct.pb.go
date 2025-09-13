@@ -41,7 +41,7 @@
 // The Value, Struct, and ListValue types have generated MarshalJSON and
 // UnmarshalJSON methods such that they serialize JSON equivalent to what the
 // messages themselves represent. Use of these types with the
-// "github.com/vedadiyan/protobuf/encoding/protojson" package
+// "github.com/vedadiyan/protobuf-go/encoding/protojson" package
 // ensures that they will be serialized as their JSON equivalent.
 //
 // # Conversion to and from a Go interface
@@ -121,9 +121,9 @@ package structpb
 import (
 	base64 "encoding/base64"
 	json "encoding/json"
-	protojson "github.com/vedadiyan/protobuf/encoding/protojson"
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
+	protojson "github.com/vedadiyan/protobuf-go/encoding/protojson"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
 	math "math"
 	reflect "reflect"
 	sync "sync"
@@ -696,7 +696,7 @@ const file_google_protobuf_struct_proto_rawDesc = "" +
 	"\tNullValue\x12\x0e\n" +
 	"\n" +
 	"NULL_VALUE\x10\x00B\x7f\n" +
-	"\x13com.google.protobufB\vStructProtoP\x01Z/github.com/vedadiyan/protobuf/types/known/structpb\xf8\x01\x01\xa2\x02\x03GPB\xaa\x02\x1eGoogle.Protobuf.WellKnownTypesb\x06proto3"
+	"\x13com.google.protobufB\vStructProtoP\x01Z/github.com/vedadiyan/protobuf-go/types/known/structpb\xf8\x01\x01\xa2\x02\x03GPB\xaa\x02\x1eGoogle.Protobuf.WellKnownTypesb\x06proto3"
 
 var (
 	file_google_protobuf_struct_proto_rawDescOnce sync.Once

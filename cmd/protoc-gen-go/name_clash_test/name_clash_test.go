@@ -8,17 +8,17 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/vedadiyan/protobuf/compiler/protogen"
-	"github.com/vedadiyan/protobuf/internal/genid"
-	"github.com/vedadiyan/protobuf/proto"
-	"github.com/vedadiyan/protobuf/reflect/protodesc"
-	descpb "github.com/vedadiyan/protobuf/types/descriptorpb"
-	"github.com/vedadiyan/protobuf/types/gofeaturespb"
-	"github.com/vedadiyan/protobuf/types/pluginpb"
+	"github.com/vedadiyan/protobuf-go/compiler/protogen"
+	"github.com/vedadiyan/protobuf-go/internal/genid"
+	"github.com/vedadiyan/protobuf-go/proto"
+	"github.com/vedadiyan/protobuf-go/reflect/protodesc"
+	descpb "github.com/vedadiyan/protobuf-go/types/descriptorpb"
+	"github.com/vedadiyan/protobuf-go/types/gofeaturespb"
+	"github.com/vedadiyan/protobuf-go/types/pluginpb"
 
-	hpb "github.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_hybrid"
-	opb "github.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_opaque"
-	pb "github.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_open"
+	hpb "github.com/vedadiyan/protobuf-go/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_hybrid"
+	opb "github.com/vedadiyan/protobuf-go/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_opaque"
+	pb "github.com/vedadiyan/protobuf-go/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_open"
 )
 
 // TestOpenMangling tests the backwards compatible mangling of fields

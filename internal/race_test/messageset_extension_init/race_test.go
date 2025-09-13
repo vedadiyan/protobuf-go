@@ -8,7 +8,7 @@ import (
 	"sync"
 	"testing"
 
-	epb "github.com/vedadiyan/protobuf/internal/testprotos/messageset/msetextpb"
+	epb "github.com/vedadiyan/protobuf-go/internal/testprotos/messageset/msetextpb"
 )
 
 // There must be no other test in this package as we are testing global

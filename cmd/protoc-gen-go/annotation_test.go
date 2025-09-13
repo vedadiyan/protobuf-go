@@ -10,12 +10,12 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/vedadiyan/protobuf/encoding/prototext"
-	"github.com/vedadiyan/protobuf/internal/genid"
-	"github.com/vedadiyan/protobuf/proto"
-	"github.com/vedadiyan/protobuf/testing/protocmp"
+	"github.com/vedadiyan/protobuf-go/encoding/prototext"
+	"github.com/vedadiyan/protobuf-go/internal/genid"
+	"github.com/vedadiyan/protobuf-go/proto"
+	"github.com/vedadiyan/protobuf-go/testing/protocmp"
 
-	"github.com/vedadiyan/protobuf/types/descriptorpb"
+	"github.com/vedadiyan/protobuf-go/types/descriptorpb"
 )
 
 func TestAnnotations(t *testing.T) {

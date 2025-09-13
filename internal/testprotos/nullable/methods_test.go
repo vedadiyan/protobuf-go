@@ -11,7 +11,7 @@
 
 package nullable
 
-import "github.com/vedadiyan/protobuf/runtime/protoimpl"
+import "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
 
 func init() {
 	methodTestProtos = append(methodTestProtos,

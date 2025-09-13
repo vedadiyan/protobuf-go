@@ -10,7 +10,7 @@ import (
 	"math"
 	"reflect"
 
-	"github.com/vedadiyan/protobuf/encoding/protowire"
+	"github.com/vedadiyan/protobuf-go/encoding/protowire"
 )
 
 // Equal reports whether v1 and v2 are recursively equal.

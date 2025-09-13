@@ -12,10 +12,10 @@
 package protoimpl
 
 import (
-	"github.com/vedadiyan/protobuf/internal/filedesc"
-	"github.com/vedadiyan/protobuf/internal/filetype"
-	"github.com/vedadiyan/protobuf/internal/impl"
-	"github.com/vedadiyan/protobuf/internal/protolazy"
+	"github.com/vedadiyan/protobuf-go/internal/filedesc"
+	"github.com/vedadiyan/protobuf-go/internal/filetype"
+	"github.com/vedadiyan/protobuf-go/internal/impl"
+	"github.com/vedadiyan/protobuf-go/internal/protolazy"
 )
 
 // UnsafeEnabled specifies whether package unsafe can be used.

@@ -8,9 +8,9 @@
 package test3
 
 import (
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
-	descriptorpb "github.com/vedadiyan/protobuf/types/descriptorpb"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
+	descriptorpb "github.com/vedadiyan/protobuf-go/types/descriptorpb"
 	reflect "reflect"
 	unsafe "unsafe"
 )
@@ -587,7 +587,7 @@ const file_internal_testprotos_test3_test_extension_proto_rawDesc = "" +
 	"\x13repeated_string_ext\x12\x1f.google.protobuf.MessageOptions\x18\xc6\x17 \x03(\tR\x11repeatedStringExt:N\n" +
 	"\x12repeated_bytes_ext\x12\x1f.google.protobuf.MessageOptions\x18\xc7\x17 \x03(\fR\x10repeatedBytesExt:\x86\x01\n" +
 	"\x1crepeated_foreign_message_ext\x12\x1f.google.protobuf.MessageOptions\x18\xc8\x17 \x03(\v2#.goproto.proto.test3.ForeignMessageR\x19repeatedForeignMessageExt:}\n" +
-	"\x19repeated_foreign_enum_ext\x12\x1f.google.protobuf.MessageOptions\x18\xc9\x17 \x03(\x0e2 .goproto.proto.test3.ForeignEnumR\x16repeatedForeignEnumExtB6Z4github.com/vedadiyan/protobuf/internal/testprotos/test3b\x06proto3"
+	"\x19repeated_foreign_enum_ext\x12\x1f.google.protobuf.MessageOptions\x18\xc9\x17 \x03(\x0e2 .goproto.proto.test3.ForeignEnumR\x16repeatedForeignEnumExtB6Z4github.com/vedadiyan/protobuf-go/internal/testprotos/test3b\x06proto3"
 
 var file_internal_testprotos_test3_test_extension_proto_goTypes = []any{
 	(*descriptorpb.MessageOptions)(nil), // 0: google.protobuf.MessageOptions

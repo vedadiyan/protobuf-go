@@ -10,10 +10,10 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/vedadiyan/protobuf/internal/impl"
-	testhybridpb "github.com/vedadiyan/protobuf/internal/testprotos/testeditions/testeditions_hybrid"
-	testopaquepb "github.com/vedadiyan/protobuf/internal/testprotos/testeditions/testeditions_opaque"
-	"github.com/vedadiyan/protobuf/proto"
+	"github.com/vedadiyan/protobuf-go/internal/impl"
+	testhybridpb "github.com/vedadiyan/protobuf-go/internal/testprotos/testeditions/testeditions_hybrid"
+	testopaquepb "github.com/vedadiyan/protobuf-go/internal/testprotos/testeditions/testeditions_opaque"
+	"github.com/vedadiyan/protobuf-go/proto"
 )
 
 func TestOpenSetRepeatedNilReceiver(t *testing.T) {

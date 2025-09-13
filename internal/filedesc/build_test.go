@@ -10,12 +10,12 @@ import (
 	"io"
 	"testing"
 
-	"github.com/vedadiyan/protobuf/proto"
-	"github.com/vedadiyan/protobuf/reflect/protodesc"
-	"github.com/vedadiyan/protobuf/reflect/protoreflect"
+	"github.com/vedadiyan/protobuf-go/proto"
+	"github.com/vedadiyan/protobuf-go/reflect/protodesc"
+	"github.com/vedadiyan/protobuf-go/reflect/protoreflect"
 
-	testpb "github.com/vedadiyan/protobuf/internal/testprotos/test"
-	"github.com/vedadiyan/protobuf/types/descriptorpb"
+	testpb "github.com/vedadiyan/protobuf-go/internal/testprotos/test"
+	"github.com/vedadiyan/protobuf-go/types/descriptorpb"
 )
 
 var testFile = new(testpb.TestAllTypes).ProtoReflect().Descriptor().ParentFile()

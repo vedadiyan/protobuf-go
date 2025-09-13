@@ -8,8 +8,8 @@
 package annotations
 
 import (
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -120,7 +120,7 @@ const file_cmd_protoc_gen_go_testdata_annotations_annotations_proto_rawDesc = ""
 	"\x16AnnotationsTestMessage\x122\n" +
 	"\x14AnnotationsTestField\x18\x01 \x01(\tR\x14AnnotationsTestField*6\n" +
 	"\x13AnnotationsTestEnum\x12\x1f\n" +
-	"\x1bANNOTATIONS_TEST_ENUM_VALUE\x10\x00BCZAgithub.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/annotations"
+	"\x1bANNOTATIONS_TEST_ENUM_VALUE\x10\x00BCZAgithub.com/vedadiyan/protobuf-go/cmd/protoc-gen-go/testdata/annotations"
 
 var (
 	file_cmd_protoc_gen_go_testdata_annotations_annotations_proto_rawDescOnce sync.Once

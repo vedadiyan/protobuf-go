@@ -7,7 +7,7 @@ package protoreflect
 import (
 	"unsafe"
 
-	"github.com/vedadiyan/protobuf/internal/pragma"
+	"github.com/vedadiyan/protobuf-go/internal/pragma"
 )
 
 type (

@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/vedadiyan/protobuf/reflect/protoreflect"
-	"github.com/vedadiyan/protobuf/reflect/protoregistry"
+	"github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	"github.com/vedadiyan/protobuf-go/reflect/protoregistry"
 
-	_ "github.com/vedadiyan/protobuf/internal/testprotos/textpbeditions"
-	_ "github.com/vedadiyan/protobuf/internal/testprotos/textpbeditions/textpbeditions_opaque"
+	_ "github.com/vedadiyan/protobuf-go/internal/testprotos/textpbeditions"
+	_ "github.com/vedadiyan/protobuf-go/internal/testprotos/textpbeditions/textpbeditions_opaque"
 )
 
 var relatedMessages = func() map[protoreflect.MessageType][]protoreflect.MessageType {

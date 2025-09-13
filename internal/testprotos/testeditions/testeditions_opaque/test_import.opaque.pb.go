@@ -8,9 +8,9 @@
 package testeditions_opaque
 
 import (
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
-	_ "github.com/vedadiyan/protobuf/types/gofeaturespb"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
+	_ "github.com/vedadiyan/protobuf-go/types/gofeaturespb"
 	reflect "reflect"
 	unsafe "unsafe"
 )
@@ -104,7 +104,7 @@ const file_internal_testprotos_testeditions_testeditions_opaque_test_import_opaq
 	"\rImportMessage*\x1d\n" +
 	"\n" +
 	"ImportEnum\x12\x0f\n" +
-	"\vIMPORT_ZERO\x10\x00BYZOgithub.com/vedadiyan/protobuf/internal/testprotos/testeditions/testeditions_opaque\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\vIMPORT_ZERO\x10\x00BYZOgithub.com/vedadiyan/protobuf-go/internal/testprotos/testeditions/testeditions_opaque\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_internal_testprotos_testeditions_testeditions_opaque_test_import_opaque_proto_enumTypes = make([]protoimpl.EnumInfo, 1)
 var file_internal_testprotos_testeditions_testeditions_opaque_test_import_opaque_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

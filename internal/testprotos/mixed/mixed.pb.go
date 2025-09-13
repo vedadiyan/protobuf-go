@@ -12,9 +12,9 @@
 package mixed
 
 import (
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
-	_ "github.com/vedadiyan/protobuf/types/gofeaturespb"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
+	_ "github.com/vedadiyan/protobuf-go/types/gofeaturespb"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -836,7 +836,7 @@ const file_internal_testprotos_mixed_mixed_proto_rawDesc = "" +
 	"\x04open\x18\x01 \x01(\v2\x1c.goproto.proto.test.OpenLazyB\x02(\x01R\x04open\x12:\n" +
 	"\x06hybrid\x18\x02 \x01(\v2\x1e.goproto.proto.test.HybridLazyB\x02(\x01R\x06hybrid\x12:\n" +
 	"\x06opaque\x18\x03 \x01(\v2\x1e.goproto.proto.test.OpaqueLazyB\x02(\x01R\x06opaque\x12%\n" +
-	"\x0eoptional_int32\x18\x04 \x01(\x05R\roptionalInt32:\ab\x05\xd2>\x02\x10\x03B6Z4github.com/vedadiyan/protobuf/internal/testprotos/mixedb\beditionsp\xe8\a"
+	"\x0eoptional_int32\x18\x04 \x01(\x05R\roptionalInt32:\ab\x05\xd2>\x02\x10\x03B6Z4github.com/vedadiyan/protobuf-go/internal/testprotos/mixedb\beditionsp\xe8\a"
 
 var (
 	file_internal_testprotos_mixed_mixed_proto_rawDescOnce sync.Once

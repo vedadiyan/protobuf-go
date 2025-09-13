@@ -6,15 +6,15 @@
 package protoadapt
 
 import (
-	"github.com/vedadiyan/protobuf/proto"
-	"github.com/vedadiyan/protobuf/runtime/protoiface"
-	"github.com/vedadiyan/protobuf/runtime/protoimpl"
+	"github.com/vedadiyan/protobuf-go/proto"
+	"github.com/vedadiyan/protobuf-go/runtime/protoiface"
+	"github.com/vedadiyan/protobuf-go/runtime/protoimpl"
 )
 
 // MessageV1 is the original [github.com/golang/protobuf/proto.Message] type.
 type MessageV1 = protoiface.MessageV1
 
-// MessageV2 is the [github.com/vedadiyan/protobuf/proto.Message] type used by the
+// MessageV2 is the [github.com/vedadiyan/protobuf-go/proto.Message] type used by the
 // current [github.com/vedadiyan/protobuf] module, adding support for reflection.
 type MessageV2 = proto.Message
 

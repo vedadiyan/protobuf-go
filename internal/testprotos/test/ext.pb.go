@@ -8,8 +8,8 @@
 package test
 
 import (
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
 	reflect "reflect"
 	unsafe "unsafe"
 )
@@ -36,7 +36,7 @@ var File_internal_testprotos_test_ext_proto protoreflect.FileDescriptor
 const file_internal_testprotos_test_ext_proto_rawDesc = "" +
 	"\n" +
 	"\"internal/testprotos/test/ext.proto\x12\x12goproto.proto.test\x1a#internal/testprotos/test/test.proto:^\n" +
-	"\x17foreign_int32_extension\x12%.goproto.proto.test.TestAllExtensions\x18\xd0\x0f \x01(\x05R\x15foreignInt32ExtensionB5Z3github.com/vedadiyan/protobuf/internal/testprotos/test"
+	"\x17foreign_int32_extension\x12%.goproto.proto.test.TestAllExtensions\x18\xd0\x0f \x01(\x05R\x15foreignInt32ExtensionB5Z3github.com/vedadiyan/protobuf-go/internal/testprotos/test"
 
 var file_internal_testprotos_test_ext_proto_goTypes = []any{
 	(*TestAllExtensions)(nil), // 0: goproto.proto.test.TestAllExtensions

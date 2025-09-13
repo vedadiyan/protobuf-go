@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/vedadiyan/protobuf/encoding/protowire"
+	"github.com/vedadiyan/protobuf-go/encoding/protowire"
 )
 
 // BufferReader is a structure encapsulating a protobuf and a current position

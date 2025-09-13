@@ -7,9 +7,9 @@ package descriptor_test
 import (
 	"testing"
 
-	testopenpb "github.com/vedadiyan/protobuf/internal/testprotos/test"
-	testhybridpb "github.com/vedadiyan/protobuf/internal/testprotos/testeditions/testeditions_hybrid"
-	testopaquepb "github.com/vedadiyan/protobuf/internal/testprotos/testeditions/testeditions_opaque"
+	testopenpb "github.com/vedadiyan/protobuf-go/internal/testprotos/test"
+	testhybridpb "github.com/vedadiyan/protobuf-go/internal/testprotos/testeditions/testeditions_hybrid"
+	testopaquepb "github.com/vedadiyan/protobuf-go/internal/testprotos/testeditions/testeditions_opaque"
 )
 
 func TestFileModeEnum(t *testing.T) {

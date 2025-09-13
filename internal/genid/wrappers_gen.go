@@ -7,7 +7,7 @@
 package genid
 
 import (
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
 )
 
 const File_google_protobuf_wrappers_proto = "google/protobuf/wrappers.proto"

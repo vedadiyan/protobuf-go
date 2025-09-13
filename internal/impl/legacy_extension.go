@@ -7,14 +7,14 @@ package impl
 import (
 	"reflect"
 
-	"github.com/vedadiyan/protobuf/internal/descopts"
-	"github.com/vedadiyan/protobuf/internal/encoding/messageset"
-	ptag "github.com/vedadiyan/protobuf/internal/encoding/tag"
-	"github.com/vedadiyan/protobuf/internal/filedesc"
-	"github.com/vedadiyan/protobuf/internal/pragma"
-	"github.com/vedadiyan/protobuf/reflect/protoreflect"
-	"github.com/vedadiyan/protobuf/reflect/protoregistry"
-	"github.com/vedadiyan/protobuf/runtime/protoiface"
+	"github.com/vedadiyan/protobuf-go/internal/descopts"
+	"github.com/vedadiyan/protobuf-go/internal/encoding/messageset"
+	ptag "github.com/vedadiyan/protobuf-go/internal/encoding/tag"
+	"github.com/vedadiyan/protobuf-go/internal/filedesc"
+	"github.com/vedadiyan/protobuf-go/internal/pragma"
+	"github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	"github.com/vedadiyan/protobuf-go/reflect/protoregistry"
+	"github.com/vedadiyan/protobuf-go/runtime/protoiface"
 )
 
 func (xi *ExtensionInfo) initToLegacy() {

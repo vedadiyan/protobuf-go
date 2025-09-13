@@ -9,7 +9,7 @@ package impl
 import (
 	"reflect"
 
-	"github.com/vedadiyan/protobuf/reflect/protoreflect"
+	"github.com/vedadiyan/protobuf-go/reflect/protoreflect"
 )
 
 func getterForOpaqueNullableScalar(mi *MessageInfo, index uint32, fd protoreflect.FieldDescriptor, fs reflect.StructField, conv Converter, fieldOffset offset) func(p pointer) protoreflect.Value {

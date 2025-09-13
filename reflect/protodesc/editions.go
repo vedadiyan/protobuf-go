@@ -9,13 +9,13 @@ import (
 	"os"
 	"sync"
 
-	"github.com/vedadiyan/protobuf/internal/editiondefaults"
-	"github.com/vedadiyan/protobuf/internal/filedesc"
-	"github.com/vedadiyan/protobuf/internal/genid"
-	"github.com/vedadiyan/protobuf/proto"
-	"github.com/vedadiyan/protobuf/reflect/protoreflect"
-	"github.com/vedadiyan/protobuf/types/descriptorpb"
-	"github.com/vedadiyan/protobuf/types/gofeaturespb"
+	"github.com/vedadiyan/protobuf-go/internal/editiondefaults"
+	"github.com/vedadiyan/protobuf-go/internal/filedesc"
+	"github.com/vedadiyan/protobuf-go/internal/genid"
+	"github.com/vedadiyan/protobuf-go/proto"
+	"github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	"github.com/vedadiyan/protobuf-go/types/descriptorpb"
+	"github.com/vedadiyan/protobuf-go/types/gofeaturespb"
 )
 
 var defaults = &descriptorpb.FeatureSetDefaults{}

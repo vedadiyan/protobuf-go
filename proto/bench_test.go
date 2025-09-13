@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/vedadiyan/protobuf/proto"
+	"github.com/vedadiyan/protobuf-go/proto"
 )
 
 // The results of these microbenchmarks are unlikely to correspond well

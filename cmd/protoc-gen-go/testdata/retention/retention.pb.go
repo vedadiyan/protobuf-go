@@ -8,9 +8,9 @@
 package retention
 
 import (
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
-	descriptorpb "github.com/vedadiyan/protobuf/types/descriptorpb"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
+	descriptorpb "github.com/vedadiyan/protobuf-go/types/descriptorpb"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -498,7 +498,7 @@ const file_cmd_protoc_gen_go_testdata_retention_retention_proto_rawDesc = "" +
 	"\x0eservice_option\x12\x1f.google.protobuf.ServiceOptions\x18\xfd\xb0\xc1\xf0\x01 \x01(\v2\x1d.testretention.OptionsMessageR\rserviceOption:f\n" +
 	"\rmethod_option\x12\x1e.google.protobuf.MethodOptions\x18셿\xf0\x01 \x01(\v2\x1d.testretention.OptionsMessageR\fmethodOption:1\n" +
 	"\x01i\x12\x17.testretention.Extendee\x18\x01 \x01(\x05B\n" +
-	"\x9a\xba\xed\x84\x0f\x04\b\x01\x10\x02R\x01iBm\x92\xf1߅\x0f\x04\b\x01\x10\x02\x82\x90\xf7\x85\x0f\x04\b\x01\x10\x02\xe0\x91Ɇ\x0f\x02\xb0\xac\xe3\x86\x0f\x01\x80\x9b\xb2\xa0\x0f\x01Ю\xfc\xa2\x0f\x02Z?github.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/retention"
+	"\x9a\xba\xed\x84\x0f\x04\b\x01\x10\x02R\x01iBm\x92\xf1߅\x0f\x04\b\x01\x10\x02\x82\x90\xf7\x85\x0f\x04\b\x01\x10\x02\xe0\x91Ɇ\x0f\x02\xb0\xac\xe3\x86\x0f\x01\x80\x9b\xb2\xa0\x0f\x01Ю\xfc\xa2\x0f\x02Z?github.com/vedadiyan/protobuf-go/cmd/protoc-gen-go/testdata/retention"
 
 var (
 	file_cmd_protoc_gen_go_testdata_retention_retention_proto_rawDescOnce sync.Once

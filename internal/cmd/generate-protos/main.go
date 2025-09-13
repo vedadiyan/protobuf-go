@@ -21,10 +21,10 @@ import (
 	"strconv"
 	"strings"
 
-	gengo "github.com/vedadiyan/protobuf/cmd/protoc-gen-go/internal_gengo"
-	"github.com/vedadiyan/protobuf/compiler/protogen"
-	"github.com/vedadiyan/protobuf/internal/detrand"
-	"github.com/vedadiyan/protobuf/internal/editionssupport"
+	gengo "github.com/vedadiyan/protobuf-go/cmd/protoc-gen-go/internal_gengo"
+	"github.com/vedadiyan/protobuf-go/compiler/protogen"
+	"github.com/vedadiyan/protobuf-go/internal/detrand"
+	"github.com/vedadiyan/protobuf-go/internal/editionssupport"
 )
 
 func init() {
@@ -341,7 +341,7 @@ func generateLocalProtos() {
 	}{{
 		path: "cmd/protoc-gen-go/testdata",
 		pkgPaths: map[string]string{
-			"cmd/protoc-gen-go/testdata/nopackage/nopackage.proto": "github.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/nopackage",
+			"cmd/protoc-gen-go/testdata/nopackage/nopackage.proto": "github.com/vedadiyan/protobuf-go/cmd/protoc-gen-go/testdata/nopackage",
 		},
 		annotate: map[string]bool{"cmd/protoc-gen-go/testdata/annotations/annotations.proto": true},
 	}, {
@@ -452,12 +452,12 @@ func generateRemoteProtos() {
 		{"src", "google/protobuf/descriptor.proto", ""},
 
 		// Conformance protos.
-		{"", "conformance/conformance.proto", "github.com/vedadiyan/protobuf/internal/testprotos/conformance;conformance"},
-		{"src", "google/protobuf/test_messages_proto2.proto", "github.com/vedadiyan/protobuf/internal/testprotos/conformance;conformance"},
-		{"src", "google/protobuf/test_messages_proto3.proto", "github.com/vedadiyan/protobuf/internal/testprotos/conformance;conformance"},
-		{"src", "editions/golden/test_messages_proto2_editions.proto", "github.com/vedadiyan/protobuf/internal/testprotos/conformance/editionsmigration;editions"},
-		{"src", "editions/golden/test_messages_proto3_editions.proto", "github.com/vedadiyan/protobuf/internal/testprotos/conformance/editionsmigration;editions"},
-		{"", "conformance/test_protos/test_messages_edition2023.proto", "github.com/vedadiyan/protobuf/internal/testprotos/conformance/editions;editions"},
+		{"", "conformance/conformance.proto", "github.com/vedadiyan/protobuf-go/internal/testprotos/conformance;conformance"},
+		{"src", "google/protobuf/test_messages_proto2.proto", "github.com/vedadiyan/protobuf-go/internal/testprotos/conformance;conformance"},
+		{"src", "google/protobuf/test_messages_proto3.proto", "github.com/vedadiyan/protobuf-go/internal/testprotos/conformance;conformance"},
+		{"src", "editions/golden/test_messages_proto2_editions.proto", "github.com/vedadiyan/protobuf-go/internal/testprotos/conformance/editionsmigration;editions"},
+		{"src", "editions/golden/test_messages_proto3_editions.proto", "github.com/vedadiyan/protobuf-go/internal/testprotos/conformance/editionsmigration;editions"},
+		{"", "conformance/test_protos/test_messages_edition2023.proto", "github.com/vedadiyan/protobuf-go/internal/testprotos/conformance/editions;editions"},
 
 		// Benchmark protos.
 		// TODO: The protobuf repo no longer includes benchmarks.
@@ -467,23 +467,23 @@ func generateRemoteProtos() {
 		//         https://github.com/google/fleetbench/tree/main/fleetbench/proto
 		//       For now, commenting these out until benchmarks in this repo can be
 		//       reconciled with new fleetbench stuff.
-		//{"benchmarks", "benchmarks.proto", "github.com/vedadiyan/protobuf/internal/testprotos/benchmarks;benchmarks"},
-		//{"benchmarks", "datasets/google_message1/proto2/benchmark_message1_proto2.proto", "github.com/vedadiyan/protobuf/internal/testprotos/benchmarks/datasets/google_message1/proto2;proto2"},
-		//{"benchmarks", "datasets/google_message1/proto3/benchmark_message1_proto3.proto", "github.com/vedadiyan/protobuf/internal/testprotos/benchmarks/datasets/google_message1/proto3;proto3"},
-		//{"benchmarks", "datasets/google_message2/benchmark_message2.proto", "github.com/vedadiyan/protobuf/internal/testprotos/benchmarks/datasets/google_message2;google_message2"},
-		//{"benchmarks", "datasets/google_message3/benchmark_message3.proto", "github.com/vedadiyan/protobuf/internal/testprotos/benchmarks/datasets/google_message3;google_message3"},
-		//{"benchmarks", "datasets/google_message3/benchmark_message3_1.proto", "github.com/vedadiyan/protobuf/internal/testprotos/benchmarks/datasets/google_message3;google_message3"},
-		//{"benchmarks", "datasets/google_message3/benchmark_message3_2.proto", "github.com/vedadiyan/protobuf/internal/testprotos/benchmarks/datasets/google_message3;google_message3"},
-		//{"benchmarks", "datasets/google_message3/benchmark_message3_3.proto", "github.com/vedadiyan/protobuf/internal/testprotos/benchmarks/datasets/google_message3;google_message3"},
-		//{"benchmarks", "datasets/google_message3/benchmark_message3_4.proto", "github.com/vedadiyan/protobuf/internal/testprotos/benchmarks/datasets/google_message3;google_message3"},
-		//{"benchmarks", "datasets/google_message3/benchmark_message3_5.proto", "github.com/vedadiyan/protobuf/internal/testprotos/benchmarks/datasets/google_message3;google_message3"},
-		//{"benchmarks", "datasets/google_message3/benchmark_message3_6.proto", "github.com/vedadiyan/protobuf/internal/testprotos/benchmarks/datasets/google_message3;google_message3"},
-		//{"benchmarks", "datasets/google_message3/benchmark_message3_7.proto", "github.com/vedadiyan/protobuf/internal/testprotos/benchmarks/datasets/google_message3;google_message3"},
-		//{"benchmarks", "datasets/google_message3/benchmark_message3_8.proto", "github.com/vedadiyan/protobuf/internal/testprotos/benchmarks/datasets/google_message3;google_message3"},
-		//{"benchmarks", "datasets/google_message4/benchmark_message4.proto", "github.com/vedadiyan/protobuf/internal/testprotos/benchmarks/datasets/google_message4;google_message4"},
-		//{"benchmarks", "datasets/google_message4/benchmark_message4_1.proto", "github.com/vedadiyan/protobuf/internal/testprotos/benchmarks/datasets/google_message4;google_message4"},
-		//{"benchmarks", "datasets/google_message4/benchmark_message4_2.proto", "github.com/vedadiyan/protobuf/internal/testprotos/benchmarks/datasets/google_message4;google_message4"},
-		//{"benchmarks", "datasets/google_message4/benchmark_message4_3.proto", "github.com/vedadiyan/protobuf/internal/testprotos/benchmarks/datasets/google_message4;google_message4"},
+		//{"benchmarks", "benchmarks.proto", "github.com/vedadiyan/protobuf-go/internal/testprotos/benchmarks;benchmarks"},
+		//{"benchmarks", "datasets/google_message1/proto2/benchmark_message1_proto2.proto", "github.com/vedadiyan/protobuf-go/internal/testprotos/benchmarks/datasets/google_message1/proto2;proto2"},
+		//{"benchmarks", "datasets/google_message1/proto3/benchmark_message1_proto3.proto", "github.com/vedadiyan/protobuf-go/internal/testprotos/benchmarks/datasets/google_message1/proto3;proto3"},
+		//{"benchmarks", "datasets/google_message2/benchmark_message2.proto", "github.com/vedadiyan/protobuf-go/internal/testprotos/benchmarks/datasets/google_message2;google_message2"},
+		//{"benchmarks", "datasets/google_message3/benchmark_message3.proto", "github.com/vedadiyan/protobuf-go/internal/testprotos/benchmarks/datasets/google_message3;google_message3"},
+		//{"benchmarks", "datasets/google_message3/benchmark_message3_1.proto", "github.com/vedadiyan/protobuf-go/internal/testprotos/benchmarks/datasets/google_message3;google_message3"},
+		//{"benchmarks", "datasets/google_message3/benchmark_message3_2.proto", "github.com/vedadiyan/protobuf-go/internal/testprotos/benchmarks/datasets/google_message3;google_message3"},
+		//{"benchmarks", "datasets/google_message3/benchmark_message3_3.proto", "github.com/vedadiyan/protobuf-go/internal/testprotos/benchmarks/datasets/google_message3;google_message3"},
+		//{"benchmarks", "datasets/google_message3/benchmark_message3_4.proto", "github.com/vedadiyan/protobuf-go/internal/testprotos/benchmarks/datasets/google_message3;google_message3"},
+		//{"benchmarks", "datasets/google_message3/benchmark_message3_5.proto", "github.com/vedadiyan/protobuf-go/internal/testprotos/benchmarks/datasets/google_message3;google_message3"},
+		//{"benchmarks", "datasets/google_message3/benchmark_message3_6.proto", "github.com/vedadiyan/protobuf-go/internal/testprotos/benchmarks/datasets/google_message3;google_message3"},
+		//{"benchmarks", "datasets/google_message3/benchmark_message3_7.proto", "github.com/vedadiyan/protobuf-go/internal/testprotos/benchmarks/datasets/google_message3;google_message3"},
+		//{"benchmarks", "datasets/google_message3/benchmark_message3_8.proto", "github.com/vedadiyan/protobuf-go/internal/testprotos/benchmarks/datasets/google_message3;google_message3"},
+		//{"benchmarks", "datasets/google_message4/benchmark_message4.proto", "github.com/vedadiyan/protobuf-go/internal/testprotos/benchmarks/datasets/google_message4;google_message4"},
+		//{"benchmarks", "datasets/google_message4/benchmark_message4_1.proto", "github.com/vedadiyan/protobuf-go/internal/testprotos/benchmarks/datasets/google_message4;google_message4"},
+		//{"benchmarks", "datasets/google_message4/benchmark_message4_2.proto", "github.com/vedadiyan/protobuf-go/internal/testprotos/benchmarks/datasets/google_message4;google_message4"},
+		//{"benchmarks", "datasets/google_message4/benchmark_message4_3.proto", "github.com/vedadiyan/protobuf-go/internal/testprotos/benchmarks/datasets/google_message4;google_message4"},
 	}
 
 	opts := "module=" + modulePath
@@ -544,7 +544,7 @@ func generateIdentifiers(gen *protogen.Plugin, file *protogen.File) {
 	var processEnums func([]*protogen.Enum)
 	var processMessages func([]*protogen.Message)
 	var processExtensions func([]*protogen.Extension)
-	const protoreflectPackage = protogen.GoImportPath("github.com/vedadiyan/protobuf/reflect/protoreflect")
+	const protoreflectPackage = protogen.GoImportPath("github.com/vedadiyan/protobuf-go/reflect/protoreflect")
 	processEnums = func(enums []*protogen.Enum) {
 		for _, enum := range enums {
 			g.P("// Full and short names for ", enum.Desc.FullName(), ".")

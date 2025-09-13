@@ -8,20 +8,20 @@
 package legacy
 
 import (
-	proto2_20160225_2fc053c5 "github.com/vedadiyan/protobuf/internal/testprotos/legacy/proto2_20160225_2fc053c5"
-	proto2_20160519_a4ab9ec5 "github.com/vedadiyan/protobuf/internal/testprotos/legacy/proto2_20160519_a4ab9ec5"
-	proto2_20180125_92554152 "github.com/vedadiyan/protobuf/internal/testprotos/legacy/proto2_20180125_92554152"
-	proto2_20180430_b4deda09 "github.com/vedadiyan/protobuf/internal/testprotos/legacy/proto2_20180430_b4deda09"
-	proto2_20180814_aa810b61 "github.com/vedadiyan/protobuf/internal/testprotos/legacy/proto2_20180814_aa810b61"
-	proto2_20190205_c823c79e "github.com/vedadiyan/protobuf/internal/testprotos/legacy/proto2_20190205_c823c79e"
-	proto3_20160225_2fc053c5 "github.com/vedadiyan/protobuf/internal/testprotos/legacy/proto3_20160225_2fc053c5"
-	proto3_20160519_a4ab9ec5 "github.com/vedadiyan/protobuf/internal/testprotos/legacy/proto3_20160519_a4ab9ec5"
-	proto3_20180125_92554152 "github.com/vedadiyan/protobuf/internal/testprotos/legacy/proto3_20180125_92554152"
-	proto3_20180430_b4deda09 "github.com/vedadiyan/protobuf/internal/testprotos/legacy/proto3_20180430_b4deda09"
-	proto3_20180814_aa810b61 "github.com/vedadiyan/protobuf/internal/testprotos/legacy/proto3_20180814_aa810b61"
-	proto3_20190205_c823c79e "github.com/vedadiyan/protobuf/internal/testprotos/legacy/proto3_20190205_c823c79e"
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
+	proto2_20160225_2fc053c5 "github.com/vedadiyan/protobuf-go/internal/testprotos/legacy/proto2_20160225_2fc053c5"
+	proto2_20160519_a4ab9ec5 "github.com/vedadiyan/protobuf-go/internal/testprotos/legacy/proto2_20160519_a4ab9ec5"
+	proto2_20180125_92554152 "github.com/vedadiyan/protobuf-go/internal/testprotos/legacy/proto2_20180125_92554152"
+	proto2_20180430_b4deda09 "github.com/vedadiyan/protobuf-go/internal/testprotos/legacy/proto2_20180430_b4deda09"
+	proto2_20180814_aa810b61 "github.com/vedadiyan/protobuf-go/internal/testprotos/legacy/proto2_20180814_aa810b61"
+	proto2_20190205_c823c79e "github.com/vedadiyan/protobuf-go/internal/testprotos/legacy/proto2_20190205_c823c79e"
+	proto3_20160225_2fc053c5 "github.com/vedadiyan/protobuf-go/internal/testprotos/legacy/proto3_20160225_2fc053c5"
+	proto3_20160519_a4ab9ec5 "github.com/vedadiyan/protobuf-go/internal/testprotos/legacy/proto3_20160519_a4ab9ec5"
+	proto3_20180125_92554152 "github.com/vedadiyan/protobuf-go/internal/testprotos/legacy/proto3_20180125_92554152"
+	proto3_20180430_b4deda09 "github.com/vedadiyan/protobuf-go/internal/testprotos/legacy/proto3_20180430_b4deda09"
+	proto3_20180814_aa810b61 "github.com/vedadiyan/protobuf-go/internal/testprotos/legacy/proto3_20180814_aa810b61"
+	proto3_20190205_c823c79e "github.com/vedadiyan/protobuf-go/internal/testprotos/legacy/proto3_20190205_c823c79e"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -177,7 +177,7 @@ const file_internal_testprotos_legacy_legacy_proto_rawDesc = "" +
 	"\x03f10\x18\n" +
 	" \x01(\v2*.google.golang.org.proto3_20180814.MessageR\x03f10\x12<\n" +
 	"\x03f11\x18\v \x01(\v2*.google.golang.org.proto2_20190205.MessageR\x03f11\x12<\n" +
-	"\x03f12\x18\f \x01(\v2*.google.golang.org.proto3_20190205.MessageR\x03f12B7Z5github.com/vedadiyan/protobuf/internal/testprotos/legacyb\x06proto3"
+	"\x03f12\x18\f \x01(\v2*.google.golang.org.proto3_20190205.MessageR\x03f12B7Z5github.com/vedadiyan/protobuf-go/internal/testprotos/legacyb\x06proto3"
 
 var (
 	file_internal_testprotos_legacy_legacy_proto_rawDescOnce sync.Once

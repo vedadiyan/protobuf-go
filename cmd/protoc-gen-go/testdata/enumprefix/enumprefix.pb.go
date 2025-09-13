@@ -8,9 +8,9 @@
 package enumprefix
 
 import (
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
-	_ "github.com/vedadiyan/protobuf/types/gofeaturespb"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
+	_ "github.com/vedadiyan/protobuf-go/types/gofeaturespb"
 	reflect "reflect"
 	unsafe "unsafe"
 )
@@ -208,7 +208,7 @@ const file_cmd_protoc_gen_go_testdata_enumprefix_enumprefix_proto_rawDesc = "" +
 	"\n" +
 	"BothButOne\x12\x15\n" +
 	"\x11BOTH_BUT_ONE_ZERO\x10\x00\x12\x1d\n" +
-	"\x10BOTH_BUT_ONE_ONE\x10\x01\x1a\a\x12\x05\xd2>\x02\x18\x01\x1a\a:\x05\xd2>\x02\x18\x02BJZ@github.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/enumprefix\x92\x03\x05\xd2>\x02\x18\x03b\beditionsp\xe9\a"
+	"\x10BOTH_BUT_ONE_ONE\x10\x01\x1a\a\x12\x05\xd2>\x02\x18\x01\x1a\a:\x05\xd2>\x02\x18\x02BJZ@github.com/vedadiyan/protobuf-go/cmd/protoc-gen-go/testdata/enumprefix\x92\x03\x05\xd2>\x02\x18\x03b\beditionsp\xe9\a"
 
 var file_cmd_protoc_gen_go_testdata_enumprefix_enumprefix_proto_enumTypes = make([]protoimpl.EnumInfo, 4)
 var file_cmd_protoc_gen_go_testdata_enumprefix_enumprefix_proto_goTypes = []any{

@@ -10,8 +10,8 @@
 package textpb3
 
 import (
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -1231,7 +1231,7 @@ const file_internal_testprotos_textpb3_test_proto_rawDesc = "" +
 	"\x03ONE\x10\x01\x12\a\n" +
 	"\x03TWO\x10\x02\x12\a\n" +
 	"\x03TEN\x10\n" +
-	"B8Z6github.com/vedadiyan/protobuf/internal/testprotos/textpb3b\x06proto3"
+	"B8Z6github.com/vedadiyan/protobuf-go/internal/testprotos/textpb3b\x06proto3"
 
 var (
 	file_internal_testprotos_textpb3_test_proto_rawDescOnce sync.Once

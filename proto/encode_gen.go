@@ -10,10 +10,10 @@ import (
 	"math"
 	"unicode/utf8"
 
-	"github.com/vedadiyan/protobuf/encoding/protowire"
-	"github.com/vedadiyan/protobuf/internal/errors"
-	"github.com/vedadiyan/protobuf/internal/strs"
-	"github.com/vedadiyan/protobuf/reflect/protoreflect"
+	"github.com/vedadiyan/protobuf-go/encoding/protowire"
+	"github.com/vedadiyan/protobuf-go/internal/errors"
+	"github.com/vedadiyan/protobuf-go/internal/strs"
+	"github.com/vedadiyan/protobuf-go/reflect/protoreflect"
 )
 
 var wireTypes = map[protoreflect.Kind]protowire.Type{

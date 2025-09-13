@@ -11,8 +11,8 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/vedadiyan/protobuf/internal/filedesc"
-	"github.com/vedadiyan/protobuf/reflect/protoreflect"
+	"github.com/vedadiyan/protobuf-go/internal/filedesc"
+	"github.com/vedadiyan/protobuf-go/reflect/protoreflect"
 )
 
 type opaqueStructInfo struct {

@@ -8,9 +8,9 @@
 package msetextpb
 
 import (
-	messagesetpb "github.com/vedadiyan/protobuf/internal/testprotos/messageset/messagesetpb"
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
+	messagesetpb "github.com/vedadiyan/protobuf-go/internal/testprotos/messageset/messagesetpb"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -258,7 +258,7 @@ const file_internal_testprotos_messageset_msetextpb_msetextpb_proto_rawDesc = ""
 	"\x0frequired_field1\x18\x01 \x01(\x05B\x05\xaa\x01\x02\b\x03R\x0erequiredField12\x84\x01\n" +
 	"\x17message_set_extrequired\x12$.goproto.proto.messageset.MessageSet\x18\xea\a \x01(\v2%.goproto.proto.messageset.ExtRequiredR\x15messageSetExtrequired\"\x97\x01\n" +
 	"\x0eExtLargeNumber2\x84\x01\n" +
-	"\x14message_set_extlarge\x12$.goproto.proto.messageset.MessageSet\x18\x80\x80\x80\x80\x02 \x01(\v2(.goproto.proto.messageset.ExtLargeNumberR\x12messageSetExtlargeBEZCgithub.com/vedadiyan/protobuf/internal/testprotos/messageset/msetextpbb\beditionsp\xe8\a"
+	"\x14message_set_extlarge\x12$.goproto.proto.messageset.MessageSet\x18\x80\x80\x80\x80\x02 \x01(\v2(.goproto.proto.messageset.ExtLargeNumberR\x12messageSetExtlargeBEZCgithub.com/vedadiyan/protobuf-go/internal/testprotos/messageset/msetextpbb\beditionsp\xe8\a"
 
 var (
 	file_internal_testprotos_messageset_msetextpb_msetextpb_proto_rawDescOnce sync.Once

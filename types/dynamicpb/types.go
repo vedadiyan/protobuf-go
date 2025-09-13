@@ -10,9 +10,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/vedadiyan/protobuf/internal/errors"
-	"github.com/vedadiyan/protobuf/reflect/protoreflect"
-	"github.com/vedadiyan/protobuf/reflect/protoregistry"
+	"github.com/vedadiyan/protobuf-go/internal/errors"
+	"github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	"github.com/vedadiyan/protobuf-go/reflect/protoregistry"
 )
 
 type extField struct {
@@ -24,7 +24,7 @@ type extField struct {
 // Its methods are safe for concurrent use.
 //
 // Types implements [protoregistry.MessageTypeResolver] and [protoregistry.ExtensionTypeResolver].
-// A Types may be used as a [github.com/vedadiyan/protobuf/proto.UnmarshalOptions.Resolver].
+// A Types may be used as a [github.com/vedadiyan/protobuf-go/proto.UnmarshalOptions.Resolver].
 type Types struct {
 	// atomicExtFiles is used with sync/atomic and hence must be the first word
 	// of the struct to guarantee 64-bit alignment.

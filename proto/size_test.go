@@ -5,7 +5,7 @@
 package proto_test
 
 import (
-	"github.com/vedadiyan/protobuf/proto"
+	"github.com/vedadiyan/protobuf-go/proto"
 )
 
 // Checking if [Size] returns 0 is an easy way to recognize empty messages:

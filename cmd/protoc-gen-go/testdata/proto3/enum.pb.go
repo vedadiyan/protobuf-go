@@ -8,8 +8,8 @@
 package proto3
 
 import (
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -72,7 +72,7 @@ const file_cmd_protoc_gen_go_testdata_proto3_enum_proto_rawDesc = "" +
 	"\x04Enum\x12\b\n" +
 	"\x04ZERO\x10\x00\x12\a\n" +
 	"\x03ONE\x10\x01\x12\a\n" +
-	"\x03TWO\x10\x02B>Z<github.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/proto3b\x06proto3"
+	"\x03TWO\x10\x02B>Z<github.com/vedadiyan/protobuf-go/cmd/protoc-gen-go/testdata/proto3b\x06proto3"
 
 var (
 	file_cmd_protoc_gen_go_testdata_proto3_enum_proto_rawDescOnce sync.Once

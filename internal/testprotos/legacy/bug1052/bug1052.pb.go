@@ -11,8 +11,8 @@ import (
 	fmt "fmt"
 	math "math"
 
-	proto "github.com/vedadiyan/protobuf/internal/protolegacy"
-	descriptor "github.com/vedadiyan/protobuf/types/descriptorpb"
+	proto "github.com/vedadiyan/protobuf-go/internal/protolegacy"
+	descriptor "github.com/vedadiyan/protobuf-go/types/descriptorpb"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

@@ -7,7 +7,7 @@ package strs
 import (
 	"unsafe"
 
-	"github.com/vedadiyan/protobuf/reflect/protoreflect"
+	"github.com/vedadiyan/protobuf-go/reflect/protoreflect"
 )
 
 // UnsafeString returns an unsafe string reference of b.

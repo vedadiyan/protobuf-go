@@ -10,8 +10,8 @@
 package protoiface
 
 import (
-	"github.com/vedadiyan/protobuf/internal/pragma"
-	"github.com/vedadiyan/protobuf/reflect/protoreflect"
+	"github.com/vedadiyan/protobuf-go/internal/pragma"
+	"github.com/vedadiyan/protobuf-go/reflect/protoreflect"
 )
 
 // Methods is a set of optional fast-path implementations of various operations.

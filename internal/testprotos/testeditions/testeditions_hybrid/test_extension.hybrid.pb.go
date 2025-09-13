@@ -10,9 +10,9 @@
 package testeditions_hybrid
 
 import (
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
-	_ "github.com/vedadiyan/protobuf/types/gofeaturespb"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
+	_ "github.com/vedadiyan/protobuf-go/types/gofeaturespb"
 	reflect "reflect"
 	unsafe "unsafe"
 )
@@ -1108,7 +1108,7 @@ const file_internal_testprotos_testeditions_testeditions_hybrid_test_extension_h
 	"\x06single\x124.hybrid.goproto.proto.testeditions.TestAllExtensions\x18\xe8\a \x01(\v2/.hybrid.goproto.proto.testeditions.TestRequiredR\x06single:|\n" +
 	"\x05multi\x124.hybrid.goproto.proto.testeditions.TestAllExtensions\x18\xe9\a \x03(\v2/.hybrid.goproto.proto.testeditions.TestRequiredR\x05multi:t\n" +
 	"\x19global_expanded_extension\x128.hybrid.goproto.proto.testeditions.TestFeatureResolution\x18\x02 \x03(\x05R\x17globalExpandedExtension:\x8a\x01\n" +
-	"!global_packed_extension_overriden\x128.hybrid.goproto.proto.testeditions.TestFeatureResolution\x18\x03 \x03(\x05B\x05\xaa\x01\x02\x18\x01R\x1eglobalPackedExtensionOverridenB]ZOgithub.com/vedadiyan/protobuf/internal/testprotos/testeditions/testeditions_hybrid\x92\x03\t\xd2>\x02\x10\x02\x18\x02 \x03b\beditionsp\xe8\a"
+	"!global_packed_extension_overriden\x128.hybrid.goproto.proto.testeditions.TestFeatureResolution\x18\x03 \x03(\x05B\x05\xaa\x01\x02\x18\x01R\x1eglobalPackedExtensionOverridenB]ZOgithub.com/vedadiyan/protobuf-go/internal/testprotos/testeditions/testeditions_hybrid\x92\x03\t\xd2>\x02\x10\x02\x18\x02 \x03b\beditionsp\xe8\a"
 
 var file_internal_testprotos_testeditions_testeditions_hybrid_test_extension_hybrid_proto_msgTypes = make([]protoimpl.MessageInfo, 6)
 var file_internal_testprotos_testeditions_testeditions_hybrid_test_extension_hybrid_proto_goTypes = []any{

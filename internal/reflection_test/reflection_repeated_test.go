@@ -7,8 +7,8 @@ package reflection_test
 import (
 	"testing"
 
-	testopaquepb "github.com/vedadiyan/protobuf/internal/testprotos/testeditions/testeditions_opaque"
-	"github.com/vedadiyan/protobuf/proto"
+	testopaquepb "github.com/vedadiyan/protobuf-go/internal/testprotos/testeditions/testeditions_opaque"
+	"github.com/vedadiyan/protobuf-go/proto"
 )
 
 func TestOpaqueRepeated(t *testing.T) {

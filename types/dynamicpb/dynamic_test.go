@@ -8,14 +8,14 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/vedadiyan/protobuf/proto"
-	"github.com/vedadiyan/protobuf/reflect/protoreflect"
-	"github.com/vedadiyan/protobuf/reflect/protoregistry"
-	"github.com/vedadiyan/protobuf/testing/prototest"
-	"github.com/vedadiyan/protobuf/types/dynamicpb"
+	"github.com/vedadiyan/protobuf-go/proto"
+	"github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	"github.com/vedadiyan/protobuf-go/reflect/protoregistry"
+	"github.com/vedadiyan/protobuf-go/testing/prototest"
+	"github.com/vedadiyan/protobuf-go/types/dynamicpb"
 
-	testpb "github.com/vedadiyan/protobuf/internal/testprotos/test"
-	test3pb "github.com/vedadiyan/protobuf/internal/testprotos/test3"
+	testpb "github.com/vedadiyan/protobuf-go/internal/testprotos/test"
+	test3pb "github.com/vedadiyan/protobuf-go/internal/testprotos/test3"
 )
 
 func TestConformance(t *testing.T) {

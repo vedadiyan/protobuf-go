@@ -7,7 +7,7 @@ package main
 import (
 	"testing"
 
-	"github.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/enumprefix"
+	"github.com/vedadiyan/protobuf-go/cmd/protoc-gen-go/testdata/enumprefix"
 )
 
 func TestStripEnumPrefix(t *testing.T) {

@@ -13,8 +13,8 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/vedadiyan/protobuf/internal/encoding/text"
-	"github.com/vedadiyan/protobuf/internal/flags"
+	"github.com/vedadiyan/protobuf-go/internal/encoding/text"
+	"github.com/vedadiyan/protobuf-go/internal/flags"
 )
 
 var eofErr = text.ErrUnexpectedEOF.Error()

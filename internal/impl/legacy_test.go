@@ -13,17 +13,17 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 
-	"github.com/vedadiyan/protobuf/encoding/prototext"
-	pimpl "github.com/vedadiyan/protobuf/internal/impl"
-	"github.com/vedadiyan/protobuf/internal/pragma"
-	"github.com/vedadiyan/protobuf/proto"
-	"github.com/vedadiyan/protobuf/reflect/protodesc"
-	"github.com/vedadiyan/protobuf/reflect/protoreflect"
-	"github.com/vedadiyan/protobuf/reflect/protoregistry"
-	"github.com/vedadiyan/protobuf/runtime/protoiface"
+	"github.com/vedadiyan/protobuf-go/encoding/prototext"
+	pimpl "github.com/vedadiyan/protobuf-go/internal/impl"
+	"github.com/vedadiyan/protobuf-go/internal/pragma"
+	"github.com/vedadiyan/protobuf-go/proto"
+	"github.com/vedadiyan/protobuf-go/reflect/protodesc"
+	"github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	"github.com/vedadiyan/protobuf-go/reflect/protoregistry"
+	"github.com/vedadiyan/protobuf-go/runtime/protoiface"
 
-	proto2_20180125 "github.com/vedadiyan/protobuf/internal/testprotos/legacy/proto2_20180125_92554152"
-	"github.com/vedadiyan/protobuf/types/descriptorpb"
+	proto2_20180125 "github.com/vedadiyan/protobuf-go/internal/testprotos/legacy/proto2_20180125_92554152"
+	"github.com/vedadiyan/protobuf-go/types/descriptorpb"
 )
 
 type LegacyTestMessage struct {

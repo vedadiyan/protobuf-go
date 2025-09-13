@@ -20,7 +20,7 @@ It has these top-level messages:
 */
 package proto3_20160519_a4ab9ec5
 
-import proto "github.com/vedadiyan/protobuf/internal/protolegacy"
+import proto "github.com/vedadiyan/protobuf-go/internal/protolegacy"
 import fmt "fmt"
 import math "math"
 

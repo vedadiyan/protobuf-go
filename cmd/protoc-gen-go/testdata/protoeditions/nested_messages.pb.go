@@ -8,8 +8,8 @@
 package protoeditions
 
 import (
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -157,7 +157,7 @@ const file_cmd_protoc_gen_go_testdata_protoeditions_nested_messages_proto_rawDes
 	"\x02l3\x18\x02 \x01(\v22.goproto.protoc.protoeditions.Layer1.Layer2.Layer3R\x02l3\x1aV\n" +
 	"\x06Layer2\x12B\n" +
 	"\x02l3\x18\x01 \x01(\v22.goproto.protoc.protoeditions.Layer1.Layer2.Layer3R\x02l3\x1a\b\n" +
-	"\x06Layer3BEZCgithub.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/protoeditionsb\beditionsp\xe8\a"
+	"\x06Layer3BEZCgithub.com/vedadiyan/protobuf-go/cmd/protoc-gen-go/testdata/protoeditionsb\beditionsp\xe8\a"
 
 var (
 	file_cmd_protoc_gen_go_testdata_protoeditions_nested_messages_proto_rawDescOnce sync.Once

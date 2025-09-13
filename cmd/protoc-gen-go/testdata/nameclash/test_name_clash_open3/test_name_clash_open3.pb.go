@@ -27,9 +27,9 @@
 package test_name_clash_open3
 
 import (
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
-	_ "github.com/vedadiyan/protobuf/types/gofeaturespb"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
+	_ "github.com/vedadiyan/protobuf-go/types/gofeaturespb"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -948,7 +948,7 @@ const file_cmd_protoc_gen_go_testdata_nameclash_test_name_clash_open3_proto_rawD
 	"\x03M21\x12\x11\n" +
 	"\x04_foo\x18\x01 \x01(\tR\x03Foo\x12\x13\n" +
 	"\x05X_foo\x18\x02 \x01(\tR\x04XFoo\x12\x1a\n" +
-	"\tget_x_foo\x18\x03 \x01(\tR\agetXFooBWZUgithub.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_open3b\x06proto3"
+	"\tget_x_foo\x18\x03 \x01(\tR\agetXFooBWZUgithub.com/vedadiyan/protobuf-go/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_open3b\x06proto3"
 
 var (
 	file_cmd_protoc_gen_go_testdata_nameclash_test_name_clash_open3_proto_rawDescOnce sync.Once

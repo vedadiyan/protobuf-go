@@ -8,8 +8,8 @@
 package issue780_oneof_conflict
 
 import (
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -88,7 +88,7 @@ const file_cmd_protoc_gen_go_testdata_issue780_oneof_conflict_test_proto_rawDesc
 	"=cmd/protoc-gen-go/testdata/issue780_oneof_conflict/test.proto\x12\toneoftest\"'\n" +
 	"\x03Foo\x12\x19\n" +
 	"\aget_bar\x18\x01 \x01(\tH\x00R\x06getBarB\x05\n" +
-	"\x03barBOZMgithub.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/issue780_oneof_conflict"
+	"\x03barBOZMgithub.com/vedadiyan/protobuf-go/cmd/protoc-gen-go/testdata/issue780_oneof_conflict"
 
 var (
 	file_cmd_protoc_gen_go_testdata_issue780_oneof_conflict_test_proto_rawDescOnce sync.Once

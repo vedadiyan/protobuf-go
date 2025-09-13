@@ -8,10 +8,10 @@
 package fuzz
 
 import (
-	test "github.com/vedadiyan/protobuf/internal/testprotos/test"
-	test3 "github.com/vedadiyan/protobuf/internal/testprotos/test3"
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
+	test "github.com/vedadiyan/protobuf-go/internal/testprotos/test"
+	test3 "github.com/vedadiyan/protobuf-go/internal/testprotos/test3"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -132,7 +132,7 @@ const file_internal_testprotos_fuzz_fuzz_proto_rawDesc = "" +
 	"\x1atest_required_group_fields\x18\x05 \x01(\v2+.goproto.proto.test.TestRequiredGroupFieldsR\x17testRequiredGroupFields\x12O\n" +
 	"\x11test_packed_types\x18\x06 \x01(\v2#.goproto.proto.test.TestPackedTypesR\x0ftestPackedTypes\x12^\n" +
 	"\x16test_packed_extensions\x18\a \x01(\v2(.goproto.proto.test.TestPackedExtensionsR\x14testPackedExtensions\x12I\n" +
-	"\x0ftest_all_types3\x18\b \x01(\v2!.goproto.proto.test3.TestAllTypesR\rtestAllTypes3B5Z3github.com/vedadiyan/protobuf/internal/testprotos/fuzz"
+	"\x0ftest_all_types3\x18\b \x01(\v2!.goproto.proto.test3.TestAllTypesR\rtestAllTypes3B5Z3github.com/vedadiyan/protobuf-go/internal/testprotos/fuzz"
 
 var (
 	file_internal_testprotos_fuzz_fuzz_proto_rawDescOnce sync.Once

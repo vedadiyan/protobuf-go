@@ -10,11 +10,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/vedadiyan/protobuf/encoding/protowire"
-	"github.com/vedadiyan/protobuf/proto"
-	"github.com/vedadiyan/protobuf/testing/protopack"
+	"github.com/vedadiyan/protobuf-go/encoding/protowire"
+	"github.com/vedadiyan/protobuf-go/proto"
+	"github.com/vedadiyan/protobuf-go/testing/protopack"
 
-	lnwtpb "github.com/vedadiyan/protobuf/internal/testprotos/lazy"
+	lnwtpb "github.com/vedadiyan/protobuf-go/internal/testprotos/lazy"
 )
 
 func unmarshalsTheSame(b []byte, expected *lnwtpb.FTop) error {

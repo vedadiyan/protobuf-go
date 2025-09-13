@@ -11,14 +11,14 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/vedadiyan/protobuf/internal/descfmt"
-	"github.com/vedadiyan/protobuf/internal/descopts"
-	"github.com/vedadiyan/protobuf/internal/encoding/defval"
-	"github.com/vedadiyan/protobuf/internal/encoding/messageset"
-	"github.com/vedadiyan/protobuf/internal/genid"
-	"github.com/vedadiyan/protobuf/internal/pragma"
-	"github.com/vedadiyan/protobuf/internal/strs"
-	"github.com/vedadiyan/protobuf/reflect/protoreflect"
+	"github.com/vedadiyan/protobuf-go/internal/descfmt"
+	"github.com/vedadiyan/protobuf-go/internal/descopts"
+	"github.com/vedadiyan/protobuf-go/internal/encoding/defval"
+	"github.com/vedadiyan/protobuf-go/internal/encoding/messageset"
+	"github.com/vedadiyan/protobuf-go/internal/genid"
+	"github.com/vedadiyan/protobuf-go/internal/pragma"
+	"github.com/vedadiyan/protobuf-go/internal/strs"
+	"github.com/vedadiyan/protobuf-go/reflect/protoreflect"
 )
 
 // Edition is an Enum for proto2.Edition

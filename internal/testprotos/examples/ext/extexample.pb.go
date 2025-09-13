@@ -8,9 +8,9 @@
 package ext
 
 import (
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
-	_ "github.com/vedadiyan/protobuf/types/gofeaturespb"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
+	_ "github.com/vedadiyan/protobuf-go/types/gofeaturespb"
 	reflect "reflect"
 	unsafe "unsafe"
 )
@@ -118,7 +118,7 @@ const file_internal_testprotos_examples_ext_extexample_proto_rawDesc = "" +
 	"1internal/testprotos/examples/ext/extexample.proto\x12\x12goproto.proto.test\x1a!google/protobuf/go_features.proto\"7\n" +
 	"\aConcert\x12%\n" +
 	"\x0eheadliner_name\x18\x01 \x01(\tR\rheadlinerName*\x05\bd\x10\xc8\x01:6\n" +
-	"\bpromo_id\x12\x1b.goproto.proto.test.Concert\x18{ \x01(\x05R\apromoIdBEZ;github.com/vedadiyan/protobuf/internal/testprotos/examples/ext\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\bpromo_id\x12\x1b.goproto.proto.test.Concert\x18{ \x01(\x05R\apromoIdBEZ;github.com/vedadiyan/protobuf-go/internal/testprotos/examples/ext\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_internal_testprotos_examples_ext_extexample_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_internal_testprotos_examples_ext_extexample_proto_goTypes = []any{

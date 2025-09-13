@@ -8,9 +8,9 @@
 package messagesetpb_opaque
 
 import (
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
-	_ "github.com/vedadiyan/protobuf/types/gofeaturespb"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
+	_ "github.com/vedadiyan/protobuf-go/types/gofeaturespb"
 	reflect "reflect"
 	unsafe "unsafe"
 )
@@ -136,7 +136,7 @@ const file_internal_testprotos_messageset_messagesetpb_messagesetpb_opaque_messa
 	"MessageSet*\b\b\x04\x10\xff\xff\xff\xff\a:\x02\b\x01\"c\n" +
 	"\x13MessageSetContainer\x12L\n" +
 	"\vmessage_set\x18\x01 \x01(\v2+.opaque.goproto.proto.messageset.MessageSetR\n" +
-	"messageSetBdZZgithub.com/vedadiyan/protobuf/internal/testprotos/messageset/messagesetpb/messagesetpb_opaque\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"messageSetBdZZgithub.com/vedadiyan/protobuf-go/internal/testprotos/messageset/messagesetpb/messagesetpb_opaque\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_internal_testprotos_messageset_messagesetpb_messagesetpb_opaque_message_set_opaque_proto_msgTypes = make([]protoimpl.MessageInfo, 2)
 var file_internal_testprotos_messageset_messagesetpb_messagesetpb_opaque_message_set_opaque_proto_goTypes = []any{

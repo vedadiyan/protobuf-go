@@ -8,8 +8,8 @@
 package enums
 
 import (
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -94,7 +94,7 @@ const file_internal_testprotos_enums_enums_proto_rawDesc = "" +
 	"\vTHIRTYSEVEN\x10%\x12\x0e\n" +
 	"\n" +
 	"SIXTYSEVEN\x10C\x12\x15\n" +
-	"\bNEGATIVE\x10\xff\xff\xff\xff\xff\xff\xff\xff\xff\x01B;Z4github.com/vedadiyan/protobuf/internal/testprotos/enums\x92\x03\x02\x10\x02b\beditionsp\xe8\a"
+	"\bNEGATIVE\x10\xff\xff\xff\xff\xff\xff\xff\xff\xff\x01B;Z4github.com/vedadiyan/protobuf-go/internal/testprotos/enums\x92\x03\x02\x10\x02b\beditionsp\xe8\a"
 
 var (
 	file_internal_testprotos_enums_enums_proto_rawDescOnce sync.Once

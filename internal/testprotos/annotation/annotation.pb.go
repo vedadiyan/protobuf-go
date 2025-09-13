@@ -8,9 +8,9 @@
 package annotation
 
 import (
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
-	descriptorpb "github.com/vedadiyan/protobuf/types/descriptorpb"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
+	descriptorpb "github.com/vedadiyan/protobuf-go/types/descriptorpb"
 	reflect "reflect"
 	unsafe "unsafe"
 )
@@ -42,7 +42,7 @@ var File_internal_testprotos_annotation_annotation_proto protoreflect.FileDescri
 const file_internal_testprotos_annotation_annotation_proto_rawDesc = "" +
 	"\n" +
 	"/internal/testprotos/annotation/annotation.proto\x12\rgo_annotation\x1a google/protobuf/descriptor.proto:J\n" +
-	"\x0ftrack_field_use\x12\x1f.google.protobuf.MessageOptions\x18\x85\xdc\xe9\x11 \x01(\bR\rtrackFieldUseB;Z9github.com/vedadiyan/protobuf/internal/testprotos/annotation"
+	"\x0ftrack_field_use\x12\x1f.google.protobuf.MessageOptions\x18\x85\xdc\xe9\x11 \x01(\bR\rtrackFieldUseB;Z9github.com/vedadiyan/protobuf-go/internal/testprotos/annotation"
 
 var file_internal_testprotos_annotation_annotation_proto_goTypes = []any{
 	(*descriptorpb.MessageOptions)(nil), // 0: google.protobuf.MessageOptions

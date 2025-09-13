@@ -11,19 +11,19 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/vedadiyan/protobuf/internal/detrand"
-	"github.com/vedadiyan/protobuf/internal/msgfmt"
-	"github.com/vedadiyan/protobuf/proto"
-	"github.com/vedadiyan/protobuf/testing/protocmp"
-	"github.com/vedadiyan/protobuf/testing/protopack"
+	"github.com/vedadiyan/protobuf-go/internal/detrand"
+	"github.com/vedadiyan/protobuf-go/internal/msgfmt"
+	"github.com/vedadiyan/protobuf-go/proto"
+	"github.com/vedadiyan/protobuf-go/testing/protocmp"
+	"github.com/vedadiyan/protobuf-go/testing/protopack"
 
-	testpb "github.com/vedadiyan/protobuf/internal/testprotos/test"
-	textpb "github.com/vedadiyan/protobuf/internal/testprotos/textpb2"
-	dynpb "github.com/vedadiyan/protobuf/types/dynamicpb"
-	"github.com/vedadiyan/protobuf/types/known/anypb"
-	durpb "github.com/vedadiyan/protobuf/types/known/durationpb"
-	tspb "github.com/vedadiyan/protobuf/types/known/timestamppb"
-	wpb "github.com/vedadiyan/protobuf/types/known/wrapperspb"
+	testpb "github.com/vedadiyan/protobuf-go/internal/testprotos/test"
+	textpb "github.com/vedadiyan/protobuf-go/internal/testprotos/textpb2"
+	dynpb "github.com/vedadiyan/protobuf-go/types/dynamicpb"
+	"github.com/vedadiyan/protobuf-go/types/known/anypb"
+	durpb "github.com/vedadiyan/protobuf-go/types/known/durationpb"
+	tspb "github.com/vedadiyan/protobuf-go/types/known/timestamppb"
+	wpb "github.com/vedadiyan/protobuf-go/types/known/wrapperspb"
 )
 
 func init() {

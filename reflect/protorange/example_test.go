@@ -9,17 +9,17 @@ import (
 	"strings"
 	"time"
 
-	"github.com/vedadiyan/protobuf/encoding/protojson"
-	"github.com/vedadiyan/protobuf/internal/detrand"
-	"github.com/vedadiyan/protobuf/proto"
-	"github.com/vedadiyan/protobuf/reflect/protopath"
-	"github.com/vedadiyan/protobuf/reflect/protorange"
-	"github.com/vedadiyan/protobuf/reflect/protoreflect"
-	"github.com/vedadiyan/protobuf/testing/protopack"
-	"github.com/vedadiyan/protobuf/types/known/anypb"
-	"github.com/vedadiyan/protobuf/types/known/timestamppb"
+	"github.com/vedadiyan/protobuf-go/encoding/protojson"
+	"github.com/vedadiyan/protobuf-go/internal/detrand"
+	"github.com/vedadiyan/protobuf-go/proto"
+	"github.com/vedadiyan/protobuf-go/reflect/protopath"
+	"github.com/vedadiyan/protobuf-go/reflect/protorange"
+	"github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	"github.com/vedadiyan/protobuf-go/testing/protopack"
+	"github.com/vedadiyan/protobuf-go/types/known/anypb"
+	"github.com/vedadiyan/protobuf-go/types/known/timestamppb"
 
-	newspb "github.com/vedadiyan/protobuf/internal/testprotos/news"
+	newspb "github.com/vedadiyan/protobuf-go/internal/testprotos/news"
 )
 
 func init() {

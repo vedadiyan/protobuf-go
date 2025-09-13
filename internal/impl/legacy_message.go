@@ -10,13 +10,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/vedadiyan/protobuf/internal/descopts"
-	ptag "github.com/vedadiyan/protobuf/internal/encoding/tag"
-	"github.com/vedadiyan/protobuf/internal/errors"
-	"github.com/vedadiyan/protobuf/internal/filedesc"
-	"github.com/vedadiyan/protobuf/internal/strs"
-	"github.com/vedadiyan/protobuf/reflect/protoreflect"
-	"github.com/vedadiyan/protobuf/runtime/protoiface"
+	"github.com/vedadiyan/protobuf-go/internal/descopts"
+	ptag "github.com/vedadiyan/protobuf-go/internal/encoding/tag"
+	"github.com/vedadiyan/protobuf-go/internal/errors"
+	"github.com/vedadiyan/protobuf-go/internal/filedesc"
+	"github.com/vedadiyan/protobuf-go/internal/strs"
+	"github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	"github.com/vedadiyan/protobuf-go/runtime/protoiface"
 )
 
 // legacyWrapMessage wraps v as a protoreflect.Message,

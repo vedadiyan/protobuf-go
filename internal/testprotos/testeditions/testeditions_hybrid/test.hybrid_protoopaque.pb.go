@@ -10,10 +10,10 @@
 package testeditions_hybrid
 
 import (
-	enums_hybrid "github.com/vedadiyan/protobuf/internal/testprotos/enums/enums_hybrid"
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
-	_ "github.com/vedadiyan/protobuf/types/gofeaturespb"
+	enums_hybrid "github.com/vedadiyan/protobuf-go/internal/testprotos/enums/enums_hybrid"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
+	_ "github.com/vedadiyan/protobuf-go/types/gofeaturespb"
 	reflect "reflect"
 	unsafe "unsafe"
 )
@@ -7547,7 +7547,7 @@ const file_internal_testprotos_testeditions_testeditions_hybrid_test_hybrid_prot
 	"\vpacked_bool\x127.hybrid.goproto.proto.testeditions.TestPackedExtensions\x18f \x03(\bB\x05\xaa\x01\x02\x18\x01R\n" +
 	"packedBool:\x8f\x01\n" +
 	"\vpacked_enum\x127.hybrid.goproto.proto.testeditions.TestPackedExtensions\x18g \x03(\x0e2..hybrid.goproto.proto.testeditions.ForeignEnumB\x05\xaa\x01\x02\x18\x01R\n" +
-	"packedEnumBYZOgithub.com/vedadiyan/protobuf/internal/testprotos/testeditions/testeditions_hybrid\x92\x03\x05\xd2>\x02\x10\x02b\beditionsp\xe8\a"
+	"packedEnumBYZOgithub.com/vedadiyan/protobuf-go/internal/testprotos/testeditions/testeditions_hybrid\x92\x03\x05\xd2>\x02\x10\x02b\beditionsp\xe8\a"
 
 var file_internal_testprotos_testeditions_testeditions_hybrid_test_hybrid_proto_enumTypes = make([]protoimpl.EnumInfo, 2)
 var file_internal_testprotos_testeditions_testeditions_hybrid_test_hybrid_proto_msgTypes = make([]protoimpl.MessageInfo, 34)

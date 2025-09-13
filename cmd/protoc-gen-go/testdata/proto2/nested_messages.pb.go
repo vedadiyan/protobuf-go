@@ -8,8 +8,8 @@
 package proto2
 
 import (
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -157,7 +157,7 @@ const file_cmd_protoc_gen_go_testdata_proto2_nested_messages_proto_rawDesc = "" 
 	"\x02l3\x18\x02 \x01(\v2+.goproto.protoc.proto2.Layer1.Layer2.Layer3R\x02l3\x1aO\n" +
 	"\x06Layer2\x12;\n" +
 	"\x02l3\x18\x01 \x01(\v2+.goproto.protoc.proto2.Layer1.Layer2.Layer3R\x02l3\x1a\b\n" +
-	"\x06Layer3B>Z<github.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/proto2"
+	"\x06Layer3B>Z<github.com/vedadiyan/protobuf-go/cmd/protoc-gen-go/testdata/proto2"
 
 var (
 	file_cmd_protoc_gen_go_testdata_proto2_nested_messages_proto_rawDescOnce sync.Once

@@ -8,11 +8,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/vedadiyan/protobuf/internal/encoding/tag"
-	"github.com/vedadiyan/protobuf/internal/filedesc"
-	"github.com/vedadiyan/protobuf/proto"
-	"github.com/vedadiyan/protobuf/reflect/protodesc"
-	"github.com/vedadiyan/protobuf/reflect/protoreflect"
+	"github.com/vedadiyan/protobuf-go/internal/encoding/tag"
+	"github.com/vedadiyan/protobuf-go/internal/filedesc"
+	"github.com/vedadiyan/protobuf-go/proto"
+	"github.com/vedadiyan/protobuf-go/reflect/protodesc"
+	"github.com/vedadiyan/protobuf-go/reflect/protoreflect"
 )
 
 func Test(t *testing.T) {

@@ -8,8 +8,8 @@
 package comments
 
 import (
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -116,7 +116,7 @@ const file_cmd_protoc_gen_go_testdata_comments_deprecated_proto_rawDesc = "" +
 	"\x10deprecated_field\x18\x01 \x01(\tB\x02\x18\x01R\x0fdeprecatedField:\x02\x18\x01*(\n" +
 	"\x0eDeprecatedEnum\x12\x12\n" +
 	"\n" +
-	"DEPRECATED\x10\x00\x1a\x02\b\x01\x1a\x02\x18\x01BCZ>github.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/comments\xb8\x01\x01b\x06proto3"
+	"DEPRECATED\x10\x00\x1a\x02\b\x01\x1a\x02\x18\x01BCZ>github.com/vedadiyan/protobuf-go/cmd/protoc-gen-go/testdata/comments\xb8\x01\x01b\x06proto3"
 
 var (
 	file_cmd_protoc_gen_go_testdata_comments_deprecated_proto_rawDescOnce sync.Once

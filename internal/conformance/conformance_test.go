@@ -15,13 +15,13 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/vedadiyan/protobuf/encoding/protojson"
-	"github.com/vedadiyan/protobuf/encoding/prototext"
-	"github.com/vedadiyan/protobuf/proto"
+	"github.com/vedadiyan/protobuf-go/encoding/protojson"
+	"github.com/vedadiyan/protobuf-go/encoding/prototext"
+	"github.com/vedadiyan/protobuf-go/proto"
 
-	pb "github.com/vedadiyan/protobuf/internal/testprotos/conformance"
-	epb "github.com/vedadiyan/protobuf/internal/testprotos/conformance/editions"
-	empb "github.com/vedadiyan/protobuf/internal/testprotos/conformance/editionsmigration"
+	pb "github.com/vedadiyan/protobuf-go/internal/testprotos/conformance"
+	epb "github.com/vedadiyan/protobuf-go/internal/testprotos/conformance/editions"
+	empb "github.com/vedadiyan/protobuf-go/internal/testprotos/conformance/editionsmigration"
 )
 
 func init() {

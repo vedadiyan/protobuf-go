@@ -8,10 +8,10 @@
 package msetextpb_opaque
 
 import (
-	messagesetpb_opaque "github.com/vedadiyan/protobuf/internal/testprotos/messageset/messagesetpb/messagesetpb_opaque"
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
-	_ "github.com/vedadiyan/protobuf/types/gofeaturespb"
+	messagesetpb_opaque "github.com/vedadiyan/protobuf-go/internal/testprotos/messageset/messagesetpb/messagesetpb_opaque"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
+	_ "github.com/vedadiyan/protobuf-go/types/gofeaturespb"
 	reflect "reflect"
 	unsafe "unsafe"
 )
@@ -380,7 +380,7 @@ const file_internal_testprotos_messageset_msetextpb_msetextpb_opaque_msetextpb_o
 	"\x0frequired_field1\x18\x01 \x01(\x05B\x05\xaa\x01\x02\b\x03R\x0erequiredField12\x92\x01\n" +
 	"\x17message_set_extrequired\x12+.opaque.goproto.proto.messageset.MessageSet\x18\xea\a \x01(\v2,.opaque.goproto.proto.messageset.ExtRequiredR\x15messageSetExtrequired\"\xa5\x01\n" +
 	"\x0eExtLargeNumber2\x92\x01\n" +
-	"\x14message_set_extlarge\x12+.opaque.goproto.proto.messageset.MessageSet\x18\x80\x80\x80\x80\x02 \x01(\v2/.opaque.goproto.proto.messageset.ExtLargeNumberR\x12messageSetExtlargeB^ZTgithub.com/vedadiyan/protobuf/internal/testprotos/messageset/msetextpb/msetextpb_opaque\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\x14message_set_extlarge\x12+.opaque.goproto.proto.messageset.MessageSet\x18\x80\x80\x80\x80\x02 \x01(\v2/.opaque.goproto.proto.messageset.ExtLargeNumberR\x12messageSetExtlargeB^ZTgithub.com/vedadiyan/protobuf-go/internal/testprotos/messageset/msetextpb/msetextpb_opaque\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_internal_testprotos_messageset_msetextpb_msetextpb_opaque_msetextpb_opaque_proto_msgTypes = make([]protoimpl.MessageInfo, 4)
 var file_internal_testprotos_messageset_msetextpb_msetextpb_opaque_msetextpb_opaque_proto_goTypes = []any{

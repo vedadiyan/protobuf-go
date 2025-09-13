@@ -8,8 +8,8 @@
 package required
 
 import (
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -792,7 +792,7 @@ const file_internal_testprotos_required_required_proto_rawDesc = "" +
 	"\x05Group\x12F\n" +
 	"\x05group\x18\x01 \x01(\v2'.goproto.proto.testrequired.Group.GroupB\a\xaa\x01\x04\b\x03(\x02R\x05group\x1a\x15\n" +
 	"\x05Group\x12\f\n" +
-	"\x01v\x18\x01 \x01(\x05R\x01vB9Z7github.com/vedadiyan/protobuf/internal/testprotos/requiredb\beditionsp\xe8\a"
+	"\x01v\x18\x01 \x01(\x05R\x01vB9Z7github.com/vedadiyan/protobuf-go/internal/testprotos/requiredb\beditionsp\xe8\a"
 
 var (
 	file_internal_testprotos_required_required_proto_rawDescOnce sync.Once

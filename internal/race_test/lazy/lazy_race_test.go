@@ -25,10 +25,10 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/vedadiyan/protobuf/internal/test/race"
-	mixedpb "github.com/vedadiyan/protobuf/internal/testprotos/mixed"
-	testopaquepb "github.com/vedadiyan/protobuf/internal/testprotos/testeditions/testeditions_opaque"
-	"github.com/vedadiyan/protobuf/proto"
+	"github.com/vedadiyan/protobuf-go/internal/test/race"
+	mixedpb "github.com/vedadiyan/protobuf-go/internal/testprotos/mixed"
+	testopaquepb "github.com/vedadiyan/protobuf-go/internal/testprotos/testeditions/testeditions_opaque"
+	"github.com/vedadiyan/protobuf-go/proto"
 )
 
 // To get some output from the subprocess, set this to true

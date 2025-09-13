@@ -8,8 +8,8 @@
 package test
 
 import (
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -112,7 +112,7 @@ const file_internal_testprotos_test_test_import_proto_rawDesc = "" +
 	"\rImportMessage*\x1d\n" +
 	"\n" +
 	"ImportEnum\x12\x0f\n" +
-	"\vIMPORT_ZERO\x10\x00B5Z3github.com/vedadiyan/protobuf/internal/testprotos/test"
+	"\vIMPORT_ZERO\x10\x00B5Z3github.com/vedadiyan/protobuf-go/internal/testprotos/test"
 
 var (
 	file_internal_testprotos_test_test_import_proto_rawDescOnce sync.Once

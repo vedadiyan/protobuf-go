@@ -5,16 +5,16 @@
 package proto_test
 
 import (
-	"github.com/vedadiyan/protobuf/encoding/protowire"
-	"github.com/vedadiyan/protobuf/internal/flags"
-	"github.com/vedadiyan/protobuf/internal/protobuild"
-	"github.com/vedadiyan/protobuf/proto"
-	"github.com/vedadiyan/protobuf/testing/protopack"
+	"github.com/vedadiyan/protobuf-go/encoding/protowire"
+	"github.com/vedadiyan/protobuf-go/internal/flags"
+	"github.com/vedadiyan/protobuf-go/internal/protobuild"
+	"github.com/vedadiyan/protobuf-go/proto"
+	"github.com/vedadiyan/protobuf-go/testing/protopack"
 
-	"github.com/vedadiyan/protobuf/internal/testprotos/messageset/messagesetpb"
-	_ "github.com/vedadiyan/protobuf/internal/testprotos/messageset/messagesetpb/messagesetpb_opaque"
-	_ "github.com/vedadiyan/protobuf/internal/testprotos/messageset/msetextpb"
-	_ "github.com/vedadiyan/protobuf/internal/testprotos/messageset/msetextpb/msetextpb_opaque"
+	"github.com/vedadiyan/protobuf-go/internal/testprotos/messageset/messagesetpb"
+	_ "github.com/vedadiyan/protobuf-go/internal/testprotos/messageset/messagesetpb/messagesetpb_opaque"
+	_ "github.com/vedadiyan/protobuf-go/internal/testprotos/messageset/msetextpb"
+	_ "github.com/vedadiyan/protobuf-go/internal/testprotos/messageset/msetextpb/msetextpb_opaque"
 )
 
 func init() {

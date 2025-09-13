@@ -4,7 +4,7 @@
 
 package genid
 
-import "github.com/vedadiyan/protobuf/reflect/protoreflect"
+import "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
 
 // Generic field name and number for messages in wrappers.proto.
 const (

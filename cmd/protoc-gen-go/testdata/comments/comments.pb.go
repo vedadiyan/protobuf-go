@@ -10,8 +10,8 @@
 package comments
 
 import (
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -377,7 +377,7 @@ const file_cmd_protoc_gen_go_testdata_comments_comments_proto_rawDesc = "" +
 	"\x05Enum1\x12\a\n" +
 	"\x03FOO\x10\x00\x12\a\n" +
 	"\x03BAR\x10\x01:b\n" +
-	"\textension\x12!.goproto.protoc.comments.Message1\x18d \x01(\v2!.goproto.protoc.comments.Message1R\textensionB@Z>github.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/comments"
+	"\textension\x12!.goproto.protoc.comments.Message1\x18d \x01(\v2!.goproto.protoc.comments.Message1R\textensionB@Z>github.com/vedadiyan/protobuf-go/cmd/protoc-gen-go/testdata/comments"
 
 var (
 	file_cmd_protoc_gen_go_testdata_comments_comments_proto_rawDescOnce sync.Once

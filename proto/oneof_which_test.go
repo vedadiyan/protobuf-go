@@ -7,13 +7,13 @@ package proto_test
 import (
 	"testing"
 
-	test3openpb "github.com/vedadiyan/protobuf/internal/testprotos/test3"
-	test3hybridpb "github.com/vedadiyan/protobuf/internal/testprotos/test3/test3_hybrid"
-	test3opaquepb "github.com/vedadiyan/protobuf/internal/testprotos/test3/test3_opaque"
-	testhybridpb "github.com/vedadiyan/protobuf/internal/testprotos/testeditions/testeditions_hybrid"
-	testopaquepb "github.com/vedadiyan/protobuf/internal/testprotos/testeditions/testeditions_opaque"
-	"github.com/vedadiyan/protobuf/proto"
-	"github.com/vedadiyan/protobuf/reflect/protoreflect"
+	test3openpb "github.com/vedadiyan/protobuf-go/internal/testprotos/test3"
+	test3hybridpb "github.com/vedadiyan/protobuf-go/internal/testprotos/test3/test3_hybrid"
+	test3opaquepb "github.com/vedadiyan/protobuf-go/internal/testprotos/test3/test3_opaque"
+	testhybridpb "github.com/vedadiyan/protobuf-go/internal/testprotos/testeditions/testeditions_hybrid"
+	testopaquepb "github.com/vedadiyan/protobuf-go/internal/testprotos/testeditions/testeditions_opaque"
+	"github.com/vedadiyan/protobuf-go/proto"
+	"github.com/vedadiyan/protobuf-go/reflect/protoreflect"
 )
 
 func TestOpenWhich(t *testing.T) {

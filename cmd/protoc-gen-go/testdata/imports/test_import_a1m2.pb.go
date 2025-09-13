@@ -8,9 +8,9 @@
 package imports
 
 import (
-	test_a_1 "github.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/imports/test_a_1"
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
+	test_a_1 "github.com/vedadiyan/protobuf-go/cmd/protoc-gen-go/testdata/imports/test_a_1"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -67,7 +67,7 @@ const file_cmd_protoc_gen_go_testdata_imports_test_import_a1m2_proto_rawDesc = "
 	"9cmd/protoc-gen-go/testdata/imports/test_import_a1m2.proto\x12\x04test\x1a4cmd/protoc-gen-go/testdata/imports/test_a_1/m2.proto\" \n" +
 	"\x04A1M2\x12\x18\n" +
 	"\x01f\x18\x01 \x01(\v2\n" +
-	".test.a.M2R\x01fB?Z=github.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/importsb\x06proto3"
+	".test.a.M2R\x01fB?Z=github.com/vedadiyan/protobuf-go/cmd/protoc-gen-go/testdata/importsb\x06proto3"
 
 var (
 	file_cmd_protoc_gen_go_testdata_imports_test_import_a1m2_proto_rawDescOnce sync.Once

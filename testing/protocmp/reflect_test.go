@@ -9,12 +9,12 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/vedadiyan/protobuf/proto"
+	"github.com/vedadiyan/protobuf-go/proto"
 
-	testpb "github.com/vedadiyan/protobuf/internal/testprotos/test"
-	textpb "github.com/vedadiyan/protobuf/internal/testprotos/textpb2"
-	"github.com/vedadiyan/protobuf/types/known/anypb"
-	"github.com/vedadiyan/protobuf/types/known/wrapperspb"
+	testpb "github.com/vedadiyan/protobuf-go/internal/testprotos/test"
+	textpb "github.com/vedadiyan/protobuf-go/internal/testprotos/textpb2"
+	"github.com/vedadiyan/protobuf-go/types/known/anypb"
+	"github.com/vedadiyan/protobuf-go/types/known/wrapperspb"
 )
 
 func TestReflect(t *testing.T) {

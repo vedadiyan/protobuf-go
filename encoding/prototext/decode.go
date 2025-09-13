@@ -8,17 +8,17 @@ import (
 	"fmt"
 	"unicode/utf8"
 
-	"github.com/vedadiyan/protobuf/internal/encoding/messageset"
-	"github.com/vedadiyan/protobuf/internal/encoding/text"
-	"github.com/vedadiyan/protobuf/internal/errors"
-	"github.com/vedadiyan/protobuf/internal/flags"
-	"github.com/vedadiyan/protobuf/internal/genid"
-	"github.com/vedadiyan/protobuf/internal/pragma"
-	"github.com/vedadiyan/protobuf/internal/set"
-	"github.com/vedadiyan/protobuf/internal/strs"
-	"github.com/vedadiyan/protobuf/proto"
-	"github.com/vedadiyan/protobuf/reflect/protoreflect"
-	"github.com/vedadiyan/protobuf/reflect/protoregistry"
+	"github.com/vedadiyan/protobuf-go/internal/encoding/messageset"
+	"github.com/vedadiyan/protobuf-go/internal/encoding/text"
+	"github.com/vedadiyan/protobuf-go/internal/errors"
+	"github.com/vedadiyan/protobuf-go/internal/flags"
+	"github.com/vedadiyan/protobuf-go/internal/genid"
+	"github.com/vedadiyan/protobuf-go/internal/pragma"
+	"github.com/vedadiyan/protobuf-go/internal/set"
+	"github.com/vedadiyan/protobuf-go/internal/strs"
+	"github.com/vedadiyan/protobuf-go/proto"
+	"github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	"github.com/vedadiyan/protobuf-go/reflect/protoregistry"
 )
 
 // Unmarshal reads the given []byte into the given [proto.Message].

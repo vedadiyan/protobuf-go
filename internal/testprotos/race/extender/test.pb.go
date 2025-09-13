@@ -8,9 +8,9 @@
 package extender
 
 import (
-	message "github.com/vedadiyan/protobuf/internal/testprotos/race/message"
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
+	message "github.com/vedadiyan/protobuf-go/internal/testprotos/race/message"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -84,7 +84,7 @@ const file_internal_testprotos_race_extender_test_proto_rawDesc = "" +
 	",internal/testprotos/race/extender/test.proto\x12\x12goproto.proto.test\x1a+internal/testprotos/race/message/test.proto\" \n" +
 	"\fOtherMessage\x12\x10\n" +
 	"\x03i32\x18\x01 \x01(\x05R\x03i32:+\n" +
-	"\x01s\x12\x1d.goproto.proto.test.MyMessage\x18\x02 \x01(\tR\x01sB>Z<github.com/vedadiyan/protobuf/internal/testprotos/race/extenderb\beditionsp\xe8\a"
+	"\x01s\x12\x1d.goproto.proto.test.MyMessage\x18\x02 \x01(\tR\x01sB>Z<github.com/vedadiyan/protobuf-go/internal/testprotos/race/extenderb\beditionsp\xe8\a"
 
 var (
 	file_internal_testprotos_race_extender_test_proto_rawDescOnce sync.Once

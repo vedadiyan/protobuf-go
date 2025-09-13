@@ -9,15 +9,15 @@ import (
 	"math"
 	"testing"
 
-	"github.com/vedadiyan/protobuf/encoding/prototext"
-	"github.com/vedadiyan/protobuf/internal/pragma"
-	"github.com/vedadiyan/protobuf/internal/protobuild"
-	"github.com/vedadiyan/protobuf/proto"
-	"github.com/vedadiyan/protobuf/testing/protopack"
+	"github.com/vedadiyan/protobuf-go/encoding/prototext"
+	"github.com/vedadiyan/protobuf-go/internal/pragma"
+	"github.com/vedadiyan/protobuf-go/internal/protobuild"
+	"github.com/vedadiyan/protobuf-go/proto"
+	"github.com/vedadiyan/protobuf-go/testing/protopack"
 
-	testpb "github.com/vedadiyan/protobuf/internal/testprotos/test"
-	test3pb "github.com/vedadiyan/protobuf/internal/testprotos/test3"
-	testeditionspb "github.com/vedadiyan/protobuf/internal/testprotos/testeditions"
+	testpb "github.com/vedadiyan/protobuf-go/internal/testprotos/test"
+	test3pb "github.com/vedadiyan/protobuf-go/internal/testprotos/test3"
+	testeditionspb "github.com/vedadiyan/protobuf-go/internal/testprotos/testeditions"
 )
 
 func TestEqual(t *testing.T) {

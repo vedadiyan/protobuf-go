@@ -8,8 +8,8 @@
 package proto2
 
 import (
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -466,7 +466,7 @@ const file_cmd_protoc_gen_go_testdata_proto2_enum_proto_rawDesc = "" +
 	"\n" +
 	"duplicate1\x10\x01\x12\x0e\n" +
 	"\n" +
-	"duplicate2\x10\x01\x1a\x02\x10\x01\"\x04\b\x02\x10\x02\"\x04\b\x03\x10\x03*\tRESERVED1*\tRESERVED2B>Z<github.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/proto2"
+	"duplicate2\x10\x01\x1a\x02\x10\x01\"\x04\b\x02\x10\x02\"\x04\b\x03\x10\x03*\tRESERVED1*\tRESERVED2B>Z<github.com/vedadiyan/protobuf-go/cmd/protoc-gen-go/testdata/proto2"
 
 var (
 	file_cmd_protoc_gen_go_testdata_proto2_enum_proto_rawDescOnce sync.Once

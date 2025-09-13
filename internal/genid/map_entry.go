@@ -4,7 +4,7 @@
 
 package genid
 
-import "github.com/vedadiyan/protobuf/reflect/protoreflect"
+import "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
 
 // Generic field names and numbers for synthetic map entry messages.
 const (

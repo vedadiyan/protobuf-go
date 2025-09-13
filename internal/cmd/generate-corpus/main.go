@@ -15,12 +15,12 @@ import (
 	"log"
 	"os"
 
-	"github.com/vedadiyan/protobuf/encoding/protojson"
-	"github.com/vedadiyan/protobuf/encoding/prototext"
-	"github.com/vedadiyan/protobuf/proto"
+	"github.com/vedadiyan/protobuf-go/encoding/protojson"
+	"github.com/vedadiyan/protobuf-go/encoding/prototext"
+	"github.com/vedadiyan/protobuf-go/proto"
 
-	fuzzpb "github.com/vedadiyan/protobuf/internal/testprotos/fuzz"
-	testpb "github.com/vedadiyan/protobuf/internal/testprotos/test"
+	fuzzpb "github.com/vedadiyan/protobuf-go/internal/testprotos/fuzz"
+	testpb "github.com/vedadiyan/protobuf-go/internal/testprotos/test"
 )
 
 var messages = []proto.Message{

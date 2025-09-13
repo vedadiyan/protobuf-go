@@ -5,19 +5,19 @@
 package proto_test
 
 import (
-	"github.com/vedadiyan/protobuf/encoding/protowire"
-	"github.com/vedadiyan/protobuf/internal/impl"
-	"github.com/vedadiyan/protobuf/internal/protobuild"
-	"github.com/vedadiyan/protobuf/proto"
-	"github.com/vedadiyan/protobuf/reflect/protoreflect"
-	"github.com/vedadiyan/protobuf/reflect/protoregistry"
-	"github.com/vedadiyan/protobuf/testing/protopack"
+	"github.com/vedadiyan/protobuf-go/encoding/protowire"
+	"github.com/vedadiyan/protobuf-go/internal/impl"
+	"github.com/vedadiyan/protobuf-go/internal/protobuild"
+	"github.com/vedadiyan/protobuf-go/proto"
+	"github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	"github.com/vedadiyan/protobuf-go/reflect/protoregistry"
+	"github.com/vedadiyan/protobuf-go/testing/protopack"
 
-	legacypb "github.com/vedadiyan/protobuf/internal/testprotos/legacy"
-	requiredpb "github.com/vedadiyan/protobuf/internal/testprotos/required"
-	testpb "github.com/vedadiyan/protobuf/internal/testprotos/test"
-	test3pb "github.com/vedadiyan/protobuf/internal/testprotos/test3"
-	testeditionspb "github.com/vedadiyan/protobuf/internal/testprotos/testeditions"
+	legacypb "github.com/vedadiyan/protobuf-go/internal/testprotos/legacy"
+	requiredpb "github.com/vedadiyan/protobuf-go/internal/testprotos/required"
+	testpb "github.com/vedadiyan/protobuf-go/internal/testprotos/test"
+	test3pb "github.com/vedadiyan/protobuf-go/internal/testprotos/test3"
+	testeditionspb "github.com/vedadiyan/protobuf-go/internal/testprotos/testeditions"
 )
 
 type testProto struct {

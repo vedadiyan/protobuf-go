@@ -8,8 +8,8 @@
 package lazy
 
 import (
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -201,7 +201,7 @@ const file_internal_testprotos_lazy_lazy_tree_proto_rawDesc = "" +
 	"\x06double\x18\f \x01(\x01R\x06double\x12\x12\n" +
 	"\x04bool\x18\r \x01(\bR\x04bool\x12\x16\n" +
 	"\x06string\x18\x0e \x01(\tR\x06string\x12\x14\n" +
-	"\x05bytes\x18\x0f \x01(\fR\x05bytesB5Z3github.com/vedadiyan/protobuf/internal/testprotos/lazyb\beditionsp\xe8\a"
+	"\x05bytes\x18\x0f \x01(\fR\x05bytesB5Z3github.com/vedadiyan/protobuf-go/internal/testprotos/lazyb\beditionsp\xe8\a"
 
 var (
 	file_internal_testprotos_lazy_lazy_tree_proto_rawDescOnce sync.Once

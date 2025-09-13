@@ -10,8 +10,8 @@
 package test3_hybrid
 
 import (
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
 	reflect "reflect"
 	unsafe "unsafe"
 )
@@ -2400,7 +2400,7 @@ const file_internal_testprotos_test3_test3_hybrid_test_hybrid_proto_rawDesc = ""
 	"\fFOREIGN_ZERO\x10\x00\x12\x0f\n" +
 	"\vFOREIGN_FOO\x10\x04\x12\x0f\n" +
 	"\vFOREIGN_BAR\x10\x05\x12\x0f\n" +
-	"\vFOREIGN_BAZ\x10\x06BCZAgithub.com/vedadiyan/protobuf/internal/testprotos/test3/test3_hybridb\x06proto3"
+	"\vFOREIGN_BAZ\x10\x06BCZAgithub.com/vedadiyan/protobuf-go/internal/testprotos/test3/test3_hybridb\x06proto3"
 
 var file_internal_testprotos_test3_test3_hybrid_test_hybrid_proto_enumTypes = make([]protoimpl.EnumInfo, 2)
 var file_internal_testprotos_test3_test3_hybrid_test_hybrid_proto_msgTypes = make([]protoimpl.MessageInfo, 20)

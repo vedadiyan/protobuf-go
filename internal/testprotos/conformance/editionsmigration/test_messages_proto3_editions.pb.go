@@ -18,14 +18,14 @@
 package editions
 
 import (
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
-	anypb "github.com/vedadiyan/protobuf/types/known/anypb"
-	durationpb "github.com/vedadiyan/protobuf/types/known/durationpb"
-	fieldmaskpb "github.com/vedadiyan/protobuf/types/known/fieldmaskpb"
-	structpb "github.com/vedadiyan/protobuf/types/known/structpb"
-	timestamppb "github.com/vedadiyan/protobuf/types/known/timestamppb"
-	wrapperspb "github.com/vedadiyan/protobuf/types/known/wrapperspb"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
+	anypb "github.com/vedadiyan/protobuf-go/types/known/anypb"
+	durationpb "github.com/vedadiyan/protobuf-go/types/known/durationpb"
+	fieldmaskpb "github.com/vedadiyan/protobuf-go/types/known/fieldmaskpb"
+	structpb "github.com/vedadiyan/protobuf-go/types/known/structpb"
+	timestamppb "github.com/vedadiyan/protobuf-go/types/known/timestamppb"
+	wrapperspb "github.com/vedadiyan/protobuf-go/types/known/wrapperspb"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"

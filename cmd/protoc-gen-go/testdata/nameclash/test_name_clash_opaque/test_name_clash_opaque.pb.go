@@ -27,9 +27,9 @@
 package test_name_clash_opaque
 
 import (
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
-	_ "github.com/vedadiyan/protobuf/types/gofeaturespb"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
+	_ "github.com/vedadiyan/protobuf-go/types/gofeaturespb"
 	reflect "reflect"
 	unsafe "unsafe"
 )
@@ -3531,7 +3531,7 @@ const file_cmd_protoc_gen_go_testdata_nameclash_test_name_clash_opaque_proto_raw
 	"\x03M21\x12\x11\n" +
 	"\x04_foo\x18\x01 \x01(\tR\x03Foo\x12\x13\n" +
 	"\x05X_foo\x18\x02 \x01(\tR\x04XFoo\x12\x1a\n" +
-	"\tget_x_foo\x18\x03 \x01(\tR\agetXFooB`ZVgithub.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_opaque\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"\tget_x_foo\x18\x03 \x01(\tR\agetXFooB`ZVgithub.com/vedadiyan/protobuf-go/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_opaque\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_cmd_protoc_gen_go_testdata_nameclash_test_name_clash_opaque_proto_msgTypes = make([]protoimpl.MessageInfo, 21)
 var file_cmd_protoc_gen_go_testdata_nameclash_test_name_clash_opaque_proto_goTypes = []any{

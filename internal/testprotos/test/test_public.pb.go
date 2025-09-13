@@ -8,8 +8,8 @@
 package test
 
 import (
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -56,7 +56,7 @@ var File_internal_testprotos_test_test_public_proto protoreflect.FileDescriptor
 const file_internal_testprotos_test_test_public_proto_rawDesc = "" +
 	"\n" +
 	"*internal/testprotos/test/test_public.proto\x12\x12goproto.proto.test\"\x15\n" +
-	"\x13PublicImportMessageB5Z3github.com/vedadiyan/protobuf/internal/testprotos/test"
+	"\x13PublicImportMessageB5Z3github.com/vedadiyan/protobuf-go/internal/testprotos/test"
 
 var (
 	file_internal_testprotos_test_test_public_proto_rawDescOnce sync.Once

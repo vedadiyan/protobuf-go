@@ -8,16 +8,16 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/vedadiyan/protobuf/proto"
-	"github.com/vedadiyan/protobuf/runtime/protoimpl"
-	"github.com/vedadiyan/protobuf/testing/prototest"
+	"github.com/vedadiyan/protobuf-go/proto"
+	"github.com/vedadiyan/protobuf-go/runtime/protoimpl"
+	"github.com/vedadiyan/protobuf-go/testing/prototest"
 
-	irregularpb "github.com/vedadiyan/protobuf/internal/testprotos/irregular"
-	legacypb "github.com/vedadiyan/protobuf/internal/testprotos/legacy"
-	legacy1pb "github.com/vedadiyan/protobuf/internal/testprotos/legacy/proto2_20160225_2fc053c5"
-	testpb "github.com/vedadiyan/protobuf/internal/testprotos/test"
-	test3pb "github.com/vedadiyan/protobuf/internal/testprotos/test3"
-	testeditionspb "github.com/vedadiyan/protobuf/internal/testprotos/testeditions"
+	irregularpb "github.com/vedadiyan/protobuf-go/internal/testprotos/irregular"
+	legacypb "github.com/vedadiyan/protobuf-go/internal/testprotos/legacy"
+	legacy1pb "github.com/vedadiyan/protobuf-go/internal/testprotos/legacy/proto2_20160225_2fc053c5"
+	testpb "github.com/vedadiyan/protobuf-go/internal/testprotos/test"
+	test3pb "github.com/vedadiyan/protobuf-go/internal/testprotos/test3"
+	testeditionspb "github.com/vedadiyan/protobuf-go/internal/testprotos/testeditions"
 )
 
 func Test(t *testing.T) {

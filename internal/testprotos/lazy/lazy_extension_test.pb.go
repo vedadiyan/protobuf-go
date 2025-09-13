@@ -8,9 +8,9 @@
 package lazy
 
 import (
-	messagesetpb "github.com/vedadiyan/protobuf/internal/testprotos/messageset/messagesetpb"
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
+	messagesetpb "github.com/vedadiyan/protobuf-go/internal/testprotos/messageset/messagesetpb"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -614,7 +614,7 @@ const file_internal_testprotos_lazy_lazy_extension_test_proto_rawDesc = "" +
 	"\vpipistrelle\x12\x19.lazy_extension_test.Tree\x18\xa8\xfa\xe3\xa4\x01 \x01(\n" +
 	"2 .lazy_extension_test.PipistrelleR\vpipistrelle:d\n" +
 	"\fpipistrelles\x12\x19.lazy_extension_test.Tree\x18\xa9\xfa\xe3\xa4\x01 \x03(\n" +
-	"2!.lazy_extension_test.PipistrellesR\fpipistrellesB5Z3github.com/vedadiyan/protobuf/internal/testprotos/lazy"
+	"2!.lazy_extension_test.PipistrellesR\fpipistrellesB5Z3github.com/vedadiyan/protobuf-go/internal/testprotos/lazy"
 
 var (
 	file_internal_testprotos_lazy_lazy_extension_test_proto_rawDescOnce sync.Once

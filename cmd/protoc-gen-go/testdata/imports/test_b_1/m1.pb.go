@@ -8,8 +8,8 @@
 package beta
 
 import (
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -56,7 +56,7 @@ var File_cmd_protoc_gen_go_testdata_imports_test_b_1_m1_proto protoreflect.FileD
 const file_cmd_protoc_gen_go_testdata_imports_test_b_1_m1_proto_rawDesc = "" +
 	"\n" +
 	"4cmd/protoc-gen-go/testdata/imports/test_b_1/m1.proto\x12\ftest.b.part1\"\x04\n" +
-	"\x02M1BMZKgithub.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/imports/test_b_1;betab\x06proto3"
+	"\x02M1BMZKgithub.com/vedadiyan/protobuf-go/cmd/protoc-gen-go/testdata/imports/test_b_1;betab\x06proto3"
 
 var (
 	file_cmd_protoc_gen_go_testdata_imports_test_b_1_m1_proto_rawDescOnce sync.Once

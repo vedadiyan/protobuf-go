@@ -5,9 +5,9 @@
 package filedesc
 
 import (
-	"github.com/vedadiyan/protobuf/internal/descopts"
-	"github.com/vedadiyan/protobuf/internal/pragma"
-	"github.com/vedadiyan/protobuf/reflect/protoreflect"
+	"github.com/vedadiyan/protobuf-go/internal/descopts"
+	"github.com/vedadiyan/protobuf-go/internal/pragma"
+	"github.com/vedadiyan/protobuf-go/reflect/protoreflect"
 )
 
 var (

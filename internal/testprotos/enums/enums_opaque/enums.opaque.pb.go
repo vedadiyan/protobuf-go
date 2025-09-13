@@ -8,9 +8,9 @@
 package enums_opaque
 
 import (
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
-	_ "github.com/vedadiyan/protobuf/types/gofeaturespb"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
+	_ "github.com/vedadiyan/protobuf-go/types/gofeaturespb"
 	reflect "reflect"
 	unsafe "unsafe"
 )
@@ -89,7 +89,7 @@ const file_internal_testprotos_enums_enums_opaque_enums_opaque_proto_rawDesc = "
 	"\vTHIRTYSEVEN\x10%\x12\x0e\n" +
 	"\n" +
 	"SIXTYSEVEN\x10C\x12\x15\n" +
-	"\bNEGATIVE\x10\xff\xff\xff\xff\xff\xff\xff\xff\xff\x01BMZAgithub.com/vedadiyan/protobuf/internal/testprotos/enums/enums_opaque\x92\x03\a\xd2>\x02\x10\x03\x10\x02b\beditionsp\xe8\a"
+	"\bNEGATIVE\x10\xff\xff\xff\xff\xff\xff\xff\xff\xff\x01BMZAgithub.com/vedadiyan/protobuf-go/internal/testprotos/enums/enums_opaque\x92\x03\a\xd2>\x02\x10\x03\x10\x02b\beditionsp\xe8\a"
 
 var file_internal_testprotos_enums_enums_opaque_enums_opaque_proto_enumTypes = make([]protoimpl.EnumInfo, 1)
 var file_internal_testprotos_enums_enums_opaque_enums_opaque_proto_goTypes = []any{

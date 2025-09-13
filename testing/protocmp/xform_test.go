@@ -10,14 +10,14 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/vedadiyan/protobuf/internal/detrand"
-	"github.com/vedadiyan/protobuf/proto"
-	"github.com/vedadiyan/protobuf/reflect/protoreflect"
-	"github.com/vedadiyan/protobuf/reflect/protoregistry"
-	"github.com/vedadiyan/protobuf/testing/protopack"
-	"github.com/vedadiyan/protobuf/types/known/anypb"
+	"github.com/vedadiyan/protobuf-go/internal/detrand"
+	"github.com/vedadiyan/protobuf-go/proto"
+	"github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	"github.com/vedadiyan/protobuf-go/reflect/protoregistry"
+	"github.com/vedadiyan/protobuf-go/testing/protopack"
+	"github.com/vedadiyan/protobuf-go/types/known/anypb"
 
-	testpb "github.com/vedadiyan/protobuf/internal/testprotos/test"
+	testpb "github.com/vedadiyan/protobuf-go/internal/testprotos/test"
 )
 
 func init() {

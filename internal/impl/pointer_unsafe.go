@@ -9,7 +9,7 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/vedadiyan/protobuf/internal/protolazy"
+	"github.com/vedadiyan/protobuf-go/internal/protolazy"
 )
 
 const UnsafeEnabled = true

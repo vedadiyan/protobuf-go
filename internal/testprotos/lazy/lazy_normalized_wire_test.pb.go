@@ -8,8 +8,8 @@
 package lazy
 
 import (
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -140,7 +140,7 @@ const file_internal_testprotos_lazy_lazy_normalized_wire_test_proto_rawDesc = ""
 	"grandchild\"K\n" +
 	"\x04FTop\x12\f\n" +
 	"\x01a\x18\x01 \x01(\rR\x01a\x125\n" +
-	"\x05child\x18\x02 \x01(\v2\x1f.lazy_normalized_wire_test.FSubR\x05childB5Z3github.com/vedadiyan/protobuf/internal/testprotos/lazy"
+	"\x05child\x18\x02 \x01(\v2\x1f.lazy_normalized_wire_test.FSubR\x05childB5Z3github.com/vedadiyan/protobuf-go/internal/testprotos/lazy"
 
 var (
 	file_internal_testprotos_lazy_lazy_normalized_wire_test_proto_rawDescOnce sync.Once

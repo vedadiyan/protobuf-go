@@ -8,9 +8,9 @@
 package import_public
 
 import (
-	sub "github.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/import_public/sub"
-	protoreflect "github.com/vedadiyan/protobuf/reflect/protoreflect"
-	protoimpl "github.com/vedadiyan/protobuf/runtime/protoimpl"
+	sub "github.com/vedadiyan/protobuf-go/cmd/protoc-gen-go/testdata/import_public/sub"
+	protoreflect "github.com/vedadiyan/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/vedadiyan/protobuf-go/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
@@ -75,7 +75,7 @@ const file_cmd_protoc_gen_go_testdata_import_public_b_proto_rawDesc = "" +
 	"0cmd/protoc-gen-go/testdata/import_public/b.proto\x12\x1cgoproto.protoc.import_public\x1a4cmd/protoc-gen-go/testdata/import_public/sub/a.proto\"m\n" +
 	"\x05Local\x121\n" +
 	"\x01m\x18\x01 \x01(\v2#.goproto.protoc.import_public.sub.MR\x01m\x121\n" +
-	"\x01e\x18\x02 \x01(\x0e2#.goproto.protoc.import_public.sub.ER\x01eBEZCgithub.com/vedadiyan/protobuf/cmd/protoc-gen-go/testdata/import_public"
+	"\x01e\x18\x02 \x01(\x0e2#.goproto.protoc.import_public.sub.ER\x01eBEZCgithub.com/vedadiyan/protobuf-go/cmd/protoc-gen-go/testdata/import_public"
 
 var (
 	file_cmd_protoc_gen_go_testdata_import_public_b_proto_rawDescOnce sync.Once
